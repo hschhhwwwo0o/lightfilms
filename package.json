@@ -1,0 +1,36 @@
+{
+  "name": "lightfilms",
+  "version": "1.0.0",
+  "description": "lightfilms - app about bw cinema on next react react-dom typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \" node README.js \" \" next dev \"",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssandry/lightfilms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssandry/lightfilms/issues"
+  },
+  "homepage": "https://github.com/ssandry/lightfilms#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "@types/node": "^14.14.13",
+    "@types/react": "^17.0.0",
+    "chalk": "^4.1.0",
+    "typescript": "^4.1.3",
+    "sass": "^1.30.0"
+  }
+}
