@@ -7,17 +7,28 @@ export interface ICard {
     h6top: string
     h6bot: string
     img: IMG
-    year?: string
+}
+
+export interface ICardFilm extends ICard {
+    year: string
+    genres: string[]
+}
+
+export interface ICardPerson extends ICard {
+    countries: string[]
+    yearsPopular: string[]
+    type: string
 }
 
 export interface IFilm {
     id: ID
     title: string
     year: string
+    genres: string[]
+    countries: string[]
     producer: ICard
     coverIMG: IMG
     collage: IMG
-    tags: string
     briefAbout: string
     about: {
         img: IMG
@@ -35,6 +46,10 @@ export interface IPerson {
         mostPopularFilm: ICard
         paragraphs: string[]
     }
+    countries: string[]
     imgs: IMG[]
     filmography: ICard[]
+
+    yearsPopular: string[]
+    type: string
 }

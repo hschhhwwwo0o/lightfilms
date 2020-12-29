@@ -1,5 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Header from "../components/Header"
+import Header from "../components/Header/header"
+
+//!!!!!!!
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -16,7 +18,9 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Header />
-          <Main />
+          <div id="main-wrapper">
+            <Main />
+          </div>
           <NextScript />
         </body>
       </Html>
