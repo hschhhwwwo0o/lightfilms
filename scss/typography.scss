@@ -9,6 +9,11 @@ h1 {
     /* identical to box height */
 
     color: #C4C4C4;
+
+    @media screen and (max-width: 1300px) {
+        font-size: calc( 8vw + 4vh );
+        line-height: normal;
+    }
 }
 
 h2 {
@@ -35,6 +40,10 @@ h3 {
     /* identical to box height */
 
     color: #C4C4C4;
+
+    @media screen and (max-width: 1300px) {
+        font-size: 14px;
+    }
 }
 
 h4 {
@@ -90,7 +99,7 @@ h6 {
     color: #a3a3a3;
 }
 
-p {
+p, li, a {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;

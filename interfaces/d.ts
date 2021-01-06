@@ -6,13 +6,11 @@ export interface ICard {
     h3: string
     h6top: string
     h6bot: string
+    img: IMG
 
     width?: string
     height?: string
     href?: string
-
-    img: IMG
-    img2?: IMG
 }
 
 export interface ICardFilm extends ICard {
@@ -24,18 +22,6 @@ export interface ICardPerson extends ICard {
     countries?: string[]
     yearsPopular?: string[]
     type?: string
-}
-
-export interface ICardMAX extends ICard {
-    year?: string
-    genres?: string[]
-
-    countries?: string[]
-    yearsPopular?: string[]
-    type?: string
-
-    img2?: IMG
-
 }
 
 export interface IFilm {

@@ -1,11 +1,11 @@
 "use strict";
 exports.__esModule = true;
 var data_1 = require("./data");
+var __ql_1 = require("./__ql");
+var __filter_1 = require("./__filter");
 console.log("");
 console.log("Test ⚠️");
 console.log("");
-var __ql_1 = require("./__ql");
-var __filter_1 = require("./__filter");
 var qldatafilms = __ql_1.__QLfilms(data_1["default"].films);
 var qldatapersons = __ql_1.__QLpersons(data_1["default"].persons);
 //console.log( "QL FILMS => ", qldatafilms );

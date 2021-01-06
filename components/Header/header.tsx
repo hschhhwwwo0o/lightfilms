@@ -20,22 +20,22 @@ const Header: React.FC = () => {
                 <nav id = "nav">
                     <ul>
                         <li>
-                            <Link href="">
+                            <Link href="/time">
                                 <a>time</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="">
+                            <Link href="/">
                                 <a>cinema</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="">
+                            <Link href="/producers">
                                 <a>producers</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="">
+                            <Link href="/acters">
                                 <a>acters</a>
                             </Link>
                         </li>

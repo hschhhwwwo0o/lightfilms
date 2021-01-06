@@ -5,7 +5,7 @@ console.log(chalk.magenta( "Made with love on: typescript, react, react-dom, jav
 console.log(" ");
 console.log(" ");
 console.log(chalk.magenta( "Project Version: 0.1." ));
-console.log(chalk.magenta( "Last Update: 12/14/2020. Deploy on Vercel." ));
+console.log(chalk.magenta( "Update: 1/6/2021." ));
 console.log(" ");
 console.log(" ");
 
