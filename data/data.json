@@ -1,7 +1,4 @@
-"use strict";
-exports.__esModule = true;
-
-exports["default"] = {
+{
     "films": [
         {
             "id": "0",
@@ -25,8 +22,8 @@ exports["default"] = {
                 "Romance"
             ],
             "year": "1967",
-            "coverIMG": "./path",
-            "collage": "./path",
+            "coverIMG": "/data/films/malefemale.png",
+            "collage": "/",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -92,8 +89,8 @@ exports["default"] = {
                 "Romance"
             ],
             "year": "1957",
-            "coverIMG": "./path",
-            "collage": "./path",
+            "coverIMG": "./data/films/atreegrowsinbrooklyn.jpg",
+            "collage": "/",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -149,7 +146,7 @@ exports["default"] = {
                 "Romance"
             ],
             "year": "1957",
-            "coverIMG": "./path",
+            "coverIMG": "/data/films/hirosimamonamor.jpg",
             "collage": "./path",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {

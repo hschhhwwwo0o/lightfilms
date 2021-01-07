@@ -1,10 +1,9 @@
-import data from "../data/data";
 import { GetStaticProps } from "next";
 
 import Header from "../components/Header/header"
 import Card from "../components/Card/card";
 
-import { __QLfilms, __QL } from "../test/__ql"
+import { __QL } from "../test/__ql"
 import { ICard } from "../interfaces/interfaces"
 
 interface IndexPageProps {
@@ -56,34 +55,6 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
                 img2 = "https://sun9-33.userapi.com/c628625/v628625702/172b4/jYONZa6pwOs.jpg"
                 type = "double"
             />
-            <Card 
-                id = {"0"} 
-                href = {`person/${0}`}
-                h3 = "The tree grows in Brooklyn"
-                h6bot = "Drama | Romance | 70’s | United States of America" 
-                h6top = "Elia Kazan" 
-                img = "https://www.whistles.com/on/demandware.static/-/Library-Sites-WHSharedLibrary/default/dwb9112f72/images/inspiration/Stanley-Kubrick-Listing-Image-1152x1440.jpg"
-                img2 = "https://rockcult.ru/wp-content/uploads/2018/07/stanley-kubrick.jpg"
-                type = "double"
-            />
-            <Card 
-                id = {"0"} 
-                href = {`person/${0}`}
-                h3 = "The tree grows in Brooklyn"
-                h6bot = "Drama | Romance | 70’s | United States of America" 
-                h6top = "Elia Kazan" 
-                img = "https://avatars.mds.yandex.net/get-zen_doc/3122622/pub_5ef62bc22c4fe9645d1ce2c8_5ef636d56624e262c74c3abe/scale_1200"
-                type = "single"
-            />
-            <Card 
-                id = {"0"} 
-                href = {`person/${0}`}
-                h3 = "The tree grows in Brooklyn"
-                h6bot = "Drama | Romance | 70’s | United States of America" 
-                h6top = "Elia Kazan" 
-                img = "https://kuda-spb.ru/uploads/9fa6f1840991c2770705cc2fd89737ef.jpg"
-                type = "single"
-            />
 
             {
                 cards.map( (film) => {
@@ -107,24 +78,40 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
 
 export const getStaticProps: GetStaticProps = async ctx => {
 
-    try {
-
-        const cards = __QL( data.films )
-
-        //const res: Response = await fetch("https://api.jsonbin.io/b/5ff606f109f7c73f1b6e7b75")
-        //const by = await res.json();
-
-        //console.log(by);
-        
-
-        return {
-            props: {
-                cards
+    if( process.env.NODE_ENV === "development" ) {
+        try {
+    
+            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films`)
+            const data = await res.json();
+            const cards = await __QL(data);
+            
+            return {
+                props: {
+                    cards
+                }
             }
+    
+        } catch(err) {
+            console.log( `Err: ${err}` )
         }
-
-    } catch(err) {
-        console.log( `Err: ${err}` )
+    } else if( process.env.NODE_ENV === "production" ) {
+        try {
+    
+            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
+            const data = await res.json();
+            const cards = await __QL(data.films)
+            
+            return {
+                props: {
+                    cards
+                }
+            }
+    
+        } catch(err) {
+            console.log( `Err: ${err}` )
+        }
+    } else {
+        console.log( "NODE_ENV undefined" )
     }
 }
 
