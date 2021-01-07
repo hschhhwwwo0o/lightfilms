@@ -1,13 +1,14 @@
-import { data } from "../data/data";
+import data from "../data/data";
 import { GetStaticProps } from "next";
-import Header from "../components/Header/header"
 
+import Header from "../components/Header/header"
 import Card from "../components/Card/card";
+
+import { __QLfilms, __QL } from "../test/__ql"
 import { ICard } from "../interfaces/interfaces"
-import Link from "next/link";
 
 interface IndexPageProps {
-    cards?: ICard[] | null
+    cards?: ICard[]
 }
 
 const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
@@ -83,6 +84,23 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
                 img = "https://kuda-spb.ru/uploads/9fa6f1840991c2770705cc2fd89737ef.jpg"
                 type = "single"
             />
+
+            {
+                cards.map( (film) => {
+                    return (
+                        <Card 
+                            key = {film.id} 
+                            id = {film.id} 
+                            href = {`person/${film.id}`}
+                            h3 = { film.h3 }
+                            h6bot = { film.h6bot }
+                            h6top = { film.h6top }
+                            img = {film.img}
+                            type = "single"
+                        />
+                    )
+                } )
+            }
         </div>
     </>
 }
@@ -91,7 +109,13 @@ export const getStaticProps: GetStaticProps = async ctx => {
 
     try {
 
-        const cards = null
+        const cards = __QL( data.films )
+
+        //const res: Response = await fetch("https://api.jsonbin.io/b/5ff606f109f7c73f1b6e7b75")
+        //const by = await res.json();
+
+        //console.log(by);
+        
 
         return {
             props: {

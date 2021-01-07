@@ -1,21 +1,28 @@
 
 import { ICard, IFilm, IPerson, ICardFilm, ICardPerson } from "./__testinterfaces"
 
-export function __QLfilms(arr: any[]): ICardFilm[] {
+export function __QLfilms(arr: IFilm[]): ICardFilm[] {
 
     let newArr: ICardFilm[] = [];
 
-    arr.map( (el: IFilm) => {
+    arr.map( (film: IFilm) => {
+
+        let 
+            genres: string, 
+            countries: string;
+
+        genres = `${film.genres[0]} ${film.genres[1] !== undefined ? `| ${film.genres[1]} | `: ""}`
+        countries = `${film.countries[0]} ${film.countries[1] !== undefined ? `| ${film.countries[1]}`: ""}`
 
         newArr.push( { 
-            id: el.id,
-            h3: el.title,
-            h6top: el.producer.h3,
-            h6bot: `${el.genres[0]} | ${el.genres[1]} | ${el.countries[0]} | ${el.countries[1]}`,
-            img: el.coverIMG,
+            id: film.id,
+            h3: film.title,
+            h6top: film.producer.h3,
+            h6bot: genres + countries,
+            img: film.coverIMG,
 
-            year: el.year,
-            genres: el.genres,
+            year: film.year,
+            genres: film.genres,
         } )
 
     } )
@@ -24,26 +31,31 @@ export function __QLfilms(arr: any[]): ICardFilm[] {
 
 }
 
-export function __QLpersons(arr: any[]): ICardPerson[] {
+export function __QLpersons(arr: IPerson[]): ICardPerson[] {
 
     let newArr: ICardPerson[] = [];
 
-    arr.map( (el: IPerson) => {
+    arr.map( (person: IPerson) => {
 
         newArr.push( { 
-            id: el.id,
-            h3: el.name,
-            h6top: el.title,
-            h6bot: `${ el.countries[0] }`,
-            img: el.imgs[0],
+            id: person.id,
+            h3: person.name,
+            h6top: person.title,
+            h6bot: `${ person.countries[0] }${ person.countries[1] === undefined ? "" : `, ${person.countries[1]}` }`,
+            
+            imgs: [ person.imgs[0], person.imgs[1] ],
 
-            type: el.type,
-            yearsPopular: [ ...el.yearsPopular ],
-            countries: [ ...el.countries ],
+            type: person.type,
+            yearsPopular: [ ...person.yearsPopular ],
+            countries: [ ...person.countries ],
         } )
 
     } )
 
     return newArr
 
+}
+
+export function __QL(arr: any[]): any[] {
+    return arr[0].genres === undefined ? __QLpersons(arr) : __QLfilms(arr)
 }

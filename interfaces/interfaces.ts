@@ -24,6 +24,8 @@ export interface ICardPerson extends ICard {
     countries?: string[]
     yearsPopular?: string[]
     type?: string
+
+    img2?: IMG
 }
 
 export interface ICardMAX extends ICard {
@@ -41,7 +43,7 @@ export interface ICardMAX extends ICard {
 export interface IFilm {
     id: ID
     title: string
-    year: string
+    year?: string
     genres: string[]
     countries: string[]
     producer: ICard

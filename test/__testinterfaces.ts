@@ -2,11 +2,13 @@ export type ID = string
 export type IMG = string
 
 export interface ICard {
-    id: ID
-    h3: string
-    h6top: string
-    h6bot: string
-    img: IMG
+    id?: ID
+    h3?: string
+    h6top?: string
+    h6bot?: string
+    img?: IMG
+
+    imgs?: IMG[]
 
     href?: string
 }
@@ -20,23 +22,25 @@ export interface ICardPerson extends ICard {
     countries?: string[]
     yearsPopular?: string[]
     type?: string
+
+    img2?: IMG
 }
 
 export interface IFilm {
     id: ID
-    title: string
-    year: string
-    genres: string[]
-    countries: string[]
-    producer: ICard
-    coverIMG: IMG
-    collage: IMG
-    briefAbout: string
-    about: {
+    title?: string
+    year?: string
+    genres?: string[]
+    countries?: string[]
+    producer?: ICard
+    coverIMG?: IMG
+    collage?: IMG
+    briefAbout?: string
+    about?: {
         img: IMG
         paragraphs: string[]
     }
-    acters: ICard
+    acters?: ICard[]
 }
 
 export interface IPerson {

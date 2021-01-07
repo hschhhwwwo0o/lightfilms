@@ -7,18 +7,21 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 exports.__esModule = true;
-exports.__QLpersons = exports.__QLfilms = void 0;
+exports.__QL = exports.__QLpersons = exports.__QLfilms = void 0;
 function __QLfilms(arr) {
     var newArr = [];
-    arr.map(function (el) {
+    arr.map(function (film) {
+        var genres, countries;
+        genres = film.genres[0] + " " + (film.genres[1] !== undefined ? "| " + film.genres[1] + " | " : "");
+        countries = film.countries[0] + " " + (film.countries[1] !== undefined ? "| " + film.countries[1] : "");
         newArr.push({
-            id: el.id,
-            h3: el.title,
-            h6top: el.producer.h3,
-            h6bot: el.genres[0] + " | " + el.genres[1] + " | " + el.countries[0] + " | " + el.countries[1],
-            img: el.coverIMG,
-            year: el.year,
-            genres: el.genres
+            id: film.id,
+            h3: film.title,
+            h6top: film.producer.h3,
+            h6bot: genres + countries,
+            img: film.coverIMG,
+            year: film.year,
+            genres: film.genres
         });
     });
     return newArr;
@@ -26,18 +29,22 @@ function __QLfilms(arr) {
 exports.__QLfilms = __QLfilms;
 function __QLpersons(arr) {
     var newArr = [];
-    arr.map(function (el) {
+    arr.map(function (person) {
         newArr.push({
-            id: el.id,
-            h3: el.name,
-            h6top: el.title,
-            h6bot: "" + el.countries[0],
-            img: el.imgs[0],
-            type: el.type,
-            yearsPopular: __spreadArrays(el.yearsPopular),
-            countries: __spreadArrays(el.countries)
+            id: person.id,
+            h3: person.name,
+            h6top: person.title,
+            h6bot: "" + person.countries[0] + (person.countries[1] === undefined ? "" : ", " + person.countries[1]),
+            imgs: [person.imgs[0], person.imgs[1]],
+            type: person.type,
+            yearsPopular: __spreadArrays(person.yearsPopular),
+            countries: __spreadArrays(person.countries)
         });
     });
     return newArr;
 }
 exports.__QLpersons = __QLpersons;
+function __QL(arr) {
+    return arr[0].genres === undefined ? __QLpersons(arr) : __QLfilms(arr);
+}
+exports.__QL = __QL;

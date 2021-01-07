@@ -1,11 +1,7 @@
 import Logo from "../Logo";
 import Link from "next/link";
 
-import { useState, MouseEvent } from 'react';
-
 const Header: React.FC = () => {
-
-    const [count, setCount] = useState<boolean>(false);
 
     return <>
         <header onClick = { () => { console.log( "da" ) } }>
@@ -40,7 +36,7 @@ const Header: React.FC = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="">
+                            <Link href="/">
                                 <a>genres</a>
                             </Link>
                         </li>
