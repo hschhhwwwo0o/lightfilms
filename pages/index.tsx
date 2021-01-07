@@ -13,7 +13,7 @@ interface IndexPageProps {
 const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
     return <>
         <Header />
-        <div id="header-choose">
+        <section id="header-choose">
             <h1>CINEMA</h1>
             <div id="chooser">
                 <ul id = "countrys">
@@ -33,8 +33,8 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
                     <li>90’s</li>
                 </ul>
             </div>
-        </div>
-        <div id="grid-posts">
+        </section>
+        <section id="grid-posts">
             <Card 
                 id = {"0"} 
                 href = {`person/${0}`}
@@ -72,13 +72,13 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
                     )
                 } )
             }
-        </div>
+        </section>
     </>
 }
 
 export const getStaticProps: GetStaticProps = async ctx => {
 
-    if( process.env.NODE_ENV === "development" ) {
+    if( process.env.MODE === "development" ) {
         try {
     
             const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films`)
@@ -94,7 +94,7 @@ export const getStaticProps: GetStaticProps = async ctx => {
         } catch(err) {
             console.log( `Err: ${err}` )
         }
-    } else if( process.env.NODE_ENV === "production" ) {
+    } else if( process.env.MODE === "production" ) {
         try {
     
             const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)

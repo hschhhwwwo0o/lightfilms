@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ICardMAX } from "../../interfaces/interfaces"
 
 const Card: React.FC<ICardMAX> = (props) => {
-    return <>
+    return <article>
         <Link href={props.href}>
             <a 
                 className = { 
@@ -23,7 +23,7 @@ const Card: React.FC<ICardMAX> = (props) => {
                 </div>
             </a>
         </Link>
-    </>
+    </article>
 }
 
 export default Card;

@@ -11,6 +11,10 @@
         height: 390px;
     }
 
+    @media screen and (max-width: 990px) {
+        height: 320px;
+    }
+
     @media screen and (max-width: 425px) {
         height: 203px;
     }
@@ -51,7 +55,11 @@
         &#countrys {
             width: 40vw;
 
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 990px) {
+                width: 65%;
+            }
+
+            @media screen and (max-width: 555px) {
                 width: 100%;
 
                 li:nth-child(1), li:nth-child(3) {
@@ -62,7 +70,11 @@
         &#years {
             width: 25vw;
 
-            @media screen and (max-width: 425px) {
+            @media screen and (max-width: 990px) {
+                width: 40%;
+            }
+
+            @media screen and (max-width: 555px) {
                 width: 53vw;
             }
         }
@@ -103,7 +115,11 @@
 
     overflow: hidden;
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 990px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 555px) {
         grid-template-columns: 1fr;
     }
 }

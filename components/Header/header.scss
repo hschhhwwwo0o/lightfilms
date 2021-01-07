@@ -13,6 +13,11 @@ header {
 
     margin-left: -$padd; // -
 
+    @media screen and ( min-width: 1440px ) {
+        width: 100%;
+        margin-left: 0;
+    }
+
     .container {
         width: 100%;
         min-height: 72px;
@@ -30,6 +35,11 @@ header {
 
         input {
             display: none;
+        }
+
+        @media screen and ( min-width: 1440px ) {
+            padding-left: 0; // -
+            padding-right: 0; // -
         }
 
         .menu {

@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header: React.FC = () => {
 
     return <>
-        <header onClick = { () => { console.log( "da" ) } }>
+        <header>
             <div className="container">
                 <Logo />
                 <input type="checkbox" id="checkbox" />
