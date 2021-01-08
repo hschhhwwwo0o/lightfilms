@@ -190,9 +190,9 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
-                "./path"
+                "/data/persons/jeanluc1.jpg",
+                "/data/persons/jeanluc2.jpg",
+                "/data/persons/jeanluc1.jpg"
             ],
             "countries": [
                 "France",
@@ -243,9 +243,9 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
-                "./path"
+                "/data/persons/jeanpierreleo1.jpg",
+                "/data/persons/jeanpierreleo2.jpg",
+                "/data/persons/jeanpierreleo3.jpg"
             ],
             "countries": [
                 "France"
@@ -287,9 +287,9 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
-                "./path"
+                "/data/persons/chantalgoya1.jpg",
+                "/data/persons/chantalgoya2.jpg",
+                "/data/persons/chantalgoya3.jpg"
             ],
             "countries": [
                 "France"
@@ -337,9 +337,9 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
-                "./path"
+                "/data/persons/hepburnaundrey1.jpg",
+                "/data/persons/hepburnaundrey2.jpg",
+                "/data/persons/chantalgoya2.jpg"
             ],
             "countries": [
                 "USA"
@@ -389,9 +389,9 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
-                "./path"
+                "/data/persons/peggyann1.jpg",
+                "/data/persons/peggyann2.jpg",
+                "/data/persons/chantalgoya2.jpg"
             ],
             "countries": [
                 "USA"
@@ -432,8 +432,8 @@
                 ]
             },
             "imgs": [
-                "./path",
-                "./path",
+                "/data/persons/robertbresson1.jpg",
+                "/data/persons/robertbresson2.jpg",
                 "./path"
             ],
             "countries": [
@@ -451,6 +451,50 @@
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
+                }
+            ]
+        },
+
+        {
+            "id": "6",
+            "name": "Daria Taranova",
+            "title": "Russia acter",
+            "type": "acter",
+            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
+            "about": {
+                "mostPopularFilm": {
+                    "id": "2",
+                    "img": "path",
+                    "h3": "Hiroshima mon amour",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                },
+                "paragraphs": [
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidu",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia."
+                ]
+            },
+            "imgs": [
+                "/data/persons/dariataranova1.jpg",
+                "/data/persons/dariataranova2.jpg",
+                "/data/persons/dariataranova3.jpg"
+            ],
+            "countries": [
+                "Russia"
+            ],
+            "yearsPopular": [
+                "1960",
+                "1970"
+            ],
+            "filmography": [
+                {
+                    "id": "2",
+                    "img": "path",
+                    "h3": "Hiroshima mon amour",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 }
             ]
         }

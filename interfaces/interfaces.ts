@@ -11,8 +11,9 @@ export interface ICard {
     height?: string
     href?: string
 
-    img: IMG
+    img?: IMG
     img2?: IMG
+    imgs?: IMG[]
 }
 
 export interface ICardFilm extends ICard {

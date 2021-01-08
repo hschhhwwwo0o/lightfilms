@@ -6,15 +6,15 @@ import Card from "../components/Card/card";
 import { __QL } from "../test/__ql"
 import { ICard } from "../interfaces/interfaces"
 
-interface IndexPageProps {
+interface ActersPageProps {
     cards?: ICard[]
 }
 
-const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
+const ActersPage: React.FC<ActersPageProps> = ( {cards} ) => {
     return <>
         <Header />
         <section id="header-choose">
-            <h1>CINEMA</h1>
+            <h1>ACTERS</h1>
             <div id="chooser">
                 <ul id = "countrys">
                     <li>JAPAN</li>
@@ -36,17 +36,18 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
         </section>
         <section id="grid-posts">
             {
-                cards.map( (film) => {
+                cards.map( (acter) => {
                     return (
                         <Card 
-                            key = {film.id} 
-                            id = {film.id} 
-                            href = {`person/${film.id}`}
-                            h3 = { film.h3 }
-                            h6bot = { film.h6bot }
-                            h6top = { film.h6top }
-                            img = {film.img}
-                            type = "single"
+                            key = {acter.id} 
+                            id = {acter.id} 
+                            href = {`person/${acter.id}`}
+                            h3 = { acter.h3 }
+                            h6bot = { acter.h6bot }
+                            h6top = { acter.h6top }
+                            img = { acter.imgs[0] }
+                            img2 = { acter.imgs[1] }
+                            type = "double"
                         />
                     )
                 } )
@@ -58,40 +59,44 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
 export const getStaticProps: GetStaticProps = async ctx => {
 
     if( process.env.MODE === "development" ) {
+
         try {
-    
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films`)
-            const data = await res.json();
-            const cards = await __QL(data);
-            
+            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/persons?type=acter`);
+            const data = await res.json()
+
+            const cards = __QL( data )
+
             return {
                 props: {
                     cards
                 }
             }
-    
         } catch(err) {
             console.log( `Err: ${err}` )
         }
-    } else if( process.env.MODE === "production" ) {
+
+    } else if ( process.env.MODE === "production" ) {
+
         try {
-    
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json();
-            const cards = await __QL(data.films)
-            
+            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`);
+            const data = await res.json()
+
+            const acters = await data.persons.filter( (person) => {
+                return person.type == "acter"
+            })
+
+            const cards = __QL(acters)
+
             return {
                 props: {
                     cards
                 }
             }
-    
         } catch(err) {
             console.log( `Err: ${err}` )
         }
-    } else {
-        console.log( "NODE_ENV undefined" )
+
     }
 }
 
-export default IndexPage;
+export default ActersPage;
