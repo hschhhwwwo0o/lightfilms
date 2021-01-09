@@ -159,7 +159,83 @@
                 ]
             },
             "acters": [
-                
+                {
+                    "id": "6",
+                    "h3": "Daria Taranova",
+                    "h6top": "Russia & Japan actress",
+                    "h6bot": "Drama | Romance | 50’s",
+                    "imgs": [
+                        "./path",
+                        "./path"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Nine days of one year",
+            "producer": {
+                "id": "0",
+                "h3": "Jean-Luc Godard",
+                "h6top": "France",
+                "h6bot": "Franco-Swiss film Director, film critic",
+                "imgs": [
+                    "./path",
+                    "./path"
+                ]
+            },
+            "countries": [
+                "Russia",
+                "Japan"
+            ],
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "year": "1957",
+            "coverIMG": "/data/films/9days.jpg",
+            "collage": "/data/films/9days.jpg",
+            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+            "about": {
+                "img": "./path",
+                "paragraphs": [
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem"
+                ]
+            },
+            "acters": [
+                {
+                    "id": "6",
+                    "h3": "Daria Taranova",
+                    "h6top": "Russia actress",
+                    "h6bot": "Drama | Romance | 50’s",
+                    "imgs": [
+                        "./path",
+                        "./path"
+                    ]
+                },
+                {
+                    "id": "8",
+                    "h3": "Nikolai Rybnikov",
+                    "h6top": "Soviet and Russia acter",
+                    "h6bot": "Drama | Romance | 70’s |",
+                    "imgs": [
+                        "./path",
+                        "./path"
+                    ]
+                },
+                {
+                    "id": "7",
+                    "h3": "Alexey Batalov",
+                    "h6top": "Soviet and Russia acter",
+                    "h6bot": "Russia Drama acter",
+                    "imgs": [
+                        "./path",
+                        "./path"
+                    ]
+                }
             ]
         }
         
@@ -266,56 +342,6 @@
         },
 
         {
-            "id": "2",
-            "name": "Chantal Goya",
-            "title": "Franco acter, singer",
-            "type": "acter",
-            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
-            "about": {
-                "mostPopularFilm": {
-                    "id": "0",
-                    "img": "path",
-                    "h3": "Male-female",
-                    "h6top": "Jean-Luc Godard",
-                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
-                },
-                "paragraphs": [
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidu",
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia."
-                ]
-            },
-            "imgs": [
-                "/data/persons/chantalgoya1.jpg",
-                "/data/persons/chantalgoya2.jpg",
-                "/data/persons/chantalgoya3.jpg"
-            ],
-            "countries": [
-                "France"
-            ],
-            "yearsPopular": [
-                "1960"
-            ],
-            "filmography": [
-                {
-                    "id": "0",
-                    "img": "path",
-                    "h3": "Male-female",
-                    "h6top": "Jean-Luc Godard",
-                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
-                },
-                {
-                    "id": "1",
-                    "img": "./path",
-                    "h3": "A Tree Grows In Brooklyn",
-                    "h6top": "Jean-Luc Godard",
-                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
-                }
-            ]
-        },
-
-        {
             "id": "3",
             "name": "Hepburn Aundrey",
             "title": "American acter",
@@ -348,6 +374,146 @@
                 "1950",
                 "1960",
                 "1970"
+            ],
+            "filmography": [
+                {
+                    "id": "0",
+                    "img": "path",
+                    "h3": "Male-female",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                },
+                {
+                    "id": "1",
+                    "img": "./path",
+                    "h3": "A Tree Grows In Brooklyn",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                }
+            ]
+        },
+
+        {
+            "id": "6",
+            "name": "Daria Taranova",
+            "title": "Russia acter",
+            "type": "acter",
+            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
+            "about": {
+                "mostPopularFilm": {
+                    "id": "2",
+                    "img": "path",
+                    "h3": "Hiroshima mon amour",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                },
+                "paragraphs": [
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidu",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia."
+                ]
+            },
+            "imgs": [
+                "/data/persons/dariataranova1.jpg",
+                "/data/persons/dariataranova2.jpg",
+                "/data/persons/dariataranova3.jpg"
+            ],
+            "countries": [
+                "Russia",
+                "Japan"
+            ],
+            "yearsPopular": [
+                "1960",
+                "1970"
+            ],
+            "filmography": [
+                {
+                    "id": "2",
+                    "img": "path",
+                    "h3": "Hiroshima mon amour",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                }
+            ]
+        },
+
+        {
+            "id": "7",
+            "name": "Alexey Batalov",
+            "title": "Soviet theater and film actor,",
+            "type": "acter",
+            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
+            "about": {
+                "mostPopularFilm": {
+                    "id": "IN",
+                    "img": "IN",
+                    "h3": "IN",
+                    "h6top": "IN",
+                    "h6bot": "IN"
+                },
+                "paragraphs": [
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidu",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia."
+                ]
+            },
+            "imgs": [
+                "/data/persons/alexeybatalov1.jpg",
+                "/data/persons/alexeybatalov2.jpg",
+                "/data/persons/alexeybatalov3.jpg"
+            ],
+            "countries": [
+                "Russia"
+            ],
+            "yearsPopular": [
+                "1950",
+                "1960",
+                "1970"
+            ],
+            "filmography": [
+                {
+                    "id": "IN",
+                    "img": "IN",
+                    "h3": "IN",
+                    "h6top": "IN",
+                    "h6bot": "IN"
+                }
+            ]
+        },
+
+        {
+            "id": "2",
+            "name": "Chantal Goya",
+            "title": "Franco acter, singer",
+            "type": "acter",
+            "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
+            "about": {
+                "mostPopularFilm": {
+                    "id": "0",
+                    "img": "path",
+                    "h3": "Male-female",
+                    "h6top": "Jean-Luc Godard",
+                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                },
+                "paragraphs": [
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidu",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia."
+                ]
+            },
+            "imgs": [
+                "/data/persons/chantalgoya1.jpg",
+                "/data/persons/chantalgoya2.jpg",
+                "/data/persons/chantalgoya3.jpg"
+            ],
+            "countries": [
+                "France"
+            ],
+            "yearsPopular": [
+                "1960"
             ],
             "filmography": [
                 {
@@ -456,18 +622,18 @@
         },
 
         {
-            "id": "6",
-            "name": "Daria Taranova",
-            "title": "Russia acter",
+            "id": "8",
+            "name": "Nikolai Rybnikov",
+            "title": "Soviet theater actor,",
             "type": "acter",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
             "about": {
                 "mostPopularFilm": {
-                    "id": "2",
-                    "img": "path",
-                    "h3": "Hiroshima mon amour",
-                    "h6top": "Jean-Luc Godard",
-                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                    "id": "IN",
+                    "img": "IN",
+                    "h3": "IN",
+                    "h6top": "IN",
+                    "h6bot": "IN"
                 },
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -477,24 +643,24 @@
                 ]
             },
             "imgs": [
-                "/data/persons/dariataranova1.jpg",
-                "/data/persons/dariataranova2.jpg",
-                "/data/persons/dariataranova3.jpg"
+                "/data/persons/nrybnikov1.jpg",
+                "/data/persons/nrybnikov2.jpg",
+                "/data/persons/nrybnikov3.jpg"
             ],
             "countries": [
                 "Russia"
             ],
             "yearsPopular": [
-                "1960",
-                "1970"
+                "1950",
+                "1960"
             ],
             "filmography": [
                 {
-                    "id": "2",
-                    "img": "path",
-                    "h3": "Hiroshima mon amour",
-                    "h6top": "Jean-Luc Godard",
-                    "h6bot": "Drama | Romance | 70’s | France, Sweden"
+                    "id": "IN",
+                    "img": "IN",
+                    "h3": "IN",
+                    "h6top": "IN",
+                    "h6bot": "IN"
                 }
             ]
         }
