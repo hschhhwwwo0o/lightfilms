@@ -4,7 +4,7 @@ import { ICardMAX } from "../../interfaces/interfaces"
 
 const Card: React.FC<ICardMAX> = (props) => {
     return <article>
-        <Link href={props.href}>
+        <Link href={props.HREF} as = {props.AS}>
             <a 
                 className = { 
                     props.type === "single" ?

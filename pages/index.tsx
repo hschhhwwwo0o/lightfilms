@@ -41,7 +41,8 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
                         <Card 
                             key = {film.id} 
                             id = {film.id} 
-                            href = {`person/${film.id}`}
+                            HREF = {`/film/[id]`}
+                            AS = {`/film/${film.id}`}
                             h3 = { film.h3 }
                             h6bot = { film.h6bot }
                             h6top = { film.h6top }

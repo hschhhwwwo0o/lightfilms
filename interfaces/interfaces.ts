@@ -9,7 +9,8 @@ export interface ICard {
 
     width?: string
     height?: string
-    href?: string
+    HREF?: string
+    AS?: string
 
     img?: IMG
     img2?: IMG

@@ -41,7 +41,8 @@ const ProducersPage: React.FC<ProducersPageProps> = ( {cards} ) => {
                         <Card 
                             key = {producer.id} 
                             id = {producer.id} 
-                            href = {`person/${producer.id}`}
+                            HREF = {`/person/[id]`}
+                            AS = {`/person/${producer.id}`}
                             h3 = { producer.h3 }
                             h6bot = { producer.h6bot }
                             h6top = { producer.h6top }

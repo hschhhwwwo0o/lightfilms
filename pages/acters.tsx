@@ -41,7 +41,8 @@ const ActersPage: React.FC<ActersPageProps> = ( {cards} ) => {
                         <Card 
                             key = {acter.id} 
                             id = {acter.id} 
-                            href = {`person/${acter.id}`}
+                            HREF = {`/person/[id]`}
+                            AS = {`/person/${acter.id}`}
                             h3 = { acter.h3 }
                             h6bot = { acter.h6bot }
                             h6top = { acter.h6top }
