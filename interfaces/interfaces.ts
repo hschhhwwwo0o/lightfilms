@@ -1,55 +1,34 @@
 export type ID = string
 export type IMG = string
 
+// ???
+
 export interface ICard {
     id: ID
     h3: string
     h6top: string
     h6bot: string
 
-    width?: string
-    height?: string
-    HREF?: string
-    AS?: string
-
     img?: IMG
-    img2?: IMG
     imgs?: IMG[]
 }
 
-export interface ICardFilm extends ICard {
-    year?: string
-    genres?: string[]
-}
+// YES
 
-export interface ICardPerson extends ICard {
-    countries?: string[]
-    yearsPopular?: string[]
-    type?: string
-
-    img2?: IMG
-}
-
-export interface ICardMAX extends ICard {
-    year?: string
-    genres?: string[]
-
-    countries?: string[]
-    yearsPopular?: string[]
-    type?: string
-
-    img2?: IMG
-
-}
-
-export interface IFilm {
+export interface IFilmCard {
     id: ID
     title: string
-    year?: string
+    producedBy: string
+    coverIMG: IMG
     genres: string[]
     countries: string[]
+}
+
+// YES
+
+export interface IFilm extends IFilmCard{
+    year?: string
     producer: ICard
-    coverIMG: IMG
     collage: IMG
     briefAbout: string
     about: {
@@ -59,20 +38,26 @@ export interface IFilm {
     acters: ICard
 }
 
-export interface IPerson {
+// YES
+
+export interface IPersonCard {
     id: ID
     name: string
     title: string
+    countries: string[]
+    imgs: IMG[]
+    type: string
+}
+
+// YES
+
+export interface IPerson extends IPersonCard {
     briefAbout: string
     about: {
         mostPopularFilm: ICard
         paragraphs: string[]
     }
-    countries: string[]
-    imgs: IMG[]
     filmography: ICard[]
-
     yearsPopular: string[]
-    type: string
 }
 

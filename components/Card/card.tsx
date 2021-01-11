@@ -1,8 +1,20 @@
 
 import Link from "next/link"
-import { ICardMAX } from "../../interfaces/interfaces"
 
-const Card: React.FC<ICardMAX> = (props) => {
+interface ICardProps {
+
+   HREF: string
+   AS: string
+
+   img: string
+   img2?: string
+   h3: string
+   h6top: string
+   h6bot: string
+   type: "single" | "double"
+}
+
+const Card: React.FC<ICardProps> = (props) => {
     return <article>
         <Link href={props.HREF} as = {props.AS}>
             <a 

@@ -1,16 +1,17 @@
 import { GetStaticProps } from "next";
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
-import Header from "../components/Header/header"
+import Header from "../components/Header/header";
 import Card from "../components/Card/card";
 
-import { __QL } from "../test/__ql"
-import { ICard } from "../interfaces/interfaces"
+import { __QLPersons } from "../utils/__ql";
+import { IPersonCard } from "../interfaces/interfaces";
 
 interface ProducersPageProps {
-    cards?: ICard[]
+    producers: IPersonCard[]
 }
 
-const ProducersPage: React.FC<ProducersPageProps> = ( {cards} ) => {
+const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
     return <>
         <Header />
         <section id="header-choose">
@@ -36,16 +37,15 @@ const ProducersPage: React.FC<ProducersPageProps> = ( {cards} ) => {
         </section>
         <section id="grid-posts">
             {
-                cards.map( (producer) => {
+                producers.map( (producer) => {
                     return (
                         <Card 
                             key = {producer.id} 
-                            id = {producer.id} 
                             HREF = {`/person/[id]`}
                             AS = {`/person/${producer.id}`}
-                            h3 = { producer.h3 }
-                            h6bot = { producer.h6bot }
-                            h6top = { producer.h6top }
+                            h3 = { producer.name }
+                            h6bot = { producer.countries[0] }
+                            h6top = { producer.title }
                             img = { producer.imgs[0] }
                             img2 = { producer.imgs[1] }
                             type = "double"
@@ -62,16 +62,37 @@ export const getStaticProps: GetStaticProps = async ctx => {
     if( process.env.MODE === "development" ) {
 
         try {
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/persons?type=producer`);
-            const data = await res.json()
 
-            const cards = __QL( data )
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getAllPeople {
+                        allPeople {
+                            id
+                            name
+                            title
+                            type
+                            imgs
+                            countries
+                        }
+                    }
+                `
+            })
+
+            const producers = await data.data.allPeople.filter( (person) => {
+                return person.type == "producer"
+            } )
 
             return {
                 props: {
-                    cards
+                    producers
                 }
             }
+
         } catch(err) {
             console.log( `Err: ${err}` )
         }
@@ -82,15 +103,13 @@ export const getStaticProps: GetStaticProps = async ctx => {
             const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`);
             const data = await res.json()
 
-            const producers = await data.persons.filter( (person) => {
+            const producers = __QLPersons( data.persons.filter( (person) => {
                 return person.type == "producer"
-            })
-
-            const cards = __QL(producers)
+            } ) )
 
             return {
                 props: {
-                    cards
+                    producers
                 }
             }
         } catch(err) {

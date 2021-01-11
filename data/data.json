@@ -3,6 +3,7 @@
         {
             "id": "0",
             "title": "Male-female",
+            "producedBy": "Jean-Luc Godard",
             "producer": {
                 "id": "0",
                 "h3": "Jean-Luc Godard",
@@ -70,6 +71,7 @@
         {
             "id": "1",
             "title": "A Tree Grows In Brooklyn",
+            "producedBy": "Jean-Luc Godard",
             "producer": {
                 "id": "0",
                 "h3": "Jean-Luc Godard",
@@ -127,6 +129,7 @@
         {
             "id": "2",
             "title": "Hiroshima mon amour",
+            "producedBy": "Robert Bresson",
             "producer": {
                 "id": "5",
                 "h3": "Robert Bresson",
@@ -174,6 +177,7 @@
         {
             "id": "3",
             "title": "Nine days of one year",
+            "producedBy": "Jean-Luc Godard",
             "producer": {
                 "id": "0",
                 "h3": "Jean-Luc Godard",

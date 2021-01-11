@@ -1,16 +1,17 @@
 import { GetStaticProps } from "next";
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
-import Header from "../components/Header/header"
+import Header from "../components/Header/header";
 import Card from "../components/Card/card";
 
-import { __QL } from "../test/__ql"
-import { ICard } from "../interfaces/interfaces"
+import { __QLFilms } from "../utils/__ql";
+import { IFilmCard } from "../interfaces/interfaces";
 
 interface IndexPageProps {
-    cards?: ICard[]
+    films: IFilmCard[]
 }
 
-const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
+const IndexPage: React.FC<IndexPageProps> = ( {films} ) => {
     return <>
         <Header />
         <section id="header-choose">
@@ -36,17 +37,18 @@ const IndexPage: React.FC<IndexPageProps> = ( {cards} ) => {
         </section>
         <section id="grid-posts">
             {
-                cards.map( (film) => {
+                films.map( (film) => {
                     return (
                         <Card 
                             key = {film.id} 
-                            id = {film.id} 
+
                             HREF = {`/film/[id]`}
                             AS = {`/film/${film.id}`}
-                            h3 = { film.h3 }
-                            h6bot = { film.h6bot }
-                            h6top = { film.h6top }
-                            img = {film.img}
+
+                            h3 = { film.title }
+                            h6top = { film.producedBy }
+                            h6bot = { film.countries[0] }
+                            img = {film.coverIMG}
                             type = "single"
                         />
                     )
@@ -60,14 +62,30 @@ export const getStaticProps: GetStaticProps = async ctx => {
 
     if( process.env.MODE === "development" ) {
         try {
-    
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films`)
-            const data = await res.json();
-            const cards = await __QL(data);
+
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getAllFilms {
+                        allFilms {
+                            id
+                            title
+                            producedBy
+                            coverIMG
+                            countries
+                            genres
+                        }
+                    }
+                `
+            })
             
             return {
                 props: {
-                    cards
+                    films: data.data.allFilms
                 }
             }
     
@@ -79,11 +97,11 @@ export const getStaticProps: GetStaticProps = async ctx => {
     
             const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
             const data = await res.json();
-            const cards = await __QL(data.films)
+            const films = await __QLFilms(data.films)
             
             return {
                 props: {
-                    cards
+                    films
                 }
             }
     
