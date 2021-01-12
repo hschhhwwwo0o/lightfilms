@@ -1,8 +1,11 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
-import Head from "next/head"
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+
+import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces/interfaces";
 
-import Header from "../../components/Header/header"
+import Head from "next/head";
+import Header from "../../components/Header/header";
 
 interface PersonPageProps {
     person: IPerson
@@ -25,12 +28,25 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
     if( process.env.MODE === "development" ) {
         try {
 
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/persons?id=${ctx.params.id}`);
-            const person: IPerson = await res.json()
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getPerson {
+                        getPerson(id: ${ctx.params.id}) {
+                            ...PersonFragment
+                    }
+                }
+                ${ALL_PERSON_FIELDS.fragment}
+                `
+            })
 
             return {
                 props: {
-                    person: person[0]
+                    person: data.data.getPerson
                 }
             }
 
@@ -66,13 +82,25 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
     if( process.env.MODE === "development" ) {
         try {
             
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/persons`)
-            const persons = await res.json();
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
 
-            const paths = persons.map( (person) => {
+            const data = await client.query({
+                query: gql`
+                    query getAllPersons {
+                        getAllPersons {
+                            id
+                    }
+                }
+                `
+            })
+
+            const paths = await data.data.getAllPersons.map( ( {id} ) => {
                 return (
                     {
-                        params: { id: person.id }
+                        params: { id: id }
                     }
                 )
             } )

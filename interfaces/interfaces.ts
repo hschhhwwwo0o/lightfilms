@@ -35,7 +35,7 @@ export interface IFilm extends IFilmCard{
         img: IMG
         paragraphs: string[]
     }
-    acters: ICard
+    acters: ICard[]
 }
 
 // YES

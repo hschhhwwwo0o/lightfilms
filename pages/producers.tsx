@@ -1,5 +1,7 @@
 import { GetStaticProps } from "next";
-import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+import { ApolloClient, InMemoryCache } from "@apollo/client";
+
+import { GET_PRODUCERS } from "../graphql/queries";
 
 import Header from "../components/Header/header";
 import Card from "../components/Card/card";
@@ -68,28 +70,11 @@ export const getStaticProps: GetStaticProps = async ctx => {
                 cache: new InMemoryCache()
             })
 
-            const data = await client.query({
-                query: gql`
-                    query getAllPeople {
-                        allPeople {
-                            id
-                            name
-                            title
-                            type
-                            imgs
-                            countries
-                        }
-                    }
-                `
-            })
-
-            const producers = await data.data.allPeople.filter( (person) => {
-                return person.type == "producer"
-            } )
+            const { data } = await client.query({ query: GET_PRODUCERS })
 
             return {
                 props: {
-                    producers
+                    producers: data.getProducers
                 }
             }
 

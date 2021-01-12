@@ -4,13 +4,14 @@
   "description": "lightfilms - app about bw cinema on next react react-dom typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \" node ./run/README.js \" \" json-server --watch ./data/data.json --port 3004 \" \" json-graphql-server ./data/data.json --p 3006 \" \" next dev \"",
+    "dev": "concurrently \" node ./graphql/serverql.js \" \" next dev \"",
     "build": "next build",
     "start": "next start",
     "export": "next export",
     "test": "node ./test/__test",
     "tsc": "tsc ./test/__test",
-    "about": "node ./run/README"
+    "about": "node ./run/README",
+    "gql": "node ./graphql/serverql.js"
   },
   "repository": {
     "type": "git",
@@ -35,8 +36,8 @@
     "@types/react": "^17.0.0",
     "chalk": "^4.1.0",
     "concurrently": "^5.3.0",
-    "graphql-faker": "^2.0.0-rc.23",
-    "json-graphql-server": "^2.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
     "json-server": "^0.16.3",
     "sass": "^1.30.0",
     "typescript": "^4.1.3"

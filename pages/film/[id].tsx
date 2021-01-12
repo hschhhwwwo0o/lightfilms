@@ -1,9 +1,12 @@
 
 import { GetStaticProps, GetStaticPaths, GetStaticPropsContext } from "next";
-import Head from "next/head";
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+
+import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces/interfaces";
 
-import Header from "../../components/Header/header"
+import Head from "next/head";
+import Header from "../../components/Header/header";
 
 interface FilmPageProps {
     film: IFilm
@@ -28,12 +31,25 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
     if( process.env.MODE === "development" ) {
         try {
 
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films?id=${ctx.params.id}`)
-            const film = await res.json();
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getFilm {
+                        getFilm(id: ${ctx.params.id}) {
+                            ...FilmFragment
+                    }
+                }
+                ${ALL_FILM_FIELDS.fragment}
+                `
+            })
 
             return {
                 props: {
-                    film: film[0]
+                    film: data.data.getFilm
                 }
             }
 
@@ -69,13 +85,25 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
     if( process.env.MODE === "development" ) {
         try {
 
-            const res: Response = await fetch(`${process.env.DEV_JSON_SERVER}/films`)
-            const films: IFilm[] = await res.json()
+            const client = new ApolloClient({
+                uri: process.env.DEV_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
 
-            const paths = await films.map( (film) => {
+            const data = await client.query({
+                query: gql`
+                    query getAllFilms {
+                        getAllFilms {
+                            id
+                    }
+                }
+                `
+            })
+
+            const paths = await data.data.getAllFilms.map( ( {id} ) => {
                 return (
                     {
-                        params: { id: film.id }
+                        params: { id: id }
                     }
                 )
             } )
