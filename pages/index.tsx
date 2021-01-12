@@ -3,6 +3,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 import { GET_ALL_FILMS } from "../graphql/queries"
 
+import Head from "next/head"
 import Header from "../components/Header/header";
 import Card from "../components/Card/card";
 
@@ -15,6 +16,9 @@ interface IndexPageProps {
 
 const IndexPage: React.FC<IndexPageProps> = ( {films} ) => {
     return <>
+        <Head>
+            <title>LIGHTFILMS</title>
+        </Head>
         <Header />
         <section id="header-choose">
             <h1>CINEMA</h1>

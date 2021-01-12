@@ -14,7 +14,7 @@ interface PersonPageProps {
 const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
     return <>
         <Head>
-            <title>LIGHTFILMS BIO : {person.name}</title>
+            <title>LIGHTFILMS : {person.name}</title>
         </Head>
         <Header />
         <h1>

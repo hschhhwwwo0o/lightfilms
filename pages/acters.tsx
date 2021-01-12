@@ -3,6 +3,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 import { GET_ACTERS } from "../graphql/queries";
 
+import Head from "next/head";
 import Header from "../components/Header/header";
 import Card from "../components/Card/card";
 
@@ -15,6 +16,9 @@ interface ActersPageProps {
 
 const ActersPage: React.FC<ActersPageProps> = ( {acters} ) => {
     return <>
+        <Head>
+            <title>LIGHTFILMS : Acters</title>
+        </Head>
         <Header />
         <section id="header-choose">
             <h1>ACTERS</h1>

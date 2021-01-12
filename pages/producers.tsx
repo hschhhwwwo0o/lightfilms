@@ -3,6 +3,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 import { GET_PRODUCERS } from "../graphql/queries";
 
+import Head from "next/head";
 import Header from "../components/Header/header";
 import Card from "../components/Card/card";
 
@@ -15,6 +16,9 @@ interface ProducersPageProps {
 
 const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
     return <>
+        <Head>
+            <title>LIGHTFILMS : Producers</title>
+        </Head>
         <Header />
         <section id="header-choose">
             <h1>PRODUCERS</h1>
