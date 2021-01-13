@@ -1,10 +1,12 @@
 
-import Link from "next/link"
+import Link from "next/link";
+import Image from "next/image";
 
 interface ICardProps {
 
    HREF: string
    AS: string
+   ALT?: string
 
    img: string
    img2?: string
@@ -12,6 +14,32 @@ interface ICardProps {
    h6top: string
    h6bot: string
    type: "single" | "double"
+}
+
+const IMG = (props) => {
+    return (
+        <>
+            <div className="res" style = {{ position: "relative" }} >
+                <Image src={props.img} alt={props.ALT} layout = "fill" quality = {70} />
+            </div>
+            <div className="res" style = {{ position: "relative" }}>
+                <Image src={props.type === "double" ? props.img2 : props.img} alt={props.ALT} layout = "fill" quality = {70}/>
+            </div>
+        </>
+    )
+}
+
+const IMG2 = (props) => {
+    return (
+        <>
+            <div className="res" style = {{ position: "relative" }} >
+                <img src={props.img} alt={props.ALT} />
+            </div>
+            <div className="res" style = {{ position: "relative" }}>
+                <img src={props.type === "double" ? props.img2 : props.img} alt={props.ALT} />
+            </div>
+        </>
+    )
 }
 
 const Card: React.FC<ICardProps> = (props) => {
@@ -24,9 +52,13 @@ const Card: React.FC<ICardProps> = (props) => {
                     "post__preview_double"
                 }
             >
-                <div className = "img">
-                    <img src={props.img} alt="image"/>
-                    <img src={props.img2} alt="image"/>
+                <div className = "img" >
+                    <div className="res" style = {{ position: "relative" }} >
+                    <Image src={props.img} alt={props.ALT} layout = "fill" unoptimized />
+                </div>
+                <div className="res" style = {{ position: "relative" }}>
+                    <Image src={props.type === "double" ? props.img2 : props.img} alt={props.ALT} layout = "fill" unoptimized />
+                </div>
                 </div>
                 <div className = "tags">
                     <h6 className = "top">{ props.h6top }</h6>

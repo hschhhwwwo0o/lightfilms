@@ -30,18 +30,25 @@
 
         overflow: hidden;
 
-        img:nth-child(1) {
-            object-position: center;
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
+        .res {
 
-            filter: contrast(0.8);
+            &:nth-child(1) {
+                height: 100%;
+                width: 100%;
+            }
+
+            &:nth-child(2) {
+                display: none;
+            }
+
+            img {
+                object-position: center;
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
         }
 
-        img:nth-child(2) {
-            display: none;
-        }
     }
 
     .tags {
@@ -124,23 +131,29 @@
 
         gap: 10px;
 
-        img {
-            object-position: center;
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
+        .res {
+
+            img {
+                object-position: center;
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
 
             &:nth-child(2) {
-                height: 92%;
+                img {
+                    height: 92%;
 
-                position: relative;
-                top: 8%;
+                    position: relative;
+                    top: 8%;
 
-                @media screen and (min-width: 555px) {
-                    display: none;
+                    @media screen and (min-width: 555px) {
+                        display: none;
+                    }
                 }
             }
         }
+
     }
 
     .tags {
