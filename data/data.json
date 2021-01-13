@@ -10,8 +10,8 @@
                 "h6top": "France",
                 "h6bot": "Franco-Swiss film Director, film critic",
                 "imgs": [
-                    "./path",
-                    "./path"
+                    "/data/persons/jeanluc1.jpg",
+                    "/data/persons/jeanluc2.jpg"
                 ]
             },
             "countries": [
@@ -24,7 +24,7 @@
             ],
             "year": "1967",
             "coverIMG": "/data/films/malefemale.png",
-            "collage": "/",
+            "collage": "/data/films/male-femalecollage.png",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -42,8 +42,8 @@
                     "h6top": "France",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/jeanpierreleo1.jpg",
+                        "/data/persons/jeanpierreleo2.jpg"
                     ]
                 },
                 {
@@ -52,8 +52,8 @@
                     "h6top": "French Indochină",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/chantalgoya1.jpg",
+                        "/data/persons/chantalgoya2.jpg"
                     ]
                 },
                 {
@@ -62,8 +62,8 @@
                     "h6top": "USA",
                     "h6bot": "USA Drama acter",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/hepburnaundrey1.jpg",
+                        "/data/persons/hepburnaundrey2.jpg"
                     ]
                 }
             ]
@@ -78,8 +78,8 @@
                 "h6top": "France",
                 "h6bot": "Franco-Swiss film Director, film critic",
                 "imgs": [
-                    "./path",
-                    "./path"
+                    "/data/persons/jeanluc1.jpg",
+                    "/data/persons/jeanluc2.jpg"
                 ]
             },
             "countries": [
@@ -91,8 +91,8 @@
                 "Romance"
             ],
             "year": "1957",
-            "coverIMG": "./data/films/atreegrowsinbrooklyn.jpg",
-            "collage": "/",
+            "coverIMG": "/data/films/atreegrowsinbrooklyn.jpg",
+            "collage": "/data/films/treecollage.png",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -105,23 +105,33 @@
             },
             "acters": [
                 {
-                    "id": "2",
-                    "h3": "Chantal Goya",
-                    "h6top": "French Indochină",
-                    "h6bot": "Drama | Romance | 70’s | United States of America",
-                    "imgs": [
-                        "./path",
-                        "./path"
-                    ]
-                },
-                {
                     "id": "3",
                     "h3": "Hepburn Aundrey",
                     "h6top": "USA",
                     "h6bot": "USA Drama acter",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/hepburnaundrey1.jpg",
+                        "/data/persons/hepburnaundrey2.jpg"
+                    ]
+                },
+                {
+                    "id": "4",
+                    "h3": "Peggy Ann Garner",
+                    "h6top": "American actress",
+                    "h6bot": "Drama | Romance | 70’s | United States of America",
+                    "imgs": [
+                        "/data/persons/peggyann1.jpg",
+                        "/data/persons/peggyann2.jpg"
+                    ]
+                },
+                {
+                    "id": "2",
+                    "h3": "Chantal Goya",
+                    "h6top": "French Indochină",
+                    "h6bot": "Drama | Romance | 70’s | United States of America",
+                    "imgs": [
+                        "/data/persons/chantalgoya1.jpg",
+                        "/data/persons/chantalgoya2.jpg"
                     ]
                 }
             ]
@@ -136,8 +146,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "./path",
-                    "./path"
+                    "/data/persons/robertbresson1.jpg",
+                    "/data/persons/robertbresson2.jpg"
                 ]
             },
             "countries": [
@@ -150,7 +160,7 @@
             ],
             "year": "1957",
             "coverIMG": "/data/films/hirosimamonamor.jpg",
-            "collage": "./path",
+            "collage": "/data/films/hirocollage.png",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -168,8 +178,8 @@
                     "h6top": "Russia & Japan actress",
                     "h6bot": "Drama | Romance | 50’s",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/dariataranova1.jpg",
+                        "/data/persons/dariataranova2.jpg"
                     ]
                 }
             ]
@@ -179,13 +189,13 @@
             "title": "Nine days of one year",
             "producedBy": "Jean-Luc Godard",
             "producer": {
-                "id": "0",
-                "h3": "Jean-Luc Godard",
-                "h6top": "France",
-                "h6bot": "Franco-Swiss film Director, film critic",
+                "id": "5",
+                "h3": "Robert Bresson",
+                "h6top": "USA",
+                "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "./path",
-                    "./path"
+                    "/data/persons/robertbresson1.jpg",
+                    "/data/persons/robertbresson2.jpg"
                 ]
             },
             "countries": [
@@ -198,7 +208,7 @@
             ],
             "year": "1957",
             "coverIMG": "/data/films/9days.jpg",
-            "collage": "/data/films/9days.jpg",
+            "collage": "/data/films/ninecollage.png",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -216,8 +226,8 @@
                     "h6top": "Russia actress",
                     "h6bot": "Drama | Romance | 50’s",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/dariataranova1.jpg",
+                        "/data/persons/dariataranova2.jpg"
                     ]
                 },
                 {
@@ -226,8 +236,8 @@
                     "h6top": "Soviet and Russia acter",
                     "h6bot": "Drama | Romance | 70’s |",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/nrybnikov1.jpg",
+                        "/data/persons/nrybnikov2.jpg"
                     ]
                 },
                 {
@@ -236,8 +246,8 @@
                     "h6top": "Soviet and Russia acter",
                     "h6bot": "Russia Drama acter",
                     "imgs": [
-                        "./path",
-                        "./path"
+                        "/data/persons/alexeybatalov1.jpg",
+                        "/data/persons/alexeybatalov2.jpg"
                     ]
                 }
             ]
@@ -257,7 +267,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -272,7 +282,7 @@
             "imgs": [
                 "/data/persons/jeanluc1.jpg",
                 "/data/persons/jeanluc2.jpg",
-                "/data/persons/jeanluc1.jpg"
+                "/data/persons/jeanluc3.jpg"
             ],
             "countries": [
                 "France",
@@ -286,14 +296,14 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "./path",
+                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -303,14 +313,14 @@
 
         {
             "id": "1",
-            "name": "Jean-Pierre Leo",
+            "name": "Leo Jean-Pierre",
             "title": "Franco acter, film critic",
             "type": "acter",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia",
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -337,7 +347,7 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -354,7 +364,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -369,7 +379,7 @@
             "imgs": [
                 "/data/persons/hepburnaundrey1.jpg",
                 "/data/persons/hepburnaundrey2.jpg",
-                "/data/persons/chantalgoya2.jpg"
+                "/data/persons/hepburnaundrey3.jpg"
             ],
             "countries": [
                 "USA"
@@ -382,14 +392,14 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "./path",
+                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -406,7 +416,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "2",
-                    "img": "path",
+                    "img": "/data/films/hirosimamonamor.jpg",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -434,7 +444,7 @@
             "filmography": [
                 {
                     "id": "2",
-                    "img": "path",
+                    "img": "/data/films/hirosimamonamor.jpg",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -496,7 +506,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -522,14 +532,14 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "path",
+                    "img": "/data/films/malefemale.png",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "./path",
+                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -546,7 +556,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "1",
-                    "img": "./path",
+                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -561,7 +571,7 @@
             "imgs": [
                 "/data/persons/peggyann1.jpg",
                 "/data/persons/peggyann2.jpg",
-                "/data/persons/chantalgoya2.jpg"
+                "/data/persons/peggyann3.jpg"
             ],
             "countries": [
                 "USA"
@@ -572,7 +582,7 @@
             "filmography": [
                 {
                     "id": "1",
-                    "img": "./path",
+                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -589,7 +599,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "2",
-                    "img": "./path",
+                    "img": "/data/films/hirosimamonamor.jpg",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
@@ -604,7 +614,7 @@
             "imgs": [
                 "/data/persons/robertbresson1.jpg",
                 "/data/persons/robertbresson2.jpg",
-                "./path"
+                "/data/persons/robertbresson3.jpg"
             ],
             "countries": [
                 "USA"
@@ -617,7 +627,7 @@
             "filmography": [
                 {
                     "id": "2",
-                    "img": "./path",
+                    "img": "/data/films/hirosimamonamor.jpg",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
