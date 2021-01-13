@@ -1,13 +1,25 @@
-# GRAPHQL ✅
+# GraphQL API in project
 
-### DEV_GRAPHQL_SERVER=http://localhost:3008
-### ```$npm run gql```
+## Run API
+```sh
+    $npm run gql
+```
 
-## Queries ✅
+```sh
+    $yarn gql
+```
+
+После чего мы увидим в `cmd`
+
+```sh
+    $DEV_GRAPHQL_SERVER=http://localhost:3008
+```
+
+## Queries 
 
 Example query
 
-```
+```js
 export const GET_ALL_FILMS = gql`
     query getAllFilms {
         getAllFilms {
@@ -22,7 +34,7 @@ export const GET_ALL_FILMS = gql`
 `
 ```
 
-## Fragments ✅
+## Fragments 
 
 A GraphQL fragment is a piece of logic that a client can share between multiple queries and mutations.
 
@@ -39,7 +51,7 @@ Here, we declare a NameParts fragment that can be used with any Person object:
 
 Declare Fragment
 
-``` 
+```js
     import { gql } from "@apollo/client";
 
     export const ALL_PERSON_FIELDS = {
@@ -55,7 +67,7 @@ Declare Fragment
 
 Reusing fragment
 
-```
+```js
 query: gql`
         query getPerson {
             getPerson(id: ${ctx.params.id}) {
