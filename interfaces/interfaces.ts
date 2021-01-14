@@ -22,12 +22,12 @@ export interface IFilmCard {
     coverIMG: IMG
     genres: string[]
     countries: string[]
+    year?: string
 }
 
 // YES
 
 export interface IFilm extends IFilmCard{
-    year?: string
     producer: ICard
     collage: IMG
     briefAbout: string
@@ -47,6 +47,7 @@ export interface IPersonCard {
     countries: string[]
     imgs: IMG[]
     type: string
+    yearsPopular: string[]
 }
 
 // YES
@@ -58,6 +59,5 @@ export interface IPerson extends IPersonCard {
         paragraphs: string[]
     }
     filmography: ICard[]
-    yearsPopular: string[]
 }
 

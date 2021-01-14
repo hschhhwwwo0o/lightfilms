@@ -9,6 +9,7 @@ export const GET_ALL_FILMS = gql`
             coverIMG
             countries
             genres
+            year
         }
     }
 `
@@ -22,6 +23,7 @@ export const GET_PRODUCERS = gql`
             type
             imgs
             countries
+            yearsPopular
         }
     }
 `
@@ -35,6 +37,7 @@ export const GET_ACTERS = gql`
             type
             imgs
             countries
+            yearsPopular
         }
     }
 `
