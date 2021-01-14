@@ -1,4 +1,4 @@
-import { IFilm, IFilmCard, IPerson, IPersonCard } from "../interfaces/interfaces"
+import { IFilm, IFilmCard, IPerson, IPersonCard } from "../interfaces/interfaces";
 
 export function __QLFilms(films: IFilm[] ): IFilmCard[] {
 
@@ -33,7 +33,8 @@ export function __QLPersons(persons: IPerson[] ): IPersonCard[] | any {
             title: person.title,
             imgs: [...person.imgs],
             countries: [...person.countries],
-            type: person.type
+            type: person.type,
+            yearsPopular: [...person.yearsPopular]
         } )
 
     } )
