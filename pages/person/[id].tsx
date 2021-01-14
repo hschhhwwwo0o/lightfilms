@@ -6,6 +6,7 @@ import { IPerson } from "../../interfaces/interfaces";
 
 import Head from "next/head";
 import Header from "../../components/Header/header";
+import Footer from "../../components/Footer/index";
 import Card from "../../components/Card/card";
 
 interface PersonPageProps {
@@ -108,6 +109,7 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
                 </div>
             </section>
         </section>
+        <Footer />
     </>
 }
 

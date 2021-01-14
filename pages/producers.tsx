@@ -5,6 +5,7 @@ import { GET_PRODUCERS } from "../graphql/queries";
 
 import Head from "next/head";
 import Header from "../components/Header/header";
+import Footer from "../components/Footer/index";
 import Card from "../components/Card/card";
 
 import { __QLPersons } from "../utils/__ql";
@@ -60,6 +61,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                 } )
             }
         </section>
+        <Footer />
     </>
 }
 

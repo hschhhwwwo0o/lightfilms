@@ -5,6 +5,7 @@ import { GET_ALL_FILMS } from "../graphql/queries"
 
 import Head from "next/head"
 import Header from "../components/Header/header";
+import Footer from "../components/Footer/index"
 import Card from "../components/Card/card";
 
 import { __QLFilms } from "../utils/__ql";
@@ -61,6 +62,7 @@ const IndexPage: React.FC<IndexPageProps> = ( {films} ) => {
                 } )
             }
         </section>
+        <Footer />
     </>
 }
 
