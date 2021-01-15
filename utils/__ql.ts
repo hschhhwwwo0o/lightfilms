@@ -13,6 +13,7 @@ export function __QLFilms(films: IFilm[] ): IFilmCard[] {
             coverIMG: film.coverIMG,
             genres: [...film.genres],
             countries: [...film.countries],
+            year: film.year
         } )
 
     } )
