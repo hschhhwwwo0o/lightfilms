@@ -1,27 +1,11 @@
 <img src = "./md/log.png" />
-<p style="text-align:center">
-    <a href = "">Lightfilms demo vision</a>
-</p>
 <img src = "./md/mdt2.png" />
-<div style = "display: flex; box-sizing: border-box; margin-top: 10px; align-items: center; justify-content: space-evenly; width: 100%; padding-left: 10%; padding-right: 10%;" >
-    <a href = "">Next.js</a>
-    <a href = "">TypeScript</a>
-    <a href = "">React</a>
-    <a href = "">GraphQL</a>
-    <a href = "">SASS</a>
-    <a href = "">Apollo</a>
-</div>
-<div style = "display: flex; box-sizing: border-box; margin-top: 50px; align-items: center; justify-content: space-evenly; width: 100%; padding-left: 10%; padding-right: 10%; padding-bottom: 120px;" >
-    <p style="text-align:center; margin-top: 80px; width: 420px;">
-        Lightfilms - A project written in Typescript ReactJS based on the framework Next.JS and deployed on Vercel
-    </p>
-</div>
 
 # Setup
 
 ```sh
-    $git clone https://github.com/ssandry/lightfilms.git
-    $cd lightfilms
+$git clone https://github.com/ssandry/lightfilms.git
+$cd lightfilms
 ```
 
 <br />
@@ -33,42 +17,44 @@
 
 ## dev
 
-Перед тем как начать `npm run dev` пожалуйста поеняйте `process.env.MODE=production` на `process.env.MODE=development` в `.env.local`. После чего можно начать `npm run dev`. (Без данных действий `NodeJS` будет выдавать ошибку)
+ENG: Before starting `npm ru dev` please change `MODE=production` to `MODE=development` in `.env.local`. Then you can start `npm run dev`. (Without these actions ` 'Node JS' will throw an error)
+
+RUS: Перед тем как начать `npm run dev` пожалуйста поменяйте `MODE=production` на `MODE=development` в `.env.local`. После чего можно начать `npm run dev`. (Без данных действий `NodeJS` будет выдавать ошибку)
 
 ```sh
-    $npm run dev
+$npm run dev
 ```
 
 ```sh
-    $yarn dev
+$yarn dev
 ```
 
 <br />
 
 ## build
 
-Скрипт `build` используется в `Next.js` чтобы собрать продакшен версию проекта, которая будет быстрее и качественне чем если бы был `$npm run dev`
+The `build` script is used in `Next.js` to build a production version of the project that will be faster and better than if there was `$npm run dev`
 
 ```sh
-    $npm run build
+$npm run build
 ```
 
 ```sh
-    $yarn build
+$yarn build
 ```
 
 <br />
 
 ## start 
 
-Скрипт `start` используется чтобы запустить собранный посредством скрипта `npm run build` проект
+The `start` script is used to start a project built using the `npm run build` script
 
 ```sh
-    $npm run start
+$npm run start
 ```
 
 ```sh
-    $yarn start
+$yarn start
 ```
 
 <br />
