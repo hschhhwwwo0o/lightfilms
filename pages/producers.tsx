@@ -1,21 +1,27 @@
 import { GetStaticProps } from "next";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
+import { useState } from "react";
 
 import { GET_PRODUCERS } from "../graphql/queries";
+import { IPersonCard } from "../interfaces/interfaces";
+
+import { __QLPersons } from "../utils/__ql";
+import { __filterPersons } from "../utils/__filter";
 
 import Head from "next/head";
 import Header from "../components/Header/header";
-import Footer from "../components/Footer/index";
 import Card from "../components/Card/card";
-
-import { __QLPersons } from "../utils/__ql";
-import { IPersonCard } from "../interfaces/interfaces";
+import Footer from "../components/Footer/index";
 
 interface ProducersPageProps {
     producers: IPersonCard[]
 }
 
 const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
+
+    const [country, setCountry] = useState("all")
+    const [year, setYear]       = useState("all")
+
     return <>
         <Head>
             <title>LIGHTFILMS : Producers</title>
@@ -25,26 +31,30 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
             <h1>PRODUCERS</h1>
             <div id="chooser">
                 <ul id = "countrys">
-                    <li>JAPAN</li>
-                    <li>FRANCE</li>
-                    <li>RUSSIA</li>
-                    <li>USA</li>
-                    <li>BRITISH</li>
-                    <li>GERMANY</li>
-                    <li>ITALIAN</li>
+                    <li 
+                        onClick = {() => { setCountry("all") }} 
+                        className = { country === "all" ? "sq sq_bright" : "sq"  }
+                    >
+                    </li>
+                    <li onClick = { () => { setCountry("Japan") } } className = { country === "Japan" ? "bright" : ""  } >Japan</li>
+                    <li onClick = { () => { setCountry("France") } } className = { country === "France" ? "bright" : ""  }>France</li>
+                    <li onClick = { () => { setCountry("Russia") } } className = { country === "Russia" ? "bright" : ""  }>Russia</li>
+                    <li onClick = { () => { setCountry("USA") } } className = { country === "USA" ? "bright" : ""  }>USA</li>
+                    <li onClick = { () => { setCountry("British") } } className = { country === "British" ? "bright" : ""  }>British</li>
+                    <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
                 </ul>
                 <ul id = "years">
-                    <li>50’s</li>
-                    <li>60’s</li>
-                    <li>70’s</li>
-                    <li>80’s</li>
-                    <li>90’s</li>
+                    <li onClick = {() => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
+                    <li onClick = {() => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
+                    <li onClick = {() => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
+                    <li onClick = {() => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
+                    <li onClick = {() => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
                 </ul>
             </div>
         </section>
         <section id="grid-posts">
             {
-                producers.map( (producer) => {
+                __filterPersons( [country, year], producers ).map( (producer) => {
                     return (
                         <Card 
                             key = {producer.id} 

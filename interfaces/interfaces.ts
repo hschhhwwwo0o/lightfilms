@@ -1,8 +1,6 @@
 export type ID = string
 export type IMG = string
 
-// ???
-
 export interface ICard {
     id: ID
     h3: string
@@ -13,8 +11,6 @@ export interface ICard {
     imgs?: IMG[]
 }
 
-// YES
-
 export interface IFilmCard {
     id: ID
     title: string
@@ -24,8 +20,6 @@ export interface IFilmCard {
     countries: string[]
     year?: string
 }
-
-// YES
 
 export interface IFilm extends IFilmCard{
     producer: ICard
@@ -38,8 +32,6 @@ export interface IFilm extends IFilmCard{
     acters: ICard[]
 }
 
-// YES
-
 export interface IPersonCard {
     id: ID
     name: string
@@ -49,8 +41,6 @@ export interface IPersonCard {
     type: string
     yearsPopular: string[]
 }
-
-// YES
 
 export interface IPerson extends IPersonCard {
     briefAbout: string

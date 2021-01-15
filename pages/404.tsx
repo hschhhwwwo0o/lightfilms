@@ -1,4 +1,4 @@
-import Header from "../components/Header/header"
+import Header from "../components/Header/header";
 
 const C404: React.FunctionComponent = () => {
     return <>

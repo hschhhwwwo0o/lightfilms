@@ -1,5 +1,5 @@
-import Logo from "../Logo";
 import Link from "next/link";
+import Logo from "../Logo";
 
 const Header: React.FC = () => {
 
