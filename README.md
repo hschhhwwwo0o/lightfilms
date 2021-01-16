@@ -1,11 +1,16 @@
-<img src = "./md/log.png" />
-<img src = "./md/mdt2.png" />
+# #Lightfilms
+
+## Next.js | Node.js | GraphQL | Apollo | React | Sass | TypeScript
+
+<br />
+<br />
 
 # Setup
 
 ```sh
 $git clone https://github.com/ssandry/lightfilms.git
 $cd lightfilms
+$npm install
 ```
 
 <br />
