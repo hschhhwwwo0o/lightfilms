@@ -25,7 +25,9 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
                 <article id="text__header">
                     <h2> {film.title} </h2>
                     <h4>
-                        Genres: <i>{`${film.genres[0]}${film.genres[1] !== undefined ? `, ${film.genres[1]}. `: ""}`}</i>
+                        Genres: <i> { film.genres[0] }
+                            {`${film.genres[1] !== undefined ? `, ${film.genres[1]}. `: ". "}`}
+                            </i>
                         Countries: <i>{`${film.countries[0]}${film.countries[1] !== undefined ? `, ${film.countries[1]}`: ""}`}</i>.
                         Director: <i>{film.producedBy}</i>.
                     </h4>
