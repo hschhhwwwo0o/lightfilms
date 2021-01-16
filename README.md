@@ -3,7 +3,6 @@
 ## Next.js | Node.js | GraphQL | Apollo | React | Sass | TypeScript
 
 <br />
-<br />
 
 # Setup
 
@@ -13,7 +12,6 @@ $cd lightfilms
 $npm install
 ```
 
-<br />
 <br />
 
 # Scripts
@@ -62,7 +60,6 @@ $npm run start
 $yarn start
 ```
 
-<br />
 <br />
 
 # More
