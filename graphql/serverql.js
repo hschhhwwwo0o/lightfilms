@@ -55,6 +55,18 @@ let schema = buildSchema(`
         yearsPopular: [String]!
     }
 
+    type timeSections {
+        title: String!
+        p: [String]
+    }
+
+    type Time {
+        id: ID!
+        title: String!
+        sections: [timeSections]!
+        bestMovies: [Card]!
+    }
+
     type Query {
         getAllFilms: [Film]!
         getAllPersons: [Person]!
@@ -64,6 +76,9 @@ let schema = buildSchema(`
 
         getPerson(id: ID!): Person!
         getFilm(id: ID!): Film!
+
+        getTime(id: ID!): Time!
+        getAllTimes: [Time]!
     }
 
 `);
@@ -90,6 +105,12 @@ let root = {
     ,
     getFilm: (params) => {
         return data.films.find( ( {id} ) => { return id === params.id } )
+    },
+    getAllTimes: (params) => {
+        return data.times;
+    },
+    getTime: (params) => {
+        return data.times.find( ( {id} ) => { return id === params.id } )
     }
     
 };

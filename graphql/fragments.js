@@ -65,3 +65,23 @@ export const ALL_FILM_FIELDS = {
         }
     `
 }
+
+export const ALL_TIME_FIELDS = {
+    fragment: gql`
+        fragment TimeFragment on Time {
+            id
+            title
+            sections {
+                title
+                p
+            }
+            bestMovies {
+                h3
+                h6top
+                h6bot
+                id
+                img
+            }
+        }
+    `
+}

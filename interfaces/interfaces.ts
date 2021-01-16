@@ -51,3 +51,10 @@ export interface IPerson extends IPersonCard {
     filmography: ICard[]
 }
 
+export interface ITime {
+    id: ID
+    title: string
+    sections: []
+    bestMovies: ICard[]
+}
+
