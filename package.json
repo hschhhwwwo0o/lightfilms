@@ -1,7 +1,7 @@
 {
   "name": "lightfilms",
   "version": "1.0.0",
-  "description": "Lightfilms 📀. About world cinema 🌎 ",
+  "description": "Lightfilms 🎥 🎞️ 📼. About world cinema 🌎 ",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \" node ./graphql/serverql.js \" \" next dev \"",

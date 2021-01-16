@@ -1,10 +1,16 @@
-# #Lightfilms 📀
+# #Lightfilms 🎥 🎞️ 📼 
 
-## Next.js | Node.js | GraphQL | Apollo | React | Sass | TypeScript
+### ⚙️ Next.js 
+### ⚙️ Node.js 
+### ⚙️ GraphQL 
+### ⚙️ Apollo
+### ⚙️ React
+### ⚙️ Sass
+### ⚙️ TypeScript
 
 <br />
 
-# Setup
+# Setup 🔧
 
 ```sh
 $git clone https://github.com/ssandry/lightfilms.git
@@ -14,7 +20,7 @@ $npm install
 
 <br />
 
-# Scripts
+# Scripts 🔧
 
 <br />
 
