@@ -1,0 +1,65 @@
+#timeBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #timeContent {
+        width: 100%;
+        max-width: 657px;
+
+        article {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h4 {
+                width: 100%;
+                text-align: center;
+                padding: {
+                    top: 30px;
+                    bottom: 15px;
+                };
+
+                @media screen and (max-width: 600px) {
+                    max-width: 80%;
+                }
+            }
+
+            p {
+                text-align: justify;
+                color: rgb(83, 83, 83);
+                margin-top: 20px;
+
+                @media screen and (max-width: 600px) {
+                    margin-top: 15px;
+                }
+            }
+
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 60px;
+
+            @media screen and (max-width: 600px) {
+                font-size: 32px;
+                margin-top: 40px;
+            }
+        }
+    }
+
+    #bestMovies {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+
+        @media screen and (max-width: 600px) {
+            grid-template-columns: 1fr;
+            margin-top: 15px;
+        }
+    }
+}
