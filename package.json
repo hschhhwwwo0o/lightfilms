@@ -1,7 +1,7 @@
 {
   "name": "lightfilms",
   "version": "1.0.0",
-  "description": "lightfilms - app about bw cinema on next react react-dom typescript",
+  "description": "Lightfilms 📀. About world cinema 🌎 ",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \" node ./graphql/serverql.js \" \" next dev \"",

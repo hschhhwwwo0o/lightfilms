@@ -1,4 +1,4 @@
-# #Lightfilms
+# #Lightfilms 📀
 
 ## Next.js | Node.js | GraphQL | Apollo | React | Sass | TypeScript
 
