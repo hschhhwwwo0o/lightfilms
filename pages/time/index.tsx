@@ -1,10 +1,13 @@
 import Head from "next/head";
-import Header from "../../components/Header/header";
+import TheHeader from "../../components/TheHeader/index";
 import Link from "next/link";
 
 const TimePage = () => {
     return<>
-        <Header />
+        <Head>
+            <title>Keep up to time with temporary events.</title>
+        </Head>
+        <TheHeader />
         <div id="time">
             <div id="time_traveler">
                 <h2>Keep up to time with temporary events.</h2>

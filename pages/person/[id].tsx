@@ -5,9 +5,9 @@ import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces/interfaces";
 
 import Head from "next/head";
-import Header from "../../components/Header/header";
+import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
-import Footer from "../../components/Footer/index";
+import TheFooter from "../../components/TheFooter/index";
 
 interface PersonPageProps {
     person: IPerson
@@ -37,7 +37,7 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
         <Head>
             <title>LIGHTFILMS : {person.name}</title>
         </Head>
-        <Header />
+        <TheHeader />
         <section id="person__header" >
             <h1>{h1perfect(person.name)[0]}</h1>
             <h1>{h1perfect(person.name)[1]}</h1>
@@ -109,7 +109,7 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
                 </div>
             </section>
         </section>
-        <Footer />
+        <TheFooter />
     </>
 }
 

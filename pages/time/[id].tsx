@@ -5,9 +5,9 @@ import { ALL_TIME_FIELDS } from "../../graphql/fragments";
 import { ITime } from "../../interfaces/interfaces";
 
 import Head from "next/head";
-import Header from "../../components/Header/header";
+import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
-import Footer from "../../components/Footer/index";
+import TheFooter from "../../components/TheFooter/index";
 
 interface  TimeProps {
     time: ITime
@@ -18,7 +18,7 @@ const TimeYear: React.FC<TimeProps> = ( {time} ) => {
         <Head>
             <title> LIGHTFILMS : {time.id} </title>
         </Head>
-        <Header />
+        <TheHeader />
         <div id="timeBlock">
             <section id="timeContent">
                 <h2> {time.id}'s <br/> {time.title} </h2>
@@ -58,7 +58,7 @@ const TimeYear: React.FC<TimeProps> = ( {time} ) => {
                 </article>
             </section>
         </div>
-        <Footer />
+        <TheFooter />
     </>
 }
 

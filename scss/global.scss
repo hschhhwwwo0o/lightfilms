@@ -4,9 +4,9 @@
 @import "./cc.scss";
 
 // @import components tsx
-@import "../components/Header/Header.scss";
+@import "../components/TheHeader/index.scss";
 @import "../components/Card/card.scss";
-@import "../components/Footer/index.scss";
+@import "../components/TheFooter/index.scss";
 
 // @import pages scss
 @import "./pages/404.scss";

@@ -9,9 +9,9 @@ import { __QLPersons } from "../utils/__ql";
 import { __filterPersons } from "../utils/__filter";
 
 import Head from "next/head";
-import Header from "../components/Header/header";
+import TheHeader from "../components/TheHeader/index";
 import Card from "../components/Card/card";
-import Footer from "../components/Footer/index";
+import TheFooter from "../components/TheFooter/index";
 
 interface ProducersPageProps {
     producers: IPersonCard[]
@@ -26,7 +26,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
         <Head>
             <title>LIGHTFILMS : Producers</title>
         </Head>
-        <Header />
+        <TheHeader />
         <section id="header-choose">
             <h1>PRODUCERS</h1>
             <div id="chooser">
@@ -71,7 +71,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                 } )
             }
         </section>
-        <Footer />
+        <TheFooter />
     </>
 }
 

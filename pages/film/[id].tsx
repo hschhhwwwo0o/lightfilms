@@ -6,9 +6,9 @@ import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces/interfaces";
 
 import Head from "next/head";
-import Header from "../../components/Header/header";
+import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
-import Footer from "../../components/Footer/index";
+import TheFooter from "../../components/TheFooter/index";
 
 interface FilmPageProps {
     film: IFilm
@@ -19,7 +19,7 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
         <Head>
             <title>LIGHTFILMS : {film.title}</title>
         </Head>
-        <Header />
+        <TheHeader />
         <div id="grid-wrap">
             <section id="left">
                 <article id="text__header">
@@ -91,7 +91,7 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
                 </section>
             </section>
         </div>
-        <Footer />
+        <TheFooter />
     </>
 }
 

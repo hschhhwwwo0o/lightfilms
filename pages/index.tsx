@@ -9,9 +9,9 @@ import { __QLFilms } from "../utils/__ql";
 import { __filterFilms } from "../utils/__filter";
 
 import Head from "next/head";
-import Header from "../components/Header/header";
+import TheHeader from "../components/TheHeader/index";
 import Card from "../components/Card/card";
-import Footer from "../components/Footer/index";
+import TheFooter from "../components/TheFooter/index";
 
 interface IndexPageProps {
     films: IFilmCard[]
@@ -26,7 +26,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
         <Head>
             <title>LIGHTFILMS</title>
         </Head>
-        <Header />
+        <TheHeader />
         <section id="header-choose">
             <h1>CINEMA</h1>
             <div id="chooser">
@@ -72,7 +72,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
                 } )
             }
         </section>
-        <Footer />
+        <TheFooter />
     </>
 }
 
