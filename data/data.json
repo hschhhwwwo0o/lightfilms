@@ -1319,6 +1319,13 @@
                     "h3": "Citizen Kane",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, British"
+                },
+                {
+                    "id": "9",
+                    "img": "/data/films/thirdman.jpg",
+                    "h3": "Third Man",
+                    "h6top": "Orson Welles",
+                    "h6bot": "Drama | 70’s | USA, British"
                 }
             ]
         },
