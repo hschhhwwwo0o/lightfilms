@@ -15,8 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/ssandry/lightfilms.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Node.js", "Next.js", "React.Js",
+    "GraphQL", "SASS", "SCSS",
+    "SSR app"
+  ],
+  "author": "@ssandry",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ssandry/lightfilms/issues"
