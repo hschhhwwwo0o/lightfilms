@@ -16,8 +16,12 @@
     "url": "git+https://github.com/ssandry/lightfilms.git"
   },
   "keywords": [
-    "Node.js", "Next.js", "React.Js",
-    "GraphQL", "SASS", "SCSS",
+    "Node.js",
+    "Next.js",
+    "React.Js",
+    "GraphQL",
+    "SASS",
+    "SCSS",
     "SSR app"
   ],
   "author": "@ssandry",
@@ -40,6 +44,7 @@
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
+    "fs": "0.0.1-security",
     "sass": "^1.30.0",
     "typescript": "^4.1.3"
   }
