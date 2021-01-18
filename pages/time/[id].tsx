@@ -17,6 +17,7 @@ const TimeYear: React.FC<TimeProps> = ( {time} ) => {
     return <>
         <Head>
             <title> LIGHTFILMS : {time.id} </title>
+            <meta name="description" content={`Read more about the ${time.id}s. Best Films of ${time.id}s  LIGHTFILMS. The influence of the ${time.id}s on today's cinema`} />
         </Head>
         <TheHeader />
         <div id="timeBlock">

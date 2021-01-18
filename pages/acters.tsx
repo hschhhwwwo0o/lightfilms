@@ -25,6 +25,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     return <>
         <Head>
             <title>LIGHTFILMS : Acters</title>
+            <meta name="description" content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} />
         </Head>
         <TheHeader />
         <section id="header-choose">

@@ -25,6 +25,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
     return <>
         <Head>
             <title>LIGHTFILMS : Producers</title>
+            <meta name="description" content={`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} />
         </Head>
         <TheHeader />
         <section id="header-choose">

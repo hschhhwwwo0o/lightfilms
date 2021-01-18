@@ -36,6 +36,7 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
     return <>
         <Head>
             <title>LIGHTFILMS : {person.name}</title>
+            <meta name="description" content={`${person.name}. Read more biography about ${person.name}, ${person.type}. ${person.countries[0]} ${person.type}. LIGHTFILMS. `} />
         </Head>
         <TheHeader />
         <section id="person__header" >

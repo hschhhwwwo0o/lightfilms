@@ -18,6 +18,7 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
     return <>
         <Head>
             <title>LIGHTFILMS : {film.title}</title>
+            <meta name="description" content={`${film.title}. Читать о ${film.title} ${film.year} ${film.countries[0]} ${film.producedBy}. LIGHTFILMS. Film about ${film.briefAbout} `} />
         </Head>
         <TheHeader />
         <div id="grid-wrap">

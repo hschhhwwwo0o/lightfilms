@@ -25,6 +25,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
     return <>
         <Head>
             <title>LIGHTFILMS</title>
+            <meta name="description" content={`LIGHTFILMS - more about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors. 1950 cinema,  1960 cinema, 1970 cinema, 1980 cinema`} />
         </Head>
         <TheHeader />
         <section id="header-choose">

@@ -6,6 +6,7 @@ const TimePage = () => {
     return<>
         <Head>
             <title>Keep up to time with temporary events.</title>
+            <meta name="description" content={`Best time of cinema. Read more about the time. LIGHTFILMS. 1940s 1950s 1960s 1970s. `} />
         </Head>
         <TheHeader />
         <div id="time">
