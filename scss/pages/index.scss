@@ -58,8 +58,12 @@
             height: 8px;
             background-color:  rgb(117, 117, 117);
 
+            &:hover {
+                background-color: rgb(255, 255, 255);
+            }
+
             &_bright {
-                background-color: rgb(199, 199, 199);;
+                background-color: rgb(199, 199, 199);
             }
         }
 
@@ -69,6 +73,10 @@
 
         &#countrys {
             width: 40vw;
+
+            @media screen and (min-width: 1450px) {
+                width: 55%;
+            }
 
             @media screen and (max-width: 990px) {
                 width: 65%;
@@ -84,6 +92,10 @@
         }
         &#years {
             width: 25vw;
+
+            @media screen and (min-width: 1450px) {
+                width: 35%;
+            }
 
             @media screen and (max-width: 990px) {
                 width: 40%;
@@ -101,6 +113,10 @@
             font-size: 14px;
             line-height: 17px;
             /* identical to box height */
+
+            &:hover {
+                color: #a5a5a5;
+            }
             
             @media screen and (max-width: 1153px) {
                 font-size: 13px;
@@ -129,6 +145,10 @@
     gap: 2vw;
 
     overflow: hidden;
+
+    @media screen and (min-width: 1450px) {
+        gap: 1vw;
+    }
 
     @media screen and (max-width: 990px) {
         grid-template-columns: 1fr 1fr;
