@@ -15,7 +15,7 @@
         padding-bottom: 2vh;
     }
 
-    @media screen and (max-height: 750px){
+    @media screen and (max-height: 550px){
         height: 442px;
     }
 
@@ -51,7 +51,7 @@
         gap: 16px;
     }
 
-    @media screen and (max-height: 750px){
+    @media screen and (max-height: 550px){
         height: 345px;
     }
 
@@ -71,7 +71,7 @@
                 max-height: 180px;
             }
 
-            @media screen and (max-height: 750px){
+            @media screen and (max-height: 550px){
                 max-height: 345px;
             }
         }

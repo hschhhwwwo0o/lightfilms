@@ -156,5 +156,6 @@
 
     @media screen and (max-width: 555px) {
         grid-template-columns: 1fr;
+        gap: 2vh;
     }
 }
