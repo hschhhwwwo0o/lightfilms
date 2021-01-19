@@ -22,8 +22,6 @@ $npm install # or yarn
 $npm run build # or yarn build
 ```
 
-<br />
-
 ## start 
 
 ```sh
