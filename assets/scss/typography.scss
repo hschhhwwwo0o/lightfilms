@@ -1,0 +1,133 @@
+h1 {
+    /* <H1 /> */
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 192px;
+    /* identical to box height */
+
+    color: #C4C4C4;
+
+    @media screen and (max-width: 1300px) {
+        font-size: calc( 8vw + 4vh );
+        line-height: normal;
+    }
+
+    @media screen and (max-width: 655px) {
+        font-size: calc( 6vw + 3vh );
+        line-height: normal;
+    }
+}
+
+h2 {
+    /* <H2 /> */
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 96px;
+    /* identical to box height */
+
+    color: #C4C4C4;
+
+    @media screen and (max-width: 655px) {
+        font-size: calc( 5vw + 3vh );
+        line-height: normal;
+    }
+}
+
+h3 {
+    /* <H3 /> */
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #C4C4C4;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 17px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        font-size: 15px;
+    }
+}
+
+h4 {
+    /* <H4 /> */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #C4C4C4;
+
+    @media screen and (max-width: 655px) {
+        font-size: 15px;
+    }
+
+    i {
+        font-style:italic
+    }
+}
+
+h5 {
+    /* <H5 /> */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+h6 {
+    /* <H6 /> */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #C4C4C4;
+}
+
+.logo {
+    /* <Logo > */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.1em;
+
+    color: #a3a3a3;
+}
+
+p, li, a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #696969;
+}

@@ -1,0 +1,118 @@
+#grid-wrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.65fr 1fr;
+    gap: 4vw;
+
+    min-height: 100vh;
+
+    margin-top: 8vh;
+    
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    #left {
+
+        #text__header {
+            box-sizing: border-box;
+
+            padding-top: 7vh;
+            padding-bottom: 7vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h4 {
+                margin-top: 5px;
+                text-align: justify;
+            }
+            p {
+                margin-top: 16px;
+                text-align: justify;
+            }
+        }
+
+        #collage, img {
+            display: block;
+
+            object-position: center;
+            object-fit: cover;
+
+            width: 100%;
+            height: auto;
+
+        }
+
+        #about {
+            margin-top: 80px;
+
+            @media screen and (max-width: 700px) {
+                margin-top: 50px;
+            }
+
+            p {
+                margin-top: 20px;
+                text-align: justify;
+            }
+
+            img {
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                @media screen and (max-width: 700px) {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    #right {
+
+        .producerName {
+            display: none;
+
+            @media screen and (max-width: 1000px) {
+                display: block;
+                margin-top: 30px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .prod .post__preview_double {
+
+            @media screen and (min-width: 1000px) {
+                height: 70vh;
+
+                .img {
+                    height: 88%;
+                    background-color: rgb(126, 126, 126);
+                }
+
+                .tags {
+                    height: 10%;
+                }
+
+                max-height: 800px;
+            }
+        }
+
+        #acters-grid {
+            margin-top: 45px;
+
+            h5 {
+                margin-bottom: 25px;
+            }
+        }
+
+        #acters {
+            display: grid;
+            grid-template-rows: 1fr;
+
+            gap: 30px;
+        }
+    }
+}

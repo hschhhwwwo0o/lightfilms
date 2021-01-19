@@ -1,0 +1,47 @@
+@import "./reset.css";
+@import "./env.scss";
+@import "./typography.scss";
+@import "./cc.scss";
+
+// @import components tsx
+@import "../../components/TheHeader/index.scss";
+@import "../../components/Card/card.scss";
+
+// @import pages scss
+@import "./pages/404.scss";
+@import "./pages/index.scss";
+@import "./pages/film/[id].scss";
+@import "./pages/person/[id].scss";
+@import "./pages/time/index.scss";
+@import "./pages/time/[id].scss";
+
+body {
+    background-color: $black;
+    overflow-x: hidden;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    margin: 0 auto;
+
+    &::-webkit-scrollbar { width: 0 !important }
+    &::scrollbar { width: 0;}
+}
+
+#main-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#main-wrapper #__next {
+    width: 100vw;
+    max-width: 1440px;
+
+    box-sizing: border-box;
+    padding: {
+        left: $padd;
+        right: $padd;
+    };
+    overflow-x: hidden;
+}
