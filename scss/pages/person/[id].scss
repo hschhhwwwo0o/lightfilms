@@ -202,6 +202,10 @@
     width: 100%;
     margin-top: 60px;
 
+    @media screen and (max-width: 800px) {
+        margin-top: 45px;
+    }
+
     #filmography {
         width: 100%;
         margin-top: 30px;
@@ -212,6 +216,7 @@
         @media screen and (max-width: 800px) {
             grid-template-columns: 1fr;
             gap: 2vh;
+            margin-top: 18px;
         }
     }
 }

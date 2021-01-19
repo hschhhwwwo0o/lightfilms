@@ -5,18 +5,15 @@
 
     height: 44vh;
     max-height: 386px;
-
     overflow: hidden;
 
     @media screen and (max-width: 425px) {
         height: 32vh;
-
         min-height: 260px;
     }
 
     @media screen and (max-height: 555px) {
         height: 32vh;
-
         min-height: 260px;
     }
 
@@ -53,7 +50,6 @@
 
     .tags {
         width: 100%;
-
         height: 16%;
 
         @media screen and (max-width: 425px) {
@@ -97,42 +93,36 @@
 
     height: 50vh;
     max-height: 446px;
-
     overflow: hidden;
 
     @media screen and (max-height: 555px) {
         height: 32vh;
-
         min-height: 260px;
     }
 
     @media screen and (max-width: 425px) {
         height: 31vh;
-
         min-height: 250px;
     }
 
     .img {
         height: 85%;
         width: 100%;
+        overflow: hidden;
 
         @media screen and (max-width: 555px) {
             height: 78%;
         }
 
-        overflow: hidden;
-
         display: grid;
         grid-template-columns: 1.45fr 1fr;
+        gap: 10px;
 
         @media screen and (min-width: 555px) {
             display: block;
         }
 
-        gap: 10px;
-
         .res {
-
             height: 100%;
 
             img {
@@ -145,7 +135,6 @@
             &:nth-child(2) {
                 img {
                     height: 92%;
-
                     position: relative;
                     top: 8%;
 
@@ -160,9 +149,7 @@
 
     .tags {
         width: 100%;
-
         height: 13%;
-
         overflow: hidden;
 
         @media screen and (max-height: 740px) {
