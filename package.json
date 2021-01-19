@@ -19,10 +19,7 @@
     "Node.js",
     "Next.js",
     "React.Js",
-    "GraphQL",
-    "SASS",
-    "SCSS",
-    "SSR app"
+    "SSR"
   ],
   "author": "@ssandry",
   "license": "ISC",

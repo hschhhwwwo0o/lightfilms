@@ -5,13 +5,12 @@ import { useState } from "react";
 import { GET_ACTERS } from "../graphql/queries";
 import { IPersonCard } from "../interfaces/interfaces";
 
-import { __QLPersons } from "../utils/__ql";
-import { __filterPersons } from "../utils/__filter";
+import { __QLPersons } from "../assets/utils/__ql";
+import { __filterPersons } from "../assets/utils/__filter";
 
+import DefaultLayout from "../layouts/default";
 import Head from "next/head";
-import TheHeader from "../components/TheHeader/index";
 import Card from "../components/Card/card";
-import TheFooter from "../components/TheFooter/index";
 
 interface ActersPageProps {
     acters: IPersonCard[]
@@ -22,12 +21,11 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     const [country, setCountry] = useState("all")
     const [year, setYear]       = useState("all")
 
-    return <>
+    return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : Acters</title>
             <meta name="description" content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} />
         </Head>
-        <TheHeader />
         <section id="header-choose">
             <h1>ACTERS</h1>
             <div id="chooser">
@@ -71,8 +69,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                 } )
             }
         </section>
-        <TheFooter />
-    </>
+    </DefaultLayout>
 }
 
 export const getStaticProps: GetStaticProps = async ctx => {

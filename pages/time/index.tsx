@@ -1,14 +1,13 @@
+import DefaultLayout from "../../layouts/default";
 import Head from "next/head";
-import TheHeader from "../../components/TheHeader/index";
 import Link from "next/link";
 
 const TimePage = () => {
-    return<>
+    return <DefaultLayout>
         <Head>
             <title>Keep up to time with temporary events.</title>
             <meta name="description" content={`Best time of cinema. Read more about the time. LIGHTFILMS. 1940s 1950s 1960s 1970s. `} />
         </Head>
-        <TheHeader />
         <div id="time">
             <div id="time_traveler">
                 <h2>Keep up to time with temporary events.</h2>
@@ -56,7 +55,7 @@ const TimePage = () => {
                 </ul>
             </div>
         </div>
-    </>
+    </DefaultLayout>
 }
 
 export default TimePage;

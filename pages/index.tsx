@@ -5,13 +5,12 @@ import { useState } from "react";
 import { GET_ALL_FILMS } from "../graphql/queries";
 import { IFilmCard } from "../interfaces/interfaces";
 
-import { __QLFilms } from "../utils/__ql";
-import { __filterFilms } from "../utils/__filter";
+import { __QLFilms } from "../assets/utils/__ql";
+import { __filterFilms } from "../assets/utils/__filter";
 
+import DefaultLayout from "../layouts/default";
 import Head from "next/head";
-import TheHeader from "../components/TheHeader/index";
 import Card from "../components/Card/card";
-import TheFooter from "../components/TheFooter/index";
 
 interface IndexPageProps {
     films: IFilmCard[]
@@ -22,12 +21,11 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
     const [genre, setGenre] = useState("all")
     const [year, setYear]   = useState("all")
 
-    return <>
+    return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS</title>
             <meta name="description" content={`LIGHTFILMS - more about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors. 1950 cinema,  1960 cinema, 1970 cinema, 1980 cinema`} />
         </Head>
-        <TheHeader />
         <section id="header-choose">
             <h1>CINEMA</h1>
             <div id="chooser">
@@ -73,8 +71,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
                 } )
             }
         </section>
-        <TheFooter />
-    </>
+    </DefaultLayout>
 }
 
 export const getStaticProps: GetStaticProps = async ctx => {

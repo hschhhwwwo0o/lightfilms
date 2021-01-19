@@ -5,22 +5,20 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces/interfaces";
 
+import DefaultLayout from "../../layouts/default";
 import Head from "next/head";
-import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
-import TheFooter from "../../components/TheFooter/index";
 
 interface FilmPageProps {
     film: IFilm
 }
 
 const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
-    return <>
+    return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : {film.title}</title>
             <meta name="description" content={`${film.title}. Читать о ${film.title} ${film.year} ${film.countries[0]} ${film.producedBy}. LIGHTFILMS. Film about ${film.briefAbout} `} />
         </Head>
-        <TheHeader />
         <div id="grid-wrap">
             <section id="left">
                 <article id="text__header">
@@ -92,8 +90,7 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
                 </section>
             </section>
         </div>
-        <TheFooter />
-    </>
+    </DefaultLayout>
 }
 
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {

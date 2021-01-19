@@ -4,10 +4,9 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces/interfaces";
 
+import DefaultLayout from "../../layouts/default";
 import Head from "next/head";
-import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
-import TheFooter from "../../components/TheFooter/index";
 
 interface PersonPageProps {
     person: IPerson
@@ -33,12 +32,11 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
         }
     }
 
-    return <>
+    return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : {person.name}</title>
             <meta name="description" content={`${person.name}. Read more biography about ${person.name}, ${person.type}. ${person.countries[0]} ${person.type}. LIGHTFILMS. `} />
         </Head>
-        <TheHeader />
         <section id="person__header" >
             <h1>{h1perfect(person.name)[0]}</h1>
             <h1>{h1perfect(person.name)[1]}</h1>
@@ -110,8 +108,7 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
                 </div>
             </section>
         </section>
-        <TheFooter />
-    </>
+    </DefaultLayout>
 }
 
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {

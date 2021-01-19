@@ -5,6 +5,7 @@ import { ALL_TIME_FIELDS } from "../../graphql/fragments";
 import { ITime } from "../../interfaces/interfaces";
 
 import Head from "next/head";
+import DefaultLayout from "../../layouts/default";
 import TheHeader from "../../components/TheHeader/index";
 import Card from "../../components/Card/card";
 import TheFooter from "../../components/TheFooter/index";
@@ -14,12 +15,11 @@ interface  TimeProps {
 }
 
 const TimeYear: React.FC<TimeProps> = ( {time} ) => {
-    return <>
+    return <DefaultLayout>
         <Head>
             <title> LIGHTFILMS : {time.id} </title>
             <meta name="description" content={`Read more about the ${time.id}s. Best Films of ${time.id}s  LIGHTFILMS. The influence of the ${time.id}s on today's cinema`} />
         </Head>
-        <TheHeader />
         <div id="timeBlock">
             <section id="timeContent">
                 <h2> {time.id}'s <br/> {time.title} </h2>
@@ -59,8 +59,7 @@ const TimeYear: React.FC<TimeProps> = ( {time} ) => {
                 </article>
             </section>
         </div>
-        <TheFooter />
-    </>
+    </DefaultLayout>
 }
 
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {
