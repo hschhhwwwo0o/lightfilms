@@ -5,9 +5,7 @@ const { readFileSync } = require("fs");
 
 let PORT = 3008;
 
-const SCHEMAGQL = readFileSync(`${__dirname}/schema.gql`, { encoding: "utf8" })
-
-const data = require("../data/data.json");
+const SCHEMAGQL = readFileSync(`${__dirname}/schema.gql`, { encoding: "utf8" });
 
 const films = require("../data/films.json");
 const persons = require("../data/persons.json");
