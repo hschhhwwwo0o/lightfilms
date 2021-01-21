@@ -7,38 +7,42 @@ let PORT = 3008;
 
 const SCHEMAGQL = readFileSync(`${__dirname}/schema.gql`, { encoding: "utf8" })
 
-const data = require("../data/data.json")
+const data = require("../data/data.json");
+
+const films = require("../data/films.json");
+const persons = require("../data/persons.json");
+const times = require("../data/times.json");
 
 let schema = buildSchema(SCHEMAGQL);
 
 let root = {
 
     getAllFilms: () => {
-        return data.films;
+        return films;
     },
     getAllPersons: () => {
-        return data.persons;
+        return persons;
     },
 
     getProducers: () => {
-        return data.persons.filter( (p) => { return p.type === "producer" } )
+        return persons.filter( (p) => { return p.type === "producer" } )
     },
     getActers: () => {
-        return data.persons.filter( (p) => { return p.type === "acter" } )
+        return persons.filter( (p) => { return p.type === "acter" } )
     },
 
     getPerson: (params) => {
-        return data.persons.find( ( {id} ) => { return id === params.id } )
+        return persons.find( ( {id} ) => { return id === params.id } )
     }
     ,
     getFilm: (params) => {
-        return data.films.find( ( {id} ) => { return id === params.id } )
+        return films.find( ( {id} ) => { return id === params.id } )
     },
     getAllTimes: (params) => {
-        return data.times;
+        return times;
     },
     getTime: (params) => {
-        return data.times.find( ( {id} ) => { return id === params.id } )
+        return times.find( ( {id} ) => { return id === params.id } )
     }
     
 };
