@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/">
+                            <Link href="/soon">
                                 <a>genres</a>
                             </Link>
                         </li>
