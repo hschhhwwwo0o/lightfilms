@@ -43,36 +43,35 @@ header {
         }
 
         .menu {
-            width: 26px;
-            height: 18px;
-    
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-    
-            div {
-                width: 100%;
-                height: 1px;
-                position: relative;
-    
-                background-color: rgb(95, 95, 95);
+            @media screen and (max-width: 990px) {
+                width: 26px;
+                height: 18px;
+        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+        
+                div {
+                    width: 100%;
+                    height: 1px;
+                    position: relative;
+        
+                    background-color: rgb(95, 95, 95);
 
-                transition-delay: .045s;
+                    transition-delay: .045s;
 
-                &:nth-child(1) {transition-duration: .45s; transition-timing-function: ease-in-out;}
-                &:nth-child(2) {transition-duration: 1.2s;}
-                &:nth-child(3) {transition-duration: .9s;}
+                    &:nth-child(1) {transition-duration: .45s; transition-timing-function: ease-in-out;}
+                    &:nth-child(2) {transition-duration: 1.2s;}
+                    &:nth-child(3) {transition-duration: .9s;}
+                }
             }
-
-            @media screen and (min-width: 990px){
-                display: none;
-            }
-    
         }
 
         #checkbox:checked ~ #nav {
-            height: 152px;
+            @media screen and (max-width: 990px) {
+                height: 152px;
+            }
         }
 
         #checkbox:checked ~ label{
