@@ -3,15 +3,17 @@ const { graphqlHTTP } = require("express-graphql");
 const { buildSchema } = require("graphql");
 const { readFileSync } = require("fs");
 
-let PORT = 3008;
-
-const SCHEMAGQL = readFileSync(`${__dirname}/schema.gql`, { encoding: "utf8" });
-
+// DATA
 const films = require("../data/films.json");
 const persons = require("../data/persons.json");
 const times = require("../data/times.json");
 
+// SCHEMA
+const SCHEMAGQL = readFileSync(`${__dirname}/schema.gql`, { encoding: "utf8" });
 let schema = buildSchema(SCHEMAGQL);
+
+//PORT
+const PORT = 3008;
 
 let root = {
 
