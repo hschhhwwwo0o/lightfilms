@@ -1,4 +1,3 @@
-
 import { GetStaticProps, GetStaticPaths, GetStaticPropsContext } from "next";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
