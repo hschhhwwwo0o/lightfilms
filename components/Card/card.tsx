@@ -18,8 +18,10 @@ const Card: React.FC<ICardProps> = (props) => {
         <Link href={props.HREF} as = {props.AS}>
             <a 
                 className = { 
-                    props.type === "single" ?
-                    "post__preview_single" :
+                    props.type === "single" 
+                    ?
+                    "post__preview_single" 
+                    :
                     "post__preview_double"
                 }
             >
