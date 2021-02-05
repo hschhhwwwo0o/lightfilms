@@ -3,6 +3,11 @@ import { IFilmCard, IPersonCard } from "../../interfaces/interfaces";
 export function __filterByGenre(crt: string, arr: IFilmCard[]) {
     if( crt === "all" ) return arr
     if( crt !== "all" ) {
+
+        if (crt !== "") {
+            crt = crt[0].toUpperCase() + crt.slice(1);
+        }
+
         return (arr.filter( (film) => {
             return film.genres[0] === crt || film.genres[1] === crt || film.genres[2] === crt || film.genres[3] === crt
         } ))
