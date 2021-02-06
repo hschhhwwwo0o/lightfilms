@@ -8,7 +8,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -37,7 +37,7 @@
         "filmography": [
             {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -61,7 +61,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -88,7 +88,7 @@
         "filmography": [
             {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -133,7 +133,7 @@
         "filmography": [
             {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -268,7 +268,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -294,7 +294,7 @@
         "filmography": [
             {
                 "id": "0",
-                "img": "/data/films/malefemale.png",
+                "img": "/data/films/malefemale.webp",
                 "h3": "Male-female",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
