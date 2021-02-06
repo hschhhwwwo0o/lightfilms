@@ -112,7 +112,7 @@ export const getStaticProps: GetStaticProps = async ctx => {
             console.log( `Err: ${err}` )
         }
     } else {
-        console.log( "NODE_ENV undefined" )
+        console.log( "The MODE is written incorrectly. Check the syntax in .env" )
     }
 }
 
