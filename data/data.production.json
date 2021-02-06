@@ -10,8 +10,8 @@
                 "h6top": "France",
                 "h6bot": "Franco-Swiss film Director, film critic",
                 "imgs": [
-                    "/data/persons/jeanluc1.jpg",
-                    "/data/persons/jeanluc2.jpg"
+                    "/data/persons/jeanluc1.webp",
+                    "/data/persons/jeanluc2.webp"
                 ]
             },
             "countries": [
@@ -23,8 +23,8 @@
                 "Romance"
             ],
             "year": "1967",
-            "coverIMG": "/data/films/malefemale.png",
-            "collage": "/data/films/male-femalecollage.png",
+            "coverIMG": "/data/films/malefemale.webp",
+            "collage": "/data/films/male-femalecollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -42,8 +42,8 @@
                     "h6top": "France",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "/data/persons/jeanpierreleo1.jpg",
-                        "/data/persons/jeanpierreleo2.jpg"
+                        "/data/persons/jeanpierreleo1.webp",
+                        "/data/persons/jeanpierreleo2.webp"
                     ]
                 },
                 {
@@ -52,8 +52,8 @@
                     "h6top": "French Indochină",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "/data/persons/chantalgoya1.jpg",
-                        "/data/persons/chantalgoya2.jpg"
+                        "/data/persons/chantalgoya1.webp",
+                        "/data/persons/chantalgoya2.webp"
                     ]
                 },
                 {
@@ -62,8 +62,8 @@
                     "h6top": "USA",
                     "h6bot": "USA Drama acter",
                     "imgs": [
-                        "/data/persons/hepburnaundrey1.jpg",
-                        "/data/persons/hepburnaundrey2.jpg"
+                        "/data/persons/hepburnaundrey1.webp",
+                        "/data/persons/hepburnaundrey2.webp"
                     ]
                 }
             ]
@@ -78,8 +78,8 @@
                 "h6top": "France",
                 "h6bot": "Franco-Swiss film Director, film critic",
                 "imgs": [
-                    "/data/persons/jeanluc1.jpg",
-                    "/data/persons/jeanluc2.jpg"
+                    "/data/persons/jeanluc1.webp",
+                    "/data/persons/jeanluc2.webp"
                 ]
             },
             "countries": [
@@ -91,8 +91,8 @@
                 "Romance"
             ],
             "year": "1957",
-            "coverIMG": "/data/films/atreegrowsinbrooklyn.jpg",
-            "collage": "/data/films/treecollage.png",
+            "coverIMG": "/data/films/atreegrowsinbrooklyn.webp",
+            "collage": "/data/films/treecollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -110,8 +110,8 @@
                     "h6top": "USA",
                     "h6bot": "USA Drama acter",
                     "imgs": [
-                        "/data/persons/hepburnaundrey1.jpg",
-                        "/data/persons/hepburnaundrey2.jpg"
+                        "/data/persons/hepburnaundrey1.webp",
+                        "/data/persons/hepburnaundrey2.webp"
                     ]
                 },
                 {
@@ -120,8 +120,8 @@
                     "h6top": "American actress",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "/data/persons/peggyann1.jpg",
-                        "/data/persons/peggyann2.jpg"
+                        "/data/persons/peggyann1.webp",
+                        "/data/persons/peggyann2.webp"
                     ]
                 },
                 {
@@ -130,8 +130,8 @@
                     "h6top": "French Indochină",
                     "h6bot": "Drama | Romance | 70’s | United States of America",
                     "imgs": [
-                        "/data/persons/chantalgoya1.jpg",
-                        "/data/persons/chantalgoya2.jpg"
+                        "/data/persons/chantalgoya1.webp",
+                        "/data/persons/chantalgoya2.webp"
                     ]
                 }
             ]
@@ -146,8 +146,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/robertbresson1.jpg",
-                    "/data/persons/robertbresson2.jpg"
+                    "/data/persons/robertbresson1.webp",
+                    "/data/persons/robertbresson2.webp"
                 ]
             },
             "countries": [
@@ -160,8 +160,8 @@
                 "Romance"
             ],
             "year": "1957",
-            "coverIMG": "/data/films/hirosimamonamor.jpg",
-            "collage": "/data/films/hirocollage.png",
+            "coverIMG": "/data/films/hirosimamonamor.webp",
+            "collage": "/data/films/hirocollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -179,8 +179,8 @@
                     "h6top": "Russia & Japan actress",
                     "h6bot": "Drama | Romance | 50’s",
                     "imgs": [
-                        "/data/persons/dariataranova1.jpg",
-                        "/data/persons/dariataranova2.jpg"
+                        "/data/persons/dariataranova1.webp",
+                        "/data/persons/dariataranova2.webp"
                     ]
                 }
             ]
@@ -195,8 +195,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/robertbresson1.jpg",
-                    "/data/persons/robertbresson2.jpg"
+                    "/data/persons/robertbresson1.webp",
+                    "/data/persons/robertbresson2.webp"
                 ]
             },
             "countries": [
@@ -209,8 +209,8 @@
                 "Comedy"
             ],
             "year": "1977",
-            "coverIMG": "/data/films/9days.jpg",
-            "collage": "/data/films/ninecollage.png",
+            "coverIMG": "/data/films/9days.webp",
+            "collage": "/data/films/ninecollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
                 "img": "./path",
@@ -228,8 +228,8 @@
                     "h6top": "Russia actress",
                     "h6bot": "Drama | Romance | 50’s",
                     "imgs": [
-                        "/data/persons/dariataranova1.jpg",
-                        "/data/persons/dariataranova2.jpg"
+                        "/data/persons/dariataranova1.webp",
+                        "/data/persons/dariataranova2.webp"
                     ]
                 },
                 {
@@ -238,8 +238,8 @@
                     "h6top": "Soviet and Russia acter",
                     "h6bot": "Drama | Romance | 70’s |",
                     "imgs": [
-                        "/data/persons/nrybnikov1.jpg",
-                        "/data/persons/nrybnikov2.jpg"
+                        "/data/persons/nrybnikov1.webp",
+                        "/data/persons/nrybnikov2.webp"
                     ]
                 },
                 {
@@ -248,8 +248,8 @@
                     "h6top": "Soviet and Russia acter",
                     "h6bot": "Russia Drama acter",
                     "imgs": [
-                        "/data/persons/alexeybatalov1.jpg",
-                        "/data/persons/alexeybatalov2.jpg"
+                        "/data/persons/alexeybatalov1.webp",
+                        "/data/persons/alexeybatalov2.webp"
                     ]
                 }
             ]
@@ -264,8 +264,8 @@
                 "h6top": "British",
                 "h6bot": "British film Director, film critic",
                 "imgs": [
-                    "/data/persons/woody1.jpg",
-                    "/data/persons/woody2.jpg"
+                    "/data/persons/woody1.webp",
+                    "/data/persons/woody2.webp"
                 ]
             },
             "countries": [
@@ -277,11 +277,11 @@
                 "Romance"
             ],
             "year": "1977",
-            "coverIMG": "/data/films/sisters.jpg",
-            "collage": "/data/films/sisterscollage.png",
+            "coverIMG": "/data/films/sisters.webp",
+            "collage": "/data/films/sisterscollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/sisters.jpg",
+                "img": "/data/films/sisters.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -296,8 +296,8 @@
                     "h6top": "British",
                     "h6bot": "British and Sweden Drama acter",
                     "imgs": [
-                        "/data/persons/barbara1.jpg",
-                        "/data/persons/barbara2.jpg"
+                        "/data/persons/barbara1.webp",
+                        "/data/persons/barbara2.webp"
                     ]
                 },
                 {
@@ -306,8 +306,8 @@
                     "h6top": "Russia actress",
                     "h6bot": "Drama | Romance | 50’s",
                     "imgs": [
-                        "/data/persons/dariataranova1.jpg",
-                        "/data/persons/dariataranova2.jpg"
+                        "/data/persons/dariataranova1.webp",
+                        "/data/persons/dariataranova2.webp"
                     ]
                 }
             ]
@@ -322,8 +322,8 @@
                 "h6top": "British",
                 "h6bot": "British film Director, film critic",
                 "imgs": [
-                    "/data/persons/woody1.jpg",
-                    "/data/persons/woody2.jpg"
+                    "/data/persons/woody1.webp",
+                    "/data/persons/woody2.webp"
                 ]
             },
             "countries": [
@@ -335,11 +335,11 @@
                 "Romance"
             ],
             "year": "1987",
-            "coverIMG": "/data/films/tiff.jpg",
-            "collage": "/data/films/tiffcollage.png",
+            "coverIMG": "/data/films/tiff.webp",
+            "collage": "/data/films/tiffcollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/tiff.jpg",
+                "img": "/data/films/tiff.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -354,8 +354,8 @@
                     "h6top": "USA",
                     "h6bot": "USA Drama acter",
                     "imgs": [
-                        "/data/persons/hepburnaundrey1.jpg",
-                        "/data/persons/hepburnaundrey2.jpg"
+                        "/data/persons/hepburnaundrey1.webp",
+                        "/data/persons/hepburnaundrey2.webp"
                     ]
                 }
             ]
@@ -370,8 +370,8 @@
                 "h6top": "British",
                 "h6bot": "British film Director, film critic",
                 "imgs": [
-                    "/data/persons/woody1.jpg",
-                    "/data/persons/woody2.jpg"
+                    "/data/persons/woody1.webp",
+                    "/data/persons/woody2.webp"
                 ]
             },
             "countries": [
@@ -383,11 +383,11 @@
                 "History"
             ],
             "year": "1967",
-            "coverIMG": "/data/films/zelig.jpg",
-            "collage": "/data/films/zeligcollage.png",
+            "coverIMG": "/data/films/zelig.webp",
+            "collage": "/data/films/zeligcollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/zelig.jpg",
+                "img": "/data/films/zelig.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -402,8 +402,8 @@
                     "h6top": "British",
                     "h6bot": "British film Director, film critic",
                     "imgs": [
-                        "/data/persons/woody1.jpg",
-                        "/data/persons/woody2.jpg"
+                        "/data/persons/woody1.webp",
+                        "/data/persons/woody2.webp"
                     ]
                 },
                 {
@@ -412,8 +412,8 @@
                     "h6top": "British",
                     "h6bot": "British actress",
                     "imgs": [
-                        "/data/persons/mia1.jpg",
-                        "/data/persons/mia2.jpg"
+                        "/data/persons/mia1.webp",
+                        "/data/persons/mia2.webp"
                     ]
                 }
             ]
@@ -428,8 +428,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/robertbresson1.jpg",
-                    "/data/persons/robertbresson2.jpg"
+                    "/data/persons/robertbresson1.webp",
+                    "/data/persons/robertbresson2.webp"
                 ]
             },
             "countries": [
@@ -440,11 +440,11 @@
                 "Drama"
             ],
             "year": "1982",
-            "coverIMG": "/data/films/needle.jpg",
-            "collage": "/data/films/nedlecollage.png",
+            "coverIMG": "/data/films/needle.webp",
+            "collage": "/data/films/nedlecollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/needle.jpg",
+                "img": "/data/films/needle.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -459,8 +459,8 @@
                     "h6top": "Sweden",
                     "h6bot": "Acter, film critic",
                     "imgs": [
-                        "/data/persons/ewan1.jpg",
-                        "/data/persons/ewan2.jpg"
+                        "/data/persons/ewan1.webp",
+                        "/data/persons/ewan2.webp"
                     ]
                 }
             ]
@@ -475,8 +475,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/orson1.jpg",
-                    "/data/persons/orson2.jpg"
+                    "/data/persons/orson1.webp",
+                    "/data/persons/orson2.webp"
                 ]
             },
             "countries": [
@@ -488,11 +488,11 @@
                 "History"
             ],
             "year": "1952",
-            "coverIMG": "/data/films/citizen.jpg",
-            "collage": "/data/films/citizencollage.png",
+            "coverIMG": "/data/films/citizen.webp",
+            "collage": "/data/films/citizencollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/citizen.jpg",
+                "img": "/data/films/citizen.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -507,8 +507,8 @@
                     "h6top": "USA",
                     "h6bot": "USA film Director, film critic",
                     "imgs": [
-                        "/data/persons/orson1.jpg",
-                        "/data/persons/orson2.jpg"
+                        "/data/persons/orson1.webp",
+                        "/data/persons/orson2.webp"
                     ]
                 },
                 {
@@ -517,8 +517,8 @@
                     "h6top": "British",
                     "h6bot": "British and Sweden Drama acter",
                     "imgs": [
-                        "/data/persons/barbara1.jpg",
-                        "/data/persons/barbara2.jpg"
+                        "/data/persons/barbara1.webp",
+                        "/data/persons/barbara2.webp"
                     ]
                 }
             ]
@@ -533,8 +533,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/orson1.jpg",
-                    "/data/persons/orson2.jpg"
+                    "/data/persons/orson1.webp",
+                    "/data/persons/orson2.webp"
                 ]
             },
             "countries": [
@@ -545,11 +545,11 @@
                 "History"
             ],
             "year": "1962",
-            "coverIMG": "/data/films/thirdman.jpg",
-            "collage": "/data/films/thirdcollage.png",
+            "coverIMG": "/data/films/thirdman.webp",
+            "collage": "/data/films/thirdcollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/thirdman.jpg",
+                "img": "/data/films/thirdman.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -564,8 +564,8 @@
                     "h6top": "USA",
                     "h6bot": "USA film Director, film critic",
                     "imgs": [
-                        "/data/persons/orson1.jpg",
-                        "/data/persons/orson2.jpg"
+                        "/data/persons/orson1.webp",
+                        "/data/persons/orson2.webp"
                     ]
                 },
                 {
@@ -574,8 +574,8 @@
                     "h6top": "British",
                     "h6bot": "British and Sweden Drama acter",
                     "imgs": [
-                        "/data/persons/barbara1.jpg",
-                        "/data/persons/barbara2.jpg"
+                        "/data/persons/barbara1.webp",
+                        "/data/persons/barbara2.webp"
                     ]
                 }
             ]
@@ -590,8 +590,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/orson1.jpg",
-                    "/data/persons/orson2.jpg"
+                    "/data/persons/orson1.webp",
+                    "/data/persons/orson2.webp"
                 ]
             },
             "countries": [
@@ -602,11 +602,11 @@
                 "History"
             ],
             "year": "1962",
-            "coverIMG": "/data/films/la.jpg",
-            "collage": "/data/films/lacollage.png",
+            "coverIMG": "/data/films/la.webp",
+            "collage": "/data/films/lacollage.webp",
             "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
             "about": {
-                "img": "/data/films/thirdman.jpg",
+                "img": "/data/films/thirdman.webp",
                 "paragraphs": [
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -621,8 +621,8 @@
                     "h6top": "Italian",
                     "h6bot": "Italian acter",
                     "imgs": [
-                        "/data/persons/lamberto1.jpg",
-                        "/data/persons/lamberto2.jpg"
+                        "/data/persons/lamberto1.webp",
+                        "/data/persons/lamberto2.webp"
                     ]
                 }
             ]
@@ -642,7 +642,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -655,9 +655,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/jeanluc1.jpg",
-                "/data/persons/jeanluc2.jpg",
-                "/data/persons/jeanluc3.jpg"
+                "/data/persons/jeanluc1.webp",
+                "/data/persons/jeanluc2.webp",
+                "/data/persons/jeanluc3.webp"
             ],
             "countries": [
                 "France",
@@ -671,14 +671,14 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -695,7 +695,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -708,9 +708,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/jeanpierreleo1.jpg",
-                "/data/persons/jeanpierreleo2.jpg",
-                "/data/persons/jeanpierreleo3.jpg"
+                "/data/persons/jeanpierreleo1.webp",
+                "/data/persons/jeanpierreleo2.webp",
+                "/data/persons/jeanpierreleo3.webp"
             ],
             "countries": [
                 "France"
@@ -722,7 +722,7 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -739,7 +739,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "5",
-                    "img": "/data/films/tiff.jpg",
+                    "img": "/data/films/tiff.webp",
                     "h3": "Breakfast at Tiffany's",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -752,9 +752,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/hepburnaundrey1.jpg",
-                "/data/persons/hepburnaundrey2.jpg",
-                "/data/persons/hepburnaundrey3.jpg"
+                "/data/persons/hepburnaundrey1.webp",
+                "/data/persons/hepburnaundrey2.webp",
+                "/data/persons/hepburnaundrey3.webp"
             ],
             "countries": [
                 "USA"
@@ -767,21 +767,21 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "5",
-                    "img": "/data/films/tiff.jpg",
+                    "img": "/data/films/tiff.webp",
                     "h3": "Breakfast at Tiffany's",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -798,7 +798,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -811,9 +811,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/dariataranova1.jpg",
-                "/data/persons/dariataranova2.jpg",
-                "/data/persons/dariataranova3.jpg"
+                "/data/persons/dariataranova1.webp",
+                "/data/persons/dariataranova2.webp",
+                "/data/persons/dariataranova3.webp"
             ],
             "countries": [
                 "Russia",
@@ -826,21 +826,21 @@
             "filmography": [
                 {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
                 },
                 {
                     "id": "4",
-                    "img": "/data/films/sisters.jpg",
+                    "img": "/data/films/sisters.webp",
                     "h3": "Hannah and her sisters",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -857,7 +857,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -870,9 +870,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/alexeybatalov1.jpg",
-                "/data/persons/alexeybatalov2.jpg",
-                "/data/persons/alexeybatalov3.jpg"
+                "/data/persons/alexeybatalov1.webp",
+                "/data/persons/alexeybatalov2.webp",
+                "/data/persons/alexeybatalov3.webp"
             ],
             "countries": [
                 "Russia"
@@ -885,7 +885,7 @@
             "filmography": [
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -902,7 +902,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -915,9 +915,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/chantalgoya1.jpg",
-                "/data/persons/chantalgoya2.jpg",
-                "/data/persons/chantalgoya3.jpg"
+                "/data/persons/chantalgoya1.webp",
+                "/data/persons/chantalgoya2.webp",
+                "/data/persons/chantalgoya3.webp"
             ],
             "countries": [
                 "France"
@@ -928,14 +928,14 @@
             "filmography": [
                 {
                     "id": "0",
-                    "img": "/data/films/malefemale.png",
+                    "img": "/data/films/malefemale.webp",
                     "h3": "Male-female",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
                 },
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -952,7 +952,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -965,9 +965,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/peggyann1.jpg",
-                "/data/persons/peggyann2.jpg",
-                "/data/persons/peggyann3.jpg"
+                "/data/persons/peggyann1.webp",
+                "/data/persons/peggyann2.webp",
+                "/data/persons/peggyann3.webp"
             ],
             "countries": [
                 "USA"
@@ -978,7 +978,7 @@
             "filmography": [
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -995,7 +995,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
@@ -1008,9 +1008,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/robertbresson1.jpg",
-                "/data/persons/robertbresson2.jpg",
-                "/data/persons/robertbresson3.jpg"
+                "/data/persons/robertbresson1.webp",
+                "/data/persons/robertbresson2.webp",
+                "/data/persons/robertbresson3.webp"
             ],
             "countries": [
                 "USA"
@@ -1023,14 +1023,14 @@
             "filmography": [
                 {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
                 },
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -1047,7 +1047,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -1060,9 +1060,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/nrybnikov1.jpg",
-                "/data/persons/nrybnikov2.jpg",
-                "/data/persons/nrybnikov3.jpg"
+                "/data/persons/nrybnikov1.webp",
+                "/data/persons/nrybnikov2.webp",
+                "/data/persons/nrybnikov3.webp"
             ],
             "countries": [
                 "Russia"
@@ -1074,7 +1074,7 @@
             "filmography": [
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -1090,7 +1090,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "5",
-                    "img": "/data/films/tiff.jpg",
+                    "img": "/data/films/tiff.webp",
                     "h3": "Breakfast at Tiffany's",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -1103,9 +1103,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/woody1.jpg",
-                "/data/persons/woody2.jpg",
-                "/data/persons/woody3.jpg"
+                "/data/persons/woody1.webp",
+                "/data/persons/woody2.webp",
+                "/data/persons/woody3.webp"
             ],
             "countries": [
                 "British",
@@ -1118,14 +1118,14 @@
             "filmography": [
                 {
                     "id": "4",
-                    "img": "/data/films/sisters.jpg",
+                    "img": "/data/films/sisters.webp",
                     "h3": "Hannah and her sisters",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
                 },
                 {
                     "id": "5",
-                    "img": "/data/films/tiff.jpg",
+                    "img": "/data/films/tiff.webp",
                     "h3": "Breakfast at Tiffany's",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -1141,7 +1141,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "4",
-                    "img": "/data/films/sisters.jpg",
+                    "img": "/data/films/sisters.webp",
                     "h3": "Hannah and her sisters",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -1154,9 +1154,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/barbara1.jpg",
-                "/data/persons/barbara2.jpg",
-                "/data/persons/barbara3.jpg"
+                "/data/persons/barbara1.webp",
+                "/data/persons/barbara2.webp",
+                "/data/persons/barbara3.webp"
             ],
             "countries": [
                 "British",
@@ -1169,21 +1169,21 @@
             "filmography": [
                 {
                     "id": "4",
-                    "img": "/data/films/sisters.jpg",
+                    "img": "/data/films/sisters.webp",
                     "h3": "Hannah and her sisters",
                     "h6top": "Woody Allenn",
                     "h6bot": "Comedy | Romance | 70’s | British, Sweden"
                 },
                 {
                     "id": "9",
-                    "img": "/data/films/thirdman.jpg",
+                    "img": "/data/films/thirdman.webp",
                     "h3": "Third Man",
                     "h6top": "Orson Welles",
                     "h6bot": "History | British, USA"
                 },
                 {
                     "id": "8",
-                    "img": "/data/films/citizen.jpg",
+                    "img": "/data/films/citizen.webp",
                     "h3": "Citizen Kein",
                     "h6top": "Orson Welles",
                     "h6bot": "History | British, USA"
@@ -1199,7 +1199,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "6",
-                    "img": "/data/films/zelig.jpg",
+                    "img": "/data/films/zelig.webp",
                     "h3": "Zelig",
                     "h6top": "Woody Allenn",
                     "h6bot": "Drama | History | 70’s | British, Sweden"
@@ -1212,9 +1212,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/mia1.jpg",
-                "/data/persons/mia2.jpg",
-                "/data/persons/mia3.jpg"
+                "/data/persons/mia1.webp",
+                "/data/persons/mia2.webp",
+                "/data/persons/mia3.webp"
             ],
             "countries": [
                 "British"
@@ -1226,7 +1226,7 @@
             "filmography": [
                 {
                     "id": "6",
-                    "img": "/data/films/zelig.jpg",
+                    "img": "/data/films/zelig.webp",
                     "h3": "Zelig",
                     "h6top": "Woody Allenn",
                     "h6bot": "Drama | History | 70’s | British, Sweden"
@@ -1242,7 +1242,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "7",
-                    "img": "/data/films/zelig.jpg",
+                    "img": "/data/films/zelig.webp",
                     "h3": "On the needle",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | 70’s | British, Sweden"
@@ -1255,9 +1255,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/ewan1.jpg",
-                "/data/persons/ewan2.jpg",
-                "/data/persons/ewan3.jpg"
+                "/data/persons/ewan1.webp",
+                "/data/persons/ewan2.webp",
+                "/data/persons/ewan3.webp"
             ],
             "countries": [
                 "British",
@@ -1270,7 +1270,7 @@
             "filmography": [
                 {
                     "id": "7",
-                    "img": "/data/films/needle.jpg",
+                    "img": "/data/films/needle.webp",
                     "h3": "On the needle",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | 70’s | British, Sweden"
@@ -1286,7 +1286,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "8",
-                    "img": "/data/films/citizen.jpg",
+                    "img": "/data/films/citizen.webp",
                     "h3": "Citizen Kane",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, British"
@@ -1299,9 +1299,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/orson1.jpg",
-                "/data/persons/orson2.jpg",
-                "/data/persons/orson3.jpg"
+                "/data/persons/orson1.webp",
+                "/data/persons/orson2.webp",
+                "/data/persons/orson3.webp"
             ],
             "countries": [
                 "British",
@@ -1315,14 +1315,14 @@
             "filmography": [
                 {
                     "id": "8",
-                    "img": "/data/films/citizen.jpg",
+                    "img": "/data/films/citizen.webp",
                     "h3": "Citizen Kane",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, British"
                 },
                 {
                     "id": "9",
-                    "img": "/data/films/thirdman.jpg",
+                    "img": "/data/films/thirdman.webp",
                     "h3": "Third Man",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, British"
@@ -1338,7 +1338,7 @@
             "about": {
                 "mostPopularFilm": {
                     "id": "10",
-                    "img": "/data/films/la.jpg",
+                    "img": "/data/films/la.webp",
                     "h3": "Ladri di biciclette",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, Italian"
@@ -1351,9 +1351,9 @@
                 ]
             },
             "imgs": [
-                "/data/persons/lamberto1.jpg",
-                "/data/persons/lamberto2.jpg",
-                "/data/persons/lamberto3.jpg"
+                "/data/persons/lamberto1.webp",
+                "/data/persons/lamberto2.webp",
+                "/data/persons/lamberto3.webp"
             ],
             "countries": [
                 "Italian"
@@ -1364,7 +1364,7 @@
             "filmography": [
                 {
                     "id": "10",
-                    "img": "/data/films/la.jpg",
+                    "img": "/data/films/la.webp",
                     "h3": "Ladri di biciclette",
                     "h6top": "Orson Welles",
                     "h6bot": "Drama | 70’s | USA, Italian"
@@ -1395,7 +1395,7 @@
             "bestMovies": [
                 {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
@@ -1424,14 +1424,14 @@
             "bestMovies": [
                 {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
                 },
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -1460,14 +1460,14 @@
             "bestMovies": [
                 {
                     "id": "2",
-                    "img": "/data/films/hirosimamonamor.jpg",
+                    "img": "/data/films/hirosimamonamor.webp",
                     "h3": "Hiroshima mon amour",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | USA, Japan"
                 },
                 {
                     "id": "1",
-                    "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                    "img": "/data/films/atreegrowsinbrooklyn.webp",
                     "h3": "A Tree Grows In Brooklyn",
                     "h6top": "Jean-Luc Godard",
                     "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -1496,7 +1496,7 @@
             "bestMovies": [
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -1525,7 +1525,7 @@
             "bestMovies": [
                 {
                     "id": "3",
-                    "img": "/data/films/9days.jpg",
+                    "img": "/data/films/9days.webp",
                     "h3": "Nine days of one year",
                     "h6top": "Robert Bresson",
                     "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
