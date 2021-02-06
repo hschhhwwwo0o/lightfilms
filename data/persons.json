@@ -21,9 +21,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/jeanluc1.jpg",
-            "/data/persons/jeanluc2.jpg",
-            "/data/persons/jeanluc3.jpg"
+            "/data/persons/jeanluc1.webp",
+            "/data/persons/jeanluc2.webp",
+            "/data/persons/jeanluc3.webp"
         ],
         "countries": [
             "France",
@@ -44,7 +44,7 @@
             },
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -74,9 +74,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/jeanpierreleo1.jpg",
-            "/data/persons/jeanpierreleo2.jpg",
-            "/data/persons/jeanpierreleo3.jpg"
+            "/data/persons/jeanpierreleo1.webp",
+            "/data/persons/jeanpierreleo2.webp",
+            "/data/persons/jeanpierreleo3.webp"
         ],
         "countries": [
             "France"
@@ -105,7 +105,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "5",
-                "img": "/data/films/tiff.jpg",
+                "img": "/data/films/tiff.webp",
                 "h3": "Breakfast at Tiffany's",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -118,9 +118,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/hepburnaundrey1.jpg",
-            "/data/persons/hepburnaundrey2.jpg",
-            "/data/persons/hepburnaundrey3.jpg"
+            "/data/persons/hepburnaundrey1.webp",
+            "/data/persons/hepburnaundrey2.webp",
+            "/data/persons/hepburnaundrey3.webp"
         ],
         "countries": [
             "USA"
@@ -140,14 +140,14 @@
             },
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
             },
             {
                 "id": "5",
-                "img": "/data/films/tiff.jpg",
+                "img": "/data/films/tiff.webp",
                 "h3": "Breakfast at Tiffany's",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -164,7 +164,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -177,9 +177,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/dariataranova1.jpg",
-            "/data/persons/dariataranova2.jpg",
-            "/data/persons/dariataranova3.jpg"
+            "/data/persons/dariataranova1.webp",
+            "/data/persons/dariataranova2.webp",
+            "/data/persons/dariataranova3.webp"
         ],
         "countries": [
             "Russia",
@@ -192,21 +192,21 @@
         "filmography": [
             {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
             },
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
             },
             {
                 "id": "4",
-                "img": "/data/films/sisters.jpg",
+                "img": "/data/films/sisters.webp",
                 "h3": "Hannah and her sisters",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -223,7 +223,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -236,9 +236,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/alexeybatalov1.jpg",
-            "/data/persons/alexeybatalov2.jpg",
-            "/data/persons/alexeybatalov3.jpg"
+            "/data/persons/alexeybatalov1.webp",
+            "/data/persons/alexeybatalov2.webp",
+            "/data/persons/alexeybatalov3.webp"
         ],
         "countries": [
             "Russia"
@@ -251,7 +251,7 @@
         "filmography": [
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -281,9 +281,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/chantalgoya1.jpg",
-            "/data/persons/chantalgoya2.jpg",
-            "/data/persons/chantalgoya3.jpg"
+            "/data/persons/chantalgoya1.webp",
+            "/data/persons/chantalgoya2.webp",
+            "/data/persons/chantalgoya3.webp"
         ],
         "countries": [
             "France"
@@ -301,7 +301,7 @@
             },
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -318,7 +318,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -331,9 +331,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/peggyann1.jpg",
-            "/data/persons/peggyann2.jpg",
-            "/data/persons/peggyann3.jpg"
+            "/data/persons/peggyann1.webp",
+            "/data/persons/peggyann2.webp",
+            "/data/persons/peggyann3.webp"
         ],
         "countries": [
             "USA"
@@ -344,7 +344,7 @@
         "filmography": [
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -361,7 +361,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | USA, Japan"
@@ -374,9 +374,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/robertbresson1.jpg",
-            "/data/persons/robertbresson2.jpg",
-            "/data/persons/robertbresson3.jpg"
+            "/data/persons/robertbresson1.webp",
+            "/data/persons/robertbresson2.webp",
+            "/data/persons/robertbresson3.webp"
         ],
         "countries": [
             "USA"
@@ -389,14 +389,14 @@
         "filmography": [
             {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | USA, Japan"
             },
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -413,7 +413,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -426,9 +426,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/nrybnikov1.jpg",
-            "/data/persons/nrybnikov2.jpg",
-            "/data/persons/nrybnikov3.jpg"
+            "/data/persons/nrybnikov1.webp",
+            "/data/persons/nrybnikov2.webp",
+            "/data/persons/nrybnikov3.webp"
         ],
         "countries": [
             "Russia"
@@ -440,7 +440,7 @@
         "filmography": [
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -456,7 +456,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "5",
-                "img": "/data/films/tiff.jpg",
+                "img": "/data/films/tiff.webp",
                 "h3": "Breakfast at Tiffany's",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -469,9 +469,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/woody1.jpg",
-            "/data/persons/woody2.jpg",
-            "/data/persons/woody3.jpg"
+            "/data/persons/woody1.webp",
+            "/data/persons/woody2.webp",
+            "/data/persons/woody3.webp"
         ],
         "countries": [
             "British",
@@ -484,14 +484,14 @@
         "filmography": [
             {
                 "id": "4",
-                "img": "/data/films/sisters.jpg",
+                "img": "/data/films/sisters.webp",
                 "h3": "Hannah and her sisters",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
             },
             {
                 "id": "5",
-                "img": "/data/films/tiff.jpg",
+                "img": "/data/films/tiff.webp",
                 "h3": "Breakfast at Tiffany's",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -507,7 +507,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "4",
-                "img": "/data/films/sisters.jpg",
+                "img": "/data/films/sisters.webp",
                 "h3": "Hannah and her sisters",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
@@ -520,9 +520,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/barbara1.jpg",
-            "/data/persons/barbara2.jpg",
-            "/data/persons/barbara3.jpg"
+            "/data/persons/barbara1.webp",
+            "/data/persons/barbara2.webp",
+            "/data/persons/barbara3.webp"
         ],
         "countries": [
             "British",
@@ -535,21 +535,21 @@
         "filmography": [
             {
                 "id": "4",
-                "img": "/data/films/sisters.jpg",
+                "img": "/data/films/sisters.webp",
                 "h3": "Hannah and her sisters",
                 "h6top": "Woody Allenn",
                 "h6bot": "Comedy | Romance | 70’s | British, Sweden"
             },
             {
                 "id": "9",
-                "img": "/data/films/thirdman.jpg",
+                "img": "/data/films/thirdman.webp",
                 "h3": "Third Man",
                 "h6top": "Orson Welles",
                 "h6bot": "History | British, USA"
             },
             {
                 "id": "8",
-                "img": "/data/films/citizen.jpg",
+                "img": "/data/films/citizen.webp",
                 "h3": "Citizen Kein",
                 "h6top": "Orson Welles",
                 "h6bot": "History | British, USA"
@@ -565,7 +565,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "6",
-                "img": "/data/films/zelig.jpg",
+                "img": "/data/films/zelig.webp",
                 "h3": "Zelig",
                 "h6top": "Woody Allenn",
                 "h6bot": "Drama | History | 70’s | British, Sweden"
@@ -578,9 +578,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/mia1.jpg",
-            "/data/persons/mia2.jpg",
-            "/data/persons/mia3.jpg"
+            "/data/persons/mia1.webp",
+            "/data/persons/mia2.webp",
+            "/data/persons/mia3.webp"
         ],
         "countries": [
             "British"
@@ -592,7 +592,7 @@
         "filmography": [
             {
                 "id": "6",
-                "img": "/data/films/zelig.jpg",
+                "img": "/data/films/zelig.webp",
                 "h3": "Zelig",
                 "h6top": "Woody Allenn",
                 "h6bot": "Drama | History | 70’s | British, Sweden"
@@ -608,7 +608,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "7",
-                "img": "/data/films/zelig.jpg",
+                "img": "/data/films/zelig.webp",
                 "h3": "On the needle",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | 70’s | British, Sweden"
@@ -621,9 +621,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/ewan1.jpg",
-            "/data/persons/ewan2.jpg",
-            "/data/persons/ewan3.jpg"
+            "/data/persons/ewan1.webp",
+            "/data/persons/ewan2.webp",
+            "/data/persons/ewan3.webp"
         ],
         "countries": [
             "British",
@@ -636,7 +636,7 @@
         "filmography": [
             {
                 "id": "7",
-                "img": "/data/films/needle.jpg",
+                "img": "/data/films/needle.webp",
                 "h3": "On the needle",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | 70’s | British, Sweden"
@@ -652,7 +652,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "8",
-                "img": "/data/films/citizen.jpg",
+                "img": "/data/films/citizen.webp",
                 "h3": "Citizen Kane",
                 "h6top": "Orson Welles",
                 "h6bot": "Drama | 70’s | USA, British"
@@ -665,9 +665,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/orson1.jpg",
-            "/data/persons/orson2.jpg",
-            "/data/persons/orson3.jpg"
+            "/data/persons/orson1.webp",
+            "/data/persons/orson2.webp",
+            "/data/persons/orson3.webp"
         ],
         "countries": [
             "British",
@@ -681,14 +681,14 @@
         "filmography": [
             {
                 "id": "8",
-                "img": "/data/films/citizen.jpg",
+                "img": "/data/films/citizen.webp",
                 "h3": "Citizen Kane",
                 "h6top": "Orson Welles",
                 "h6bot": "Drama | 70’s | USA, British"
             },
             {
                 "id": "9",
-                "img": "/data/films/thirdman.jpg",
+                "img": "/data/films/thirdman.webp",
                 "h3": "Third Man",
                 "h6top": "Orson Welles",
                 "h6bot": "Drama | 70’s | USA, British"
@@ -704,7 +704,7 @@
         "about": {
             "mostPopularFilm": {
                 "id": "10",
-                "img": "/data/films/la.jpg",
+                "img": "/data/films/la.webp",
                 "h3": "Ladri di biciclette",
                 "h6top": "Orson Welles",
                 "h6bot": "Drama | 70’s | USA, Italian"
@@ -717,9 +717,9 @@
             ]
         },
         "imgs": [
-            "/data/persons/lamberto1.jpg",
-            "/data/persons/lamberto2.jpg",
-            "/data/persons/lamberto3.jpg"
+            "/data/persons/lamberto1.webp",
+            "/data/persons/lamberto2.webp",
+            "/data/persons/lamberto3.webp"
         ],
         "countries": [
             "Italian"
@@ -730,7 +730,7 @@
         "filmography": [
             {
                 "id": "10",
-                "img": "/data/films/la.jpg",
+                "img": "/data/films/la.webp",
                 "h3": "Ladri di biciclette",
                 "h6top": "Orson Welles",
                 "h6bot": "Drama | 70’s | USA, Italian"

@@ -20,7 +20,7 @@
         "bestMovies": [
             {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | USA, Japan"
@@ -49,14 +49,14 @@
         "bestMovies": [
             {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | USA, Japan"
             },
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -85,14 +85,14 @@
         "bestMovies": [
             {
                 "id": "2",
-                "img": "/data/films/hirosimamonamor.jpg",
+                "img": "/data/films/hirosimamonamor.webp",
                 "h3": "Hiroshima mon amour",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | USA, Japan"
             },
             {
                 "id": "1",
-                "img": "/data/films/atreegrowsinbrooklyn.jpg",
+                "img": "/data/films/atreegrowsinbrooklyn.webp",
                 "h3": "A Tree Grows In Brooklyn",
                 "h6top": "Jean-Luc Godard",
                 "h6bot": "Drama | Romance | 70’s | France, Sweden"
@@ -121,7 +121,7 @@
         "bestMovies": [
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"
@@ -150,7 +150,7 @@
         "bestMovies": [
             {
                 "id": "3",
-                "img": "/data/films/9days.jpg",
+                "img": "/data/films/9days.webp",
                 "h3": "Nine days of one year",
                 "h6top": "Robert Bresson",
                 "h6bot": "Drama | Romance | 70’s | Russia, Sweden"

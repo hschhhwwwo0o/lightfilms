@@ -9,8 +9,8 @@
             "h6top": "France",
             "h6bot": "Franco-Swiss film Director, film critic",
             "imgs": [
-                "/data/persons/jeanluc1.jpg",
-                "/data/persons/jeanluc2.jpg"
+                "/data/persons/jeanluc1.webp",
+                "/data/persons/jeanluc2.webp"
             ]
         },
         "countries": [
@@ -22,8 +22,8 @@
             "Romance"
         ],
         "year": "1967",
-        "coverIMG": "/data/films/malefemale.png",
-        "collage": "/data/films/male-femalecollage.png",
+        "coverIMG": "/data/films/malefemale.webp",
+        "collage": "/data/films/male-femalecollage.webp",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
             "img": "./path",
@@ -41,8 +41,8 @@
                 "h6top": "France",
                 "h6bot": "Drama | Romance | 70’s | United States of America",
                 "imgs": [
-                    "/data/persons/jeanpierreleo1.jpg",
-                    "/data/persons/jeanpierreleo2.jpg"
+                    "/data/persons/jeanpierreleo1.webp",
+                    "/data/persons/jeanpierreleo2.webp"
                 ]
             },
             {
@@ -51,8 +51,8 @@
                 "h6top": "French Indochină",
                 "h6bot": "Drama | Romance | 70’s | United States of America",
                 "imgs": [
-                    "/data/persons/chantalgoya1.jpg",
-                    "/data/persons/chantalgoya2.jpg"
+                    "/data/persons/chantalgoya1.webp",
+                    "/data/persons/chantalgoya2.webp"
                 ]
             },
             {
@@ -61,8 +61,8 @@
                 "h6top": "USA",
                 "h6bot": "USA Drama acter",
                 "imgs": [
-                    "/data/persons/hepburnaundrey1.jpg",
-                    "/data/persons/hepburnaundrey2.jpg"
+                    "/data/persons/hepburnaundrey1.webp",
+                    "/data/persons/hepburnaundrey2.webp"
                 ]
             }
         ]
@@ -77,8 +77,8 @@
             "h6top": "France",
             "h6bot": "Franco-Swiss film Director, film critic",
             "imgs": [
-                "/data/persons/jeanluc1.jpg",
-                "/data/persons/jeanluc2.jpg"
+                "/data/persons/jeanluc1.webp",
+                "/data/persons/jeanluc2.webp"
             ]
         },
         "countries": [
@@ -90,7 +90,7 @@
             "Romance"
         ],
         "year": "1957",
-        "coverIMG": "/data/films/atreegrowsinbrooklyn.jpg",
+        "coverIMG": "/data/films/atreegrowsinbrooklyn.webp",
         "collage": "/data/films/treecollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
@@ -109,8 +109,8 @@
                 "h6top": "USA",
                 "h6bot": "USA Drama acter",
                 "imgs": [
-                    "/data/persons/hepburnaundrey1.jpg",
-                    "/data/persons/hepburnaundrey2.jpg"
+                    "/data/persons/hepburnaundrey1.webp",
+                    "/data/persons/hepburnaundrey2.webp"
                 ]
             },
             {
@@ -119,8 +119,8 @@
                 "h6top": "American actress",
                 "h6bot": "Drama | Romance | 70’s | United States of America",
                 "imgs": [
-                    "/data/persons/peggyann1.jpg",
-                    "/data/persons/peggyann2.jpg"
+                    "/data/persons/peggyann1.webp",
+                    "/data/persons/peggyann2.webp"
                 ]
             },
             {
@@ -129,8 +129,8 @@
                 "h6top": "French Indochină",
                 "h6bot": "Drama | Romance | 70’s | United States of America",
                 "imgs": [
-                    "/data/persons/chantalgoya1.jpg",
-                    "/data/persons/chantalgoya2.jpg"
+                    "/data/persons/chantalgoya1.webp",
+                    "/data/persons/chantalgoya2.webp"
                 ]
             }
         ]
@@ -145,8 +145,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/robertbresson1.jpg",
-                "/data/persons/robertbresson2.jpg"
+                "/data/persons/robertbresson1.webp",
+                "/data/persons/robertbresson2.webp"
             ]
         },
         "countries": [
@@ -159,7 +159,7 @@
             "Romance"
         ],
         "year": "1957",
-        "coverIMG": "/data/films/hirosimamonamor.jpg",
+        "coverIMG": "/data/films/hirosimamonamor.webp",
         "collage": "/data/films/hirocollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
@@ -178,8 +178,8 @@
                 "h6top": "Russia & Japan actress",
                 "h6bot": "Drama | Romance | 50’s",
                 "imgs": [
-                    "/data/persons/dariataranova1.jpg",
-                    "/data/persons/dariataranova2.jpg"
+                    "/data/persons/dariataranova1.webp",
+                    "/data/persons/dariataranova2.webp"
                 ]
             }
         ]
@@ -194,8 +194,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/robertbresson1.jpg",
-                "/data/persons/robertbresson2.jpg"
+                "/data/persons/robertbresson1.webp",
+                "/data/persons/robertbresson2.webp"
             ]
         },
         "countries": [
@@ -208,7 +208,7 @@
             "Comedy"
         ],
         "year": "1977",
-        "coverIMG": "/data/films/9days.jpg",
+        "coverIMG": "/data/films/9days.webp",
         "collage": "/data/films/ninecollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
@@ -227,8 +227,8 @@
                 "h6top": "Russia actress",
                 "h6bot": "Drama | Romance | 50’s",
                 "imgs": [
-                    "/data/persons/dariataranova1.jpg",
-                    "/data/persons/dariataranova2.jpg"
+                    "/data/persons/dariataranova1.webp",
+                    "/data/persons/dariataranova2.webp"
                 ]
             },
             {
@@ -237,8 +237,8 @@
                 "h6top": "Soviet and Russia acter",
                 "h6bot": "Drama | Romance | 70’s |",
                 "imgs": [
-                    "/data/persons/nrybnikov1.jpg",
-                    "/data/persons/nrybnikov2.jpg"
+                    "/data/persons/nrybnikov1.webp",
+                    "/data/persons/nrybnikov2.webp"
                 ]
             },
             {
@@ -247,8 +247,8 @@
                 "h6top": "Soviet and Russia acter",
                 "h6bot": "Russia Drama acter",
                 "imgs": [
-                    "/data/persons/alexeybatalov1.jpg",
-                    "/data/persons/alexeybatalov2.jpg"
+                    "/data/persons/alexeybatalov1.webp",
+                    "/data/persons/alexeybatalov2.webp"
                 ]
             }
         ]
@@ -263,8 +263,8 @@
             "h6top": "British",
             "h6bot": "British film Director, film critic",
             "imgs": [
-                "/data/persons/woody1.jpg",
-                "/data/persons/woody2.jpg"
+                "/data/persons/woody1.webp",
+                "/data/persons/woody2.webp"
             ]
         },
         "countries": [
@@ -276,11 +276,11 @@
             "Romance"
         ],
         "year": "1977",
-        "coverIMG": "/data/films/sisters.jpg",
+        "coverIMG": "/data/films/sisters.webp",
         "collage": "/data/films/sisterscollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/sisters.jpg",
+            "img": "/data/films/sisters.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -295,8 +295,8 @@
                 "h6top": "British",
                 "h6bot": "British and Sweden Drama acter",
                 "imgs": [
-                    "/data/persons/barbara1.jpg",
-                    "/data/persons/barbara2.jpg"
+                    "/data/persons/barbara1.webp",
+                    "/data/persons/barbara2.webp"
                 ]
             },
             {
@@ -305,8 +305,8 @@
                 "h6top": "Russia actress",
                 "h6bot": "Drama | Romance | 50’s",
                 "imgs": [
-                    "/data/persons/dariataranova1.jpg",
-                    "/data/persons/dariataranova2.jpg"
+                    "/data/persons/dariataranova1.webp",
+                    "/data/persons/dariataranova2.webp"
                 ]
             }
         ]
@@ -321,8 +321,8 @@
             "h6top": "British",
             "h6bot": "British film Director, film critic",
             "imgs": [
-                "/data/persons/woody1.jpg",
-                "/data/persons/woody2.jpg"
+                "/data/persons/woody1.webp",
+                "/data/persons/woody2.webp"
             ]
         },
         "countries": [
@@ -334,11 +334,11 @@
             "Romance"
         ],
         "year": "1987",
-        "coverIMG": "/data/films/tiff.jpg",
+        "coverIMG": "/data/films/tiff.webp",
         "collage": "/data/films/tiffcollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/tiff.jpg",
+            "img": "/data/films/tiff.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -353,8 +353,8 @@
                 "h6top": "USA",
                 "h6bot": "USA Drama acter",
                 "imgs": [
-                    "/data/persons/hepburnaundrey1.jpg",
-                    "/data/persons/hepburnaundrey2.jpg"
+                    "/data/persons/hepburnaundrey1.webp",
+                    "/data/persons/hepburnaundrey2.webp"
                 ]
             }
         ]
@@ -369,8 +369,8 @@
             "h6top": "British",
             "h6bot": "British film Director, film critic",
             "imgs": [
-                "/data/persons/woody1.jpg",
-                "/data/persons/woody2.jpg"
+                "/data/persons/woody1.webp",
+                "/data/persons/woody2.webp"
             ]
         },
         "countries": [
@@ -382,11 +382,11 @@
             "History"
         ],
         "year": "1967",
-        "coverIMG": "/data/films/zelig.jpg",
+        "coverIMG": "/data/films/zelig.webp",
         "collage": "/data/films/zeligcollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/zelig.jpg",
+            "img": "/data/films/zelig.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -401,8 +401,8 @@
                 "h6top": "British",
                 "h6bot": "British film Director, film critic",
                 "imgs": [
-                    "/data/persons/woody1.jpg",
-                    "/data/persons/woody2.jpg"
+                    "/data/persons/woody1.webp",
+                    "/data/persons/woody2.webp"
                 ]
             },
             {
@@ -411,8 +411,8 @@
                 "h6top": "British",
                 "h6bot": "British actress",
                 "imgs": [
-                    "/data/persons/mia1.jpg",
-                    "/data/persons/mia2.jpg"
+                    "/data/persons/mia1.webp",
+                    "/data/persons/mia2.webp"
                 ]
             }
         ]
@@ -427,8 +427,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/robertbresson1.jpg",
-                "/data/persons/robertbresson2.jpg"
+                "/data/persons/robertbresson1.webp",
+                "/data/persons/robertbresson2.webp"
             ]
         },
         "countries": [
@@ -439,11 +439,11 @@
             "Drama"
         ],
         "year": "1982",
-        "coverIMG": "/data/films/needle.jpg",
+        "coverIMG": "/data/films/needle.webp",
         "collage": "/data/films/nedlecollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/needle.jpg",
+            "img": "/data/films/needle.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -458,8 +458,8 @@
                 "h6top": "Sweden",
                 "h6bot": "Acter, film critic",
                 "imgs": [
-                    "/data/persons/ewan1.jpg",
-                    "/data/persons/ewan2.jpg"
+                    "/data/persons/ewan1.webp",
+                    "/data/persons/ewan2.webp"
                 ]
             }
         ]
@@ -474,8 +474,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/orson1.jpg",
-                "/data/persons/orson2.jpg"
+                "/data/persons/orson1.webp",
+                "/data/persons/orson2.webp"
             ]
         },
         "countries": [
@@ -487,11 +487,11 @@
             "History"
         ],
         "year": "1952",
-        "coverIMG": "/data/films/citizen.jpg",
+        "coverIMG": "/data/films/citizen.webp",
         "collage": "/data/films/citizencollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/citizen.jpg",
+            "img": "/data/films/citizen.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -506,8 +506,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/orson1.jpg",
-                    "/data/persons/orson2.jpg"
+                    "/data/persons/orson1.webp",
+                    "/data/persons/orson2.webp"
                 ]
             },
             {
@@ -516,8 +516,8 @@
                 "h6top": "British",
                 "h6bot": "British and Sweden Drama acter",
                 "imgs": [
-                    "/data/persons/barbara1.jpg",
-                    "/data/persons/barbara2.jpg"
+                    "/data/persons/barbara1.webp",
+                    "/data/persons/barbara2.webp"
                 ]
             }
         ]
@@ -532,8 +532,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/orson1.jpg",
-                "/data/persons/orson2.jpg"
+                "/data/persons/orson1.webp",
+                "/data/persons/orson2.webp"
             ]
         },
         "countries": [
@@ -544,11 +544,11 @@
             "History"
         ],
         "year": "1962",
-        "coverIMG": "/data/films/thirdman.jpg",
+        "coverIMG": "/data/films/thirdman.webp",
         "collage": "/data/films/thirdcollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/thirdman.jpg",
+            "img": "/data/films/thirdman.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -563,8 +563,8 @@
                 "h6top": "USA",
                 "h6bot": "USA film Director, film critic",
                 "imgs": [
-                    "/data/persons/orson1.jpg",
-                    "/data/persons/orson2.jpg"
+                    "/data/persons/orson1.webp",
+                    "/data/persons/orson2.webp"
                 ]
             },
             {
@@ -573,8 +573,8 @@
                 "h6top": "British",
                 "h6bot": "British and Sweden Drama acter",
                 "imgs": [
-                    "/data/persons/barbara1.jpg",
-                    "/data/persons/barbara2.jpg"
+                    "/data/persons/barbara1.webp",
+                    "/data/persons/barbara2.webp"
                 ]
             }
         ]
@@ -589,8 +589,8 @@
             "h6top": "USA",
             "h6bot": "USA film Director, film critic",
             "imgs": [
-                "/data/persons/orson1.jpg",
-                "/data/persons/orson2.jpg"
+                "/data/persons/orson1.webp",
+                "/data/persons/orson2.webp"
             ]
         },
         "countries": [
@@ -601,11 +601,11 @@
             "History"
         ],
         "year": "1962",
-        "coverIMG": "/data/films/la.jpg",
+        "coverIMG": "/data/films/la.webp",
         "collage": "/data/films/lacollage.png",
         "briefAbout": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.",
         "about": {
-            "img": "/data/films/thirdman.jpg",
+            "img": "/data/films/thirdman.webp",
             "paragraphs": [
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
@@ -620,8 +620,8 @@
                 "h6top": "Italian",
                 "h6bot": "Italian acter",
                 "imgs": [
-                    "/data/persons/lamberto1.jpg",
-                    "/data/persons/lamberto2.jpg"
+                    "/data/persons/lamberto1.webp",
+                    "/data/persons/lamberto2.webp"
                 ]
             }
         ]
