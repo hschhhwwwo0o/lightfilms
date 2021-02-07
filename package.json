@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "gql": "node ./graphql/serverql.js"
+    "gql": "node ./graphql/serverql.js",
+    "convert:imgs": "python3 public/__convert.images.py",
+    "remove:imgs": "python3 public/__remove.images.py"
   },
   "repository": {
     "type": "git",
