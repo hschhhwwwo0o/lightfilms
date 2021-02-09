@@ -11,7 +11,7 @@
     "gql": "node ./graphql/serverql.js",
     "convert:imgs": "python3 public/__convert.images.py",
     "remove:imgs": "python3 public/__remove.images.py",
-    "manage": "python3 public/manager.images.py"
+    "manage:imgs": "python3 public/manager.images.py"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   "keywords": [
     "Node.js",
     "Next.js",
-    "React.Js",
-    "SSR"
+    "React",
+    "SSR",
+    "GraphQL",
+    "TypeScript",
+    "JavaScript"
   ],
   "author": "@ssandry",
   "license": "ISC",

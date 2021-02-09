@@ -1,7 +1,5 @@
 <img src="./md/giphy (3).gif" width="100%" />
 
-<br />
-
 # #Lightfilms 🎥 🎞️ 📼 
 
 # Setup 🔧
