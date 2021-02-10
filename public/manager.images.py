@@ -17,3 +17,8 @@ if MODE == "c":
 
 elif MODE == "r":
     __remove()
+
+else:
+    print("The input is incorrect")
+    print("c - convert images to .webp")
+    print("r - remove .jpg .png")
