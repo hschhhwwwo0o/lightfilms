@@ -4,7 +4,7 @@
   "description": "Lightfilms 🎥 🎞️ 📼. About world cinema 🌎 ",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \" node ./graphql/serverql.js \" \" next dev \"",
+    "dev": "concurrently \" node ./assets/run.js \" \" node ./graphql/serverql.js \" \" next dev \"",
     "build": "next build",
     "start": "next start",
     "export": "next export",
