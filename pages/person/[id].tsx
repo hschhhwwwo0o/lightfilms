@@ -144,16 +144,25 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
     } else if( process.env.MODE === "production" ) {
         try {
 
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json()
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
 
-            const person = await data.persons.filter( (person) => {
-                return person.id === ctx.params.id
-            } )
+            const data = await client.query({
+                query: gql`
+                    query getPerson {
+                        getPerson(id: ${ctx.params.id}) {
+                            ...PersonFragment
+                    }
+                }
+                ${ALL_PERSON_FIELDS.fragment}
+                `
+            })
 
             return {
                 props: {
-                    person: person[0]
+                    person: data.data.getPerson
                 }
             }
 
@@ -202,22 +211,32 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
     } else if( process.env.MODE === "production" ) {
 
         try {
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json()
-            const persons = await data.persons;
-    
-            const paths = persons.map( (person) => {
+
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getAllPersons {
+                        getAllPersons {
+                            id
+                    }
+                }
+                `
+            })
+
+            const paths = await data.data.getAllPersons.map( ( {id} ) => {
                 return (
                     {
-                        params: { id: person.id }
+                        params: { id: id }
                     }
                 )
             } )
-    
-            return {
-                paths,
-                fallback: false
-            }
+
+            return { paths, fallback: false }
+
         } catch(err) {
             console.log( `Err: ${err}` )
         }

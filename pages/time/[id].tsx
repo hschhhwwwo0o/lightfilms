@@ -94,16 +94,25 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
 
         try {
 
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json()
-
-            const time = await data.times.filter( (time) => {
-                return time.id === ctx.params.id
-            } )
-
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+    
+            const data = await client.query({
+                query: gql`
+                    query getTime {
+                        getTime(id: ${ctx.params.id}) {
+                            ...TimeFragment
+                    }
+                }
+                ${ALL_TIME_FIELDS.fragment}
+                `
+            })
+    
             return {
                 props: {
-                    time: time[0]
+                    time: data.data.getTime
                 }
             }
 
@@ -152,22 +161,32 @@ export const getStaticPaths: GetStaticPaths = async () => {
     } else if( process.env.MODE === "production" ) {
 
         try {
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json()
-            const times = await data.times;
-    
-            const paths = times.map( (time) => {
+
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const data = await client.query({
+                query: gql`
+                    query getAllTimes {
+                        getAllTimes {
+                            id
+                    }
+                }
+                `
+            })
+
+            const paths = await data.data.getAllTimes.map( ( {id} ) => {
                 return (
                     {
-                        params: { id: time.id }
+                        params: { id: id }
                     }
                 )
             } )
-    
-            return {
-                paths,
-                fallback: false
-            }
+
+            return { paths, fallback: false }
+
         } catch(err) {
             console.log( `Err: ${err}` )
         }

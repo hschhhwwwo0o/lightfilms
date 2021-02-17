@@ -99,18 +99,20 @@ export const getStaticProps: GetStaticProps = async ctx => {
     } else if ( process.env.MODE === "production" ) {
 
         try {
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`);
-            const data = await res.json()
 
-            const producers = __QLPersons( data.persons.filter( (person) => {
-                return person.type == "producer"
-            } ) )
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const { data } = await client.query({ query: GET_PRODUCERS })
 
             return {
                 props: {
-                    producers
+                    producers: data.getProducers
                 }
             }
+
         } catch(err) {
             console.log( `Err: ${err}` )
         }

@@ -123,18 +123,25 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
     } else if( process.env.MODE === "production" ) {
         try {
 
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json();
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
 
-            const films = await data.films;
-
-            const film = await films.filter( (film) => {
-                return film.id === ctx.params.id
-            } )
+            const data = await client.query({
+                query: gql`
+                    query getFilm {
+                        getFilm(id: ${ctx.params.id}) {
+                            ...FilmFragment
+                    }
+                }
+                ${ALL_FILM_FIELDS.fragment}
+                `
+            })
 
             return {
                 props: {
-                    film: film[0]
+                    film: data.data.getFilm
                 }
             }
 
@@ -183,15 +190,25 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
     } else if( process.env.MODE === "production" ) {
         try{
 
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`);
-            const data = await res.json();
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
 
-            const films = await data.films;
+            const data = await client.query({
+                query: gql`
+                    query getAllFilms {
+                        getAllFilms {
+                            id
+                    }
+                }
+                `
+            })
 
-            const paths = await films.map( (film) => {
+            const paths = await data.data.getAllFilms.map( ( {id} ) => {
                 return (
                     {
-                        params: { id: film.id }
+                        params: { id: id }
                     }
                 )
             } )

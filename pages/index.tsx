@@ -98,13 +98,16 @@ export const getStaticProps: GetStaticProps = async ctx => {
     } else if( process.env.MODE === "production" ) {
         try {
     
-            const res: Response = await fetch(`${process.env.PROD_JSON_SERVER}`)
-            const data = await res.json();
-            const films = await __QLFilms(data.films)
+            const client = new ApolloClient({
+                uri: process.env.PROD_GRAPHQL_SERVER,
+                cache: new InMemoryCache()
+            })
+
+            const { data } = await client.query({ query: GET_ALL_FILMS })
             
             return {
                 props: {
-                    films
+                    films: data.getAllFilms
                 }
             }
     
