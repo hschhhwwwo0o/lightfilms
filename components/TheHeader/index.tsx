@@ -1,7 +1,12 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+
 import Logo from "../Logo";
 
 const Header: React.FC = () => {
+
+    const brightColorLink = "#e0e0e0"
+    const _router = useRouter()
 
     return <>
         <header>
@@ -17,27 +22,27 @@ const Header: React.FC = () => {
                     <ul>
                         <li>
                             <Link href="/time">
-                                <a>time</a>
+                                <a style = {{ color: _router.pathname === "/time" ? brightColorLink : "" }}>time</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/">
-                                <a>cinema</a>
+                                <a style = {{ color: _router.pathname === "/" ? brightColorLink : "" }}>cinema</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/producers">
-                                <a>producers</a>
+                                <a style = {{ color: _router.pathname === "/producers" ? brightColorLink : "" }}>producers</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/acters">
-                                <a>acters</a>
+                                <a style = {{ color: _router.pathname === "/acters" ? brightColorLink : "" }}>acters</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/soon">
-                                <a>genres</a>
+                                <a style = {{ color: _router.pathname === "/soon" ? brightColorLink : "" }}>genres</a>
                             </Link>
                         </li>
                     </ul>
