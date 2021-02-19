@@ -22,12 +22,23 @@ const Header: React.FC = () => {
                     <ul>
                         <li>
                             <Link href="/time">
-                                <a style = {{ color: _router.pathname === "/time" ? brightColorLink : "" }}>time</a>
+                                <a style = {{ color: _router.pathname === "/time" ? brightColorLink : ""}}>
+                                    time
+                                </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/">
-                                <a style = {{ color: _router.pathname === "/" ? brightColorLink : "" }}>cinema</a>
+                                <a 
+                                    style = {{ 
+                                        color: _router.pathname === "/" || 
+                                        _router.pathname.split("/")[1] === "film" 
+
+                                        ? brightColorLink : "" 
+                                    }}
+                                >
+                                    cinema
+                                </a>
                             </Link>
                         </li>
                         <li>
