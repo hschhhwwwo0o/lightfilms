@@ -2,13 +2,13 @@ import { GetStaticProps } from "next";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
 
-import LazyLoad from "react-lazyload";
-
 import { GET_ALL_FILMS } from "../graphql/queries";
 import { IFilmCard } from "../interfaces/interfaces";
 
 import { __QLFilms } from "../assets/utils/__ql";
 import { __filterFilms } from "../assets/utils/__filter";
+
+import LazyLoad from "react-lazyload";
 
 import DefaultLayout from "../layouts/default";
 import Head from "next/head";
