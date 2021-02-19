@@ -2,6 +2,8 @@ import { GetStaticProps } from "next";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
 
+import LazyLoad from "react-lazyload";
+
 import { GET_ALL_FILMS } from "../graphql/queries";
 import { IFilmCard } from "../interfaces/interfaces";
 
@@ -55,18 +57,19 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
             {
                 __filterFilms([genre, year], films).map( (film) => {
                     return (
-                        <Card 
-                            key = {film.id} 
+                        <LazyLoad height = { 300 } offset = { 100 } key = {film.id} >
+                            <Card 
 
-                            HREF = {`/film/[id]`}
-                            AS = {`/film/${film.id}`}
+                                HREF = {`/film/[id]`}
+                                AS = {`/film/${film.id}`}
 
-                            h3 = { film.title }
-                            h6top = { film.producedBy }
-                            h6bot = { film.countries[0] }
-                            img = {film.coverIMG}
-                            type = "single"
-                        />
+                                h3 = { film.title }
+                                h6top = { film.producedBy }
+                                h6bot = { film.countries[0] }
+                                img = {film.coverIMG}
+                                type = "single"
+                            />
+                        </LazyLoad>
                     )
                 } )
             }
