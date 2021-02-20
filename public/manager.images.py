@@ -26,3 +26,4 @@ else:
     print("The input is incorrect")
     print("c - convert images to .webp")
     print("r - remove .jpg .png")
+    print("e - exit")
