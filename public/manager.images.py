@@ -12,10 +12,10 @@ print(" ")
 MODE = input("Enter action: ")
 
 
-if MODE == "c":
+if MODE.replace(" ", "") == "c":
     __convert()
 
-elif MODE == "r":
+elif MODE.replace(" ", "") == "r":
     __remove()
 
 else:
