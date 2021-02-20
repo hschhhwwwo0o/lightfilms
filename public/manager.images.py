@@ -6,6 +6,7 @@ print("Enter what actions to perform.")
 print(" ")
 print("c - convert images to .webp")
 print("r - remove .jpg .png")
+print("e - exit")
 print(" ")
 
 
@@ -17,6 +18,9 @@ if MODE.replace(" ", "") == "c":
 
 elif MODE.replace(" ", "") == "r":
     __remove()
+
+elif MODE.replace(" ", "") == "e":
+    exit
 
 else:
     print("The input is incorrect")
