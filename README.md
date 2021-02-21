@@ -3,6 +3,7 @@
 # #Lightfilms
 
 **Deployed thanks to [Vercel]** <br>
+**GraphQL API deployed thanks to [Heroku]** <br>
 **Live preview [LIGHTFILMS]** 
 
 # Dependencies
@@ -51,3 +52,4 @@ $npm install # or yarn
 [TypeScript]: <https://www.typescriptlang.org/>
 [SSR]: <https://habr.com/en/post/526828/>
 [SASS]: <https://sass-scss.ru/>
+[Heroku]: <https://www.heroku.com/>
