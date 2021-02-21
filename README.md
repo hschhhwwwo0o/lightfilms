@@ -2,6 +2,9 @@
 
 # #Lightfilms
 
+**Deployed thanks to [Vercel]** <br>
+**Live preview LIGHTFILMS** 
+
 # Dependencies
 
 - [NodeJS]
@@ -41,3 +44,5 @@ $npm install # or yarn
 [GraphQL]: <https://graphql.org/>
 [Python3]: <https://www.python.org/>
 [here]: <https://github.com/ssandry/lightfilms/blob/main/scripts.md>
+[LIGHTFILMS]: <https://lightfilms-ssandry.vercel.app/>
+[Vercel]: <https://vercel.com/home>
