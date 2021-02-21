@@ -4,8 +4,15 @@
 
 # Dependencies
 
-<li>Node.js</li>
-<li>Python3</li>
+- Node.js
+- Python3
+
+# Documentation
+
+- [NodeJS] - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [ReactJS] - A JavaScript library for building user interfaces
+- [NextJS] - The React Framework for Production
+- [GraphQL] - A query language for API
 
 # Check dependencies
 
@@ -45,3 +52,8 @@ $npm run start # or yarn start
 ```sh
 $npm run dev # or yarn dev
 ```
+
+[NodeJS]: <https://nodejs.org/en/>
+[ReactJS]: <https://reactjs.org/>
+[NextJS]: <https://nextjs.org/>
+[GraphQL]: <https://graphql.org/>
