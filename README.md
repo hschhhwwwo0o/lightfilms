@@ -1,8 +1,20 @@
 <img src="./md/giphy (3).gif" width="100%" />
 
-# #Lightfilms 🎥 🎞️ 📼 
+# #Lightfilms
 
-# Setup 🔧
+# Dependencies
+
+<li>Node.js</li>
+<li>Python3</li>
+
+# Check dependencies
+
+```sh
+$python3 -version
+$node -v
+```
+
+# Setup
 
 ```sh
 $git clone https://github.com/ssandry/lightfilms.git
@@ -10,7 +22,7 @@ $cd lightfilms
 $npm install # or yarn
 ```
 
-# Scripts 🔧
+# Scripts
 
 ## build
 
