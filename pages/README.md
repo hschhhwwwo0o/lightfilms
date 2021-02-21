@@ -5,16 +5,19 @@ In Next.js, a page is a React Component exported from a `.js`, `.jsx`, `.ts`, or
 Example: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
 
 ```js
-function About() {
-  return <div>About</div>
+const AboutPage = () => {
+    return <div>About</div>
 }
 
-export default About
+export default About;
 ```
-
-<br />
-<br />
 
 # Pages with Dynamic Routes
 
 Next.js supports pages with dynamic routes. For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+
+# Useful documentation
+
+- **https://nextjs.org/docs/routing/introduction**
+- **https://nextjs.org/docs/routing/shallow-routing**
+- **https://nextjs.org/docs/routing/dynamic-routes**
