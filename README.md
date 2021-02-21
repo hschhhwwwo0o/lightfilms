@@ -4,8 +4,8 @@
 
 # Dependencies
 
-- Node.js
-- Python3
+- [NodeJS]
+- [Python3]
 
 # Documentation
 
@@ -57,3 +57,4 @@ $npm run dev # or yarn dev
 [ReactJS]: <https://reactjs.org/>
 [NextJS]: <https://nextjs.org/>
 [GraphQL]: <https://graphql.org/>
+[Python3]: <https://www.python.org/>
