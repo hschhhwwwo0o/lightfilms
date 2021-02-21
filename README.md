@@ -16,6 +16,8 @@ $node -v
 
 # Setup
 
+**Install && setup project**
+
 ```sh
 $git clone https://github.com/ssandry/lightfilms.git
 $cd lightfilms
@@ -23,6 +25,8 @@ $npm install # or yarn
 ```
 
 # Scripts
+
+**Available scripts for the project**
 
 ## build
 
