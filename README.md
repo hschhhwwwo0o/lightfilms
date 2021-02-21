@@ -16,7 +16,8 @@
 - [ReactJS] - A JavaScript library for building user interfaces
 - [NextJS] - The React Framework for Production
 - [GraphQL] - A query language for API
-- [TypeScript] - A query language for API
+- [TypeScript] - TypeScript extends JavaScript by adding types to the language.
+- [SASS] - CSS Preprocessor
 
 # Check dependencies
 
@@ -49,3 +50,4 @@ $npm install # or yarn
 [Vercel]: <https://vercel.com/home>
 [TypeScript]: <https://www.typescriptlang.org/>
 [SSR]: <https://habr.com/en/post/526828/>
+[SASS]: <https://sass-scss.ru/>
