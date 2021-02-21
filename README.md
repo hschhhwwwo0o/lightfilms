@@ -33,16 +33,14 @@ $npm install # or yarn
 
 # Scripts
 
-**Available scripts for the project**
-
-## build
+### build
 **Builds and runs the production version**
 
 ```sh
 $npm run build && $npm run start
 ```
 
-## export
+### export
 
 **Make out dir for deploy**
 
@@ -50,7 +48,7 @@ $npm run build && $npm run start
 $npm run export # or yarn export
 ```
 
-## dev
+### dev
 
 **Starting a project in development mode**
 
@@ -58,7 +56,7 @@ $npm run export # or yarn export
 $npm run dev # or yarn dev
 ```
 
-## gql
+### gql
 
 **Starting a GraphQL api**
 
@@ -66,7 +64,7 @@ $npm run dev # or yarn dev
 $npm run gql # or yarn gql
 ```
 
-## manage:imgs
+### manage:imgs
 
 **Starting a python script for converting or remove images**
 
