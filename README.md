@@ -16,6 +16,7 @@
 - [ReactJS] - A JavaScript library for building user interfaces
 - [NextJS] - The React Framework for Production
 - [GraphQL] - A query language for API
+- [TypeScript] - A query language for API
 
 # Check dependencies
 
@@ -46,3 +47,5 @@ $npm install # or yarn
 [here]: <https://github.com/ssandry/lightfilms/blob/main/scripts.md>
 [LIGHTFILMS]: <https://lightfilms-ssandry.vercel.app/>
 [Vercel]: <https://vercel.com/home>
+[TypeScript]: <https://www.typescriptlang.org/>
+[SSR]: <https://habr.com/en/post/526828/>
