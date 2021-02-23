@@ -55,21 +55,19 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
         </section>
         <section id="grid-posts">
             {
-                __filterFilms([genre, year], films).map( (film) => {
+                __filterFilms( [genre, year], films).map( (film, key) => {
                     return (
-                        <LazyLoad height = { 300 } offset = { 100 } key = {film.id} >
-                            <Card 
+                        <Card
+                            HREF = {`/film/[id]`}
+                            AS = {`/film/${film.id}`}
+                            key = { key }
 
-                                HREF = {`/film/[id]`}
-                                AS = {`/film/${film.id}`}
-
-                                h3 = { film.title }
-                                h6top = { film.producedBy }
-                                h6bot = { film.countries[0] }
-                                img = {film.coverIMG}
-                                type = "single"
-                            />
-                        </LazyLoad>
+                            h3 = { film.title }
+                            h6top = { film.producedBy }
+                            h6bot = { film.countries[0] }
+                            img = {film.coverIMG}
+                            type = "single"
+                        />
                     )
                 } )
             }

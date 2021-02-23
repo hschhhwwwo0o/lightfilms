@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LazyLoad from "react-lazyload";
 
 interface ICardProps {
    HREF: string
@@ -14,7 +15,7 @@ interface ICardProps {
 }
 
 const Card: React.FC<ICardProps> = (props) => {
-    return <article>
+    return <LazyLoad height = { 300 } offset = { 50 }><article>
         <Link href={props.HREF} as = {props.AS}>
             <a 
                 className = { 
@@ -40,7 +41,7 @@ const Card: React.FC<ICardProps> = (props) => {
                 </div>
             </a>
         </Link>
-    </article>
+    </article></LazyLoad>
 }
 
 export default Card;
