@@ -46,7 +46,7 @@ $npm install # or yarn
 [NextJS]: <https://nextjs.org/>
 [GraphQL]: <https://graphql.org/>
 [Python3]: <https://www.python.org/>
-[here]: <https://github.com/ssandry/lightfilms/blob/main/scripts.md>
+[here]: <https://github.com/ssandry/lightfilms/blob/main/md/scripts.md>
 [LIGHTFILMS]: <https://lightfilms-ssandry.vercel.app/>
 [Vercel]: <https://vercel.com/home>
 [TypeScript]: <https://www.typescriptlang.org/>
