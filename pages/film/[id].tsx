@@ -12,30 +12,30 @@ interface FilmPageProps {
     film: IFilm
 }
 
-const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
+const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
         <Head>
-            <title>LIGHTFILMS : {film.title}</title>
-            <meta name="description" content={`${film.title}. Читать о ${film.title} ${film.year} ${film.countries[0]} ${film.producedBy}. LIGHTFILMS. Film about ${film.briefAbout} `} />
+            <title>LIGHTFILMS : { film.title }</title>
+            <meta name="description" content={`${ film.title }. Читать о ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} />
         </Head>
         <div id="grid-wrap">
             <section id="left">
                 <article id="text__header">
-                    <h2> {film.title} </h2>
+                    <h2>{ film.title }</h2>
                     <h4>
                         Genres: <i> { film.genres[0] }
-                            {`${film.genres[1] !== undefined ? `, ${film.genres[1]}. `: ". "}`}
+                            {`${ film.genres[1] !== undefined ? `, ${ film.genres[1] }. `: ". "}`}
                             </i>
                         Countries: <i>{`${film.countries[0]}${film.countries[1] !== undefined ? `, ${film.countries[1]}`: ""}`}</i>.
-                        Director: <i>{film.producedBy}</i>.
+                        Director: <i>{ film.producedBy }</i>.
                     </h4>
-                    <p> {film.briefAbout} </p>
+                    <p>{ film.briefAbout }</p>
                 </article>
-                <img id="collage" src = {film.collage} alt = {`film ${film.title} collage`} />
+                <img id="collage" src = { film.collage } alt = {`film ${ film.title } collage`} />
                 <div id="about">
                     <h5>What about?</h5>
-                    <p> {film.about.paragraphs[0]} </p>
-                    <img src={ film.coverIMG } alt={`Film ${film.title} image`}/>
+                    <p>{ film.about.paragraphs[0] }</p>
+                    <img src={ film.coverIMG } alt={`Film ${ film.title } image`}/>
                     {
                         film.about.paragraphs
                         .filter((p, i) => { return i > 0 })
@@ -52,14 +52,14 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
                     <h5 className="producerName">Producer</h5>
                     <Card 
                         HREF    = "/person/[id]"
-                        AS      = {`/person/${film.producer.id}`}
+                        AS      = {`/person/${ film.producer.id }`}
                         ALT     = {`Producer | Director ${film.producer.h3} ${film.producer.h6bot} ${film.producer.h6top}`}
 
-                        img     = {film.producer.imgs[0]}
-                        img2    = {film.producer.imgs[1]}
-                        h3      = {film.producer.h3}
-                        h6bot   = {film.producer.h6bot}
-                        h6top   = {film.producer.h6top}
+                        img     = { film.producer.imgs[0] }
+                        img2    = { film.producer.imgs[1] }
+                        h3      = { film.producer.h3 }
+                        h6bot   = { film.producer.h6bot }
+                        h6top   = { film.producer.h6top }
                         type    = "double"
                     />
                 </div>
@@ -69,16 +69,16 @@ const FilmPage: React.FC<FilmPageProps> = ( {film} ) => {
                     {
                         film.acters.map( (acter) => {
                             return <Card 
-                                key     = {acter.id}
+                                key     = { acter.id }
                                 HREF    = "/person/[id]"
-                                AS      = {`/person/${acter.id}`}
-                                ALT     = {`Acter ${acter.h3} ${acter.h6bot} ${acter.h6top}`}
+                                AS      = { `/person/${acter.id}` }
+                                ALT     = { `Acter ${acter.h3} ${acter.h6bot} ${acter.h6top}` }
 
-                                img     = {acter.imgs[0]}
-                                img2    = {acter.imgs[1]}
-                                h3      = {acter.h3}
-                                h6bot   = {acter.h6bot}
-                                h6top   = {acter.h6top}
+                                img     = { acter.imgs[0] }
+                                img2    = { acter.imgs[1] }
+                                h3      = { acter.h3 }
+                                h6bot   = { acter.h6bot }
+                                h6top   = { acter.h6top }
                                 type    = "double"
                             />
                         } )
