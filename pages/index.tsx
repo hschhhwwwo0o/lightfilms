@@ -8,8 +8,6 @@ import { IFilmCard } from "../interfaces/interfaces";
 import { __QLFilms } from "../assets/utils/__ql";
 import { __filterFilms } from "../assets/utils/__filter";
 
-import LazyLoad from "react-lazyload";
-
 import DefaultLayout from "../layouts/default";
 import Head from "next/head";
 import Card from "../components/Card/card";
