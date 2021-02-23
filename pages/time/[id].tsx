@@ -12,23 +12,23 @@ interface  TimeProps {
     time: ITime
 }
 
-const TimeYear: React.FC<TimeProps> = ( {time} ) => {
+const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
         <Head>
-            <title> LIGHTFILMS : {time.id} </title>
-            <meta name="description" content={`Read more about the ${time.id}s. Best Films of ${time.id}s  LIGHTFILMS. The influence of the ${time.id}s on today's cinema`} />
+            <title> LIGHTFILMS : { time.id } </title>
+            <meta name="description" content={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`} />
         </Head>
         <div id="timeBlock">
             <section id="timeContent">
-                <h2> {time.id}'s <br/> {time.title} </h2>
+                <h2> { time.id }'s <br/> { time.title } </h2>
                 {
                     time.sections.map( (section: any, i) => {
-                        return <article key = {i}>
-                            <h4> {section.title} </h4>
+                        return <article key = { i }>
+                            <h4> { section.title } </h4>
                             {
                                 section.p.map( (p, j) => {
                                     return (
-                                        <p key = {j}> {p} </p>
+                                        <p key = { j }> { p } </p>
                                     )
                                 } )
                             }
@@ -41,15 +41,15 @@ const TimeYear: React.FC<TimeProps> = ( {time} ) => {
                         {
                             time.bestMovies.map( (film) => {
                                 return <Card 
-                                    HREF = "/film/[id]"
-                                    AS = {`/film/${film.id}`}
-                                    key = { film.id }
+                                    HREF    = "/film/[id]"
+                                    AS      = { `/film/${ film.id }` }
+                                    key     = { film.id }
 
-                                    h3 = {film.h3}
-                                    h6top = {film.h6top}
-                                    h6bot = {film.h6bot}
-                                    img = {film.img}
-                                    type = "single"
+                                    h3      = { film.h3 }
+                                    h6top   = { film.h6top }
+                                    h6bot   = { film.h6bot }
+                                    img     = { film.img }
+                                    type    = "single"
                                 />
                             } )
                         }
