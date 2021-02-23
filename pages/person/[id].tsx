@@ -12,9 +12,10 @@ interface PersonPageProps {
     person: IPerson
 }
 
-const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
+const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
 
     const h1perfect = (name: string) => {
+
         const firstName = name.split(" ")[0]
         const secondName = name.split(" ")[1]
 
@@ -34,30 +35,30 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
 
     return <DefaultLayout>
         <Head>
-            <title>LIGHTFILMS : {person.name}</title>
-            <meta name="description" content={`${person.name}. Read more biography about ${person.name}, ${person.type}. ${person.countries[0]} ${person.type}. LIGHTFILMS. `} />
+            <title>LIGHTFILMS : { person.name }</title>
+            <meta name="description" content={`${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. LIGHTFILMS. `} />
         </Head>
         <section id="person__header" >
-            <h1>{h1perfect(person.name)[0]}</h1>
-            <h1>{h1perfect(person.name)[1]}</h1>
+            <h1>{ h1perfect(person.name)[0] }</h1>
+            <h1>{ h1perfect(person.name)[1] }</h1>
         </section>
         <div id="person__imgs">
             <div>
-                <img src={person.imgs[0]} alt={`person image ${person.type} ${person.name} ${person.yearsPopular[0]}`}/>
+                <img src={ person.imgs[0] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`}/>
             </div>
             <div>
-                <img src={person.imgs[1]} alt={`person image ${person.type} ${person.name} ${person.yearsPopular[0]}`}/>
+                <img src={ person.imgs[1] } alt={ `person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }/>
             </div>
             <div>
-                <img src={person.imgs[2]} alt={`person image ${person.type} ${person.name} ${person.yearsPopular[0]}`}/>
+                <img src={ person.imgs[2] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }/>
             </div>
         </div>
         <section id="bio" >
             <article>
                 <div className="left"><h5>BIOGRAPHY</h5></div>
                 <div className="right"> 
-                    <h4>{person.briefAbout}</h4>
-                    <p>{person.about.paragraphs[0]}</p>
+                    <h4>{ person.briefAbout }</h4>
+                    <p>{ person.about.paragraphs[0] }</p>
                 
                 </div>
             </article>
@@ -65,15 +66,15 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
                 <div className="left"><h5>MOST POPULAT FILM</h5></div>
                 <div className="mostPopularFilm"> 
                     <Card 
-                        HREF = "/film/[id]"
-                        AS = {`/film/${person.about.mostPopularFilm.id}`}
-                        ALT = { `Film ${person.about.mostPopularFilm.h3} ${person.about.mostPopularFilm.h6bot}` }
+                        HREF    = "/film/[id]"
+                        AS      = { `/film/${ person.about.mostPopularFilm.id }`}
+                        ALT     = { `Film ${ person.about.mostPopularFilm.h3 } ${ person.about.mostPopularFilm.h6bot }` }
 
-                        img = {person.about.mostPopularFilm.img}
-                        h3 = {person.about.mostPopularFilm.h3}
-                        h6bot = {person.about.mostPopularFilm.h6bot}
-                        h6top = {person.about.mostPopularFilm.h6top}
-                        type = "single"
+                        img     = { person.about.mostPopularFilm.img }
+                        h3      = { person.about.mostPopularFilm.h3 }
+                        h6bot   = { person.about.mostPopularFilm.h6bot }
+                        h6top   = { person.about.mostPopularFilm.h6top }
+                        type    = "single"
                     />
 
                     <p>{person.about.paragraphs[1]}</p>
@@ -82,8 +83,8 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
             <article>
                 <div className="left"><h5>LAST ROLES</h5></div>
                 <div className="right"> 
-                    <p>{person.about.paragraphs[2]}</p>
-                    <p>{person.about.paragraphs[3]}</p>
+                    <p>{ person.about.paragraphs[2] }</p>
+                    <p>{ person.about.paragraphs[3] }</p>
                 </div>
             </article>
             <section id="filmography__wrap">
@@ -92,16 +93,16 @@ const PersonPage: React.FC<PersonPageProps> = ( {person} ) => {
                     {
                         person.filmography.map( (film) => {
                             return <Card
-                                key = {film.id}
-                                HREF = "/film/[id]"
-                                AS = {`/film/${film.id}`}
-                                ALT = {`Film ${film.h3} ${film.h6bot}`}
+                                key     = { film.id }
+                                HREF    = "/film/[id]"
+                                AS      = { `/film/${ film.id }` }
+                                ALT     = { `Film ${ film.h3 } ${ film.h6bot }` }
 
-                                img = {film.img}
-                                h3 = {film.h3}
-                                h6top = {film.h6top}
-                                h6bot = {film.h6bot}
-                                type = "single"
+                                img     = { film.img}
+                                h3      = { film.h3 }
+                                h6top   = { film.h6top }
+                                h6bot   = { film.h6bot }
+                                type    = "single"
                             />
                         } )
                     }
