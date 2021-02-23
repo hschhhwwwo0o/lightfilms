@@ -13,16 +13,21 @@ const Header: React.FC = () => {
             <div className="container">
                 <Logo />
                 <input type="checkbox" id="checkbox" />
-                <label htmlFor  = "checkbox" className="menu">
+                <label htmlFor="checkbox" className="menu">
                     <div></div>
                     <div></div>
                     <div></div>
                 </label>
-                <nav id = "nav">
+                <nav id="nav">
                     <ul>
                         <li>
                             <Link href="/time">
-                                <a style = {{ color: _router.pathname === "/time" ? brightColorLink : ""}}>
+                                <a 
+                                    style={{ 
+                                        color: _router.pathname === "/time" ? 
+                                        brightColorLink : ""
+                                    }}
+                                >
                                     time
                                 </a>
                             </Link>
@@ -30,11 +35,11 @@ const Header: React.FC = () => {
                         <li>
                             <Link href="/">
                                 <a 
-                                    style = {{ 
+                                    style={{ 
                                         color: _router.pathname === "/" || 
                                         _router.pathname.split("/")[1] === "film" 
-
-                                        ? brightColorLink : "" 
+                                        ? 
+                                        brightColorLink : "" 
                                     }}
                                 >
                                     cinema
@@ -43,17 +48,38 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                             <Link href="/producers">
-                                <a style = {{ color: _router.pathname === "/producers" ? brightColorLink : "" }}>producers</a>
+                                <a 
+                                    style={{ 
+                                        color: _router.pathname === "/producers" ? 
+                                        brightColorLink : "" 
+                                    }}
+                                >
+                                    producers
+                                </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/acters">
-                                <a style = {{ color: _router.pathname === "/acters" ? brightColorLink : "" }}>acters</a>
+                                <a 
+                                    style={{ 
+                                        color: _router.pathname === "/acters" ? 
+                                        brightColorLink : "" 
+                                    }}
+                                >
+                                    acters
+                                </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/soon">
-                                <a style = {{ color: _router.pathname === "/soon" ? brightColorLink : "" }}>genres</a>
+                                <a 
+                                    style={{ 
+                                        color: _router.pathname === "/soon" ? 
+                                        brightColorLink : "" 
+                                    }}
+                                >
+                                    genres
+                                </a>
                             </Link>
                         </li>
                     </ul>
