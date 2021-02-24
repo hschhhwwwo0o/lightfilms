@@ -109,7 +109,10 @@
             font-weight: 800;
             font-size: 14px;
             line-height: 17px;
-            /* identical to box height */
+            text-transform: uppercase;
+
+            color: #5a5a5a;
+            cursor: pointer;
 
             &:hover {
                 color: #a5a5a5;
@@ -124,11 +127,6 @@
 
                 color: rgb(105, 105, 105);
             }
-
-            text-transform: uppercase;
-
-            color: #5a5a5a;
-            cursor: pointer;
         }
     }
 }
