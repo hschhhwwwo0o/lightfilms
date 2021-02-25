@@ -3,7 +3,13 @@
   "version": "2.1.8",
   "description": "Lightfilms 🎥 🎞️ 📼. About world cinema 🌎 ",
   "main": "index.js",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \" node ./assets/run.js \" \" node ./graphql/serverql.js \" \" next dev \"",
     "build": "next build",
     "start": "next start",
@@ -26,7 +32,7 @@
     "TypeScript",
     "JavaScript"
   ],
-  "author": "@ssandry",
+  "author": "@ssandry <https://github.com/ssandry> <seva007@hotmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ssandry/lightfilms/issues"
