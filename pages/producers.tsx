@@ -76,7 +76,6 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
 export const getStaticProps: GetStaticProps = async ctx => {
 
     if( process.env.MODE === "development" ) {
-
         try {
 
             const client = new ApolloClient({
@@ -93,11 +92,9 @@ export const getStaticProps: GetStaticProps = async ctx => {
             }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
-
     } else if ( process.env.MODE === "production" ) {
-
         try {
 
             const client = new ApolloClient({
@@ -114,9 +111,10 @@ export const getStaticProps: GetStaticProps = async ctx => {
             }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
-
+    } else {
+        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
     }
 }
 

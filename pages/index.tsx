@@ -92,7 +92,7 @@ export const getStaticProps: GetStaticProps = async ctx => {
             }
     
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
     } else if( process.env.MODE === "production" ) {
         try {
@@ -111,10 +111,10 @@ export const getStaticProps: GetStaticProps = async ctx => {
             }
     
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
     } else {
-        console.log( "The MODE is written incorrectly. Check the syntax in .env" )
+        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
     }
 }
 
