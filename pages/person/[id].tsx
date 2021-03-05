@@ -116,7 +116,6 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
 
     if( process.env.MODE === "development" ) {
         try {
-
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -140,11 +139,10 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
     } else if( process.env.MODE === "production" ) {
         try {
-
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -168,18 +166,17 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
+    } else {
+        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
     }
-
-    return null
 }
 
 export const getStaticPaths: GetStaticPaths = async ctx => {
 
     if( process.env.MODE === "development" ) {
         try {
-            
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -203,16 +200,16 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 )
             } )
 
-            return { paths, fallback: false }
+            return { 
+                paths, 
+                fallback: false 
+            }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
-        
     } else if( process.env.MODE === "production" ) {
-
         try {
-
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -236,11 +233,15 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 )
             } )
 
-            return { paths, fallback: false }
-
+            return { 
+                paths, 
+                fallback: false 
+            }
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
+    } else {
+        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
     }
 }
 

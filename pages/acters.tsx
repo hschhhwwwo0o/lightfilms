@@ -75,9 +75,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
 export const getStaticProps: GetStaticProps = async ctx => {
 
     if( process.env.MODE === "development" ) {
-
         try {
-
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -96,9 +94,7 @@ export const getStaticProps: GetStaticProps = async ctx => {
         }
 
     } else if ( process.env.MODE === "production" ) {
-
         try {
-
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -115,7 +111,6 @@ export const getStaticProps: GetStaticProps = async ctx => {
         } catch(err) {
             throw new Error(`Error: ${err}`);
         }
-
     } else {
         throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
     }

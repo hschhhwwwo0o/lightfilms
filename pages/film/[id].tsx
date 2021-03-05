@@ -94,7 +94,6 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
 
     if( process.env.MODE === "development" ) {
         try {
-
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -118,11 +117,10 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             }
 
         } catch(err) {
-            console.log(`Err: ${err}`)
+            throw new Error(`Error: ${err}`);
         }
     } else if( process.env.MODE === "production" ) {
         try {
-
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -146,7 +144,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             }
 
         } catch(err) {
-            console.log(`Err: ${err}`)
+            throw new Error(`Error: ${err}`);
         }
     }
 }
@@ -155,7 +153,6 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
 
     if( process.env.MODE === "development" ) {
         try {
-
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -185,11 +182,10 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             }
 
         } catch(err) {
-            console.log( `Err: ${err}` )
+            throw new Error(`Error: ${err}`);
         }
     } else if( process.env.MODE === "production" ) {
         try{
-
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
@@ -219,7 +215,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             }
 
         } catch(err) {
-            console.log(`Err: ${err}`)
+            throw new Error(`Error: ${err}`);
         }
     }
 }
