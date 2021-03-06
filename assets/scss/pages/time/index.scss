@@ -1,6 +1,6 @@
 #time {
     width: 100%;
-    height: calc( 100vh - 80px );
+    height: calc( 100vh - 190px ); // footer + header height
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,6 +34,11 @@
                 font-weight: 800;
                 font-size: 14px;
                 line-height: 17px;
+                color: rgb(129, 129, 129);
+
+                &:hover {
+                    color: rgb(199, 199, 199);
+                }
             }
         }
 
