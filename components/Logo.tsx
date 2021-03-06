@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const Logo: React.FunctionComponent = () => {
-    return <>
-        <div className = "logo">
+    return <Link href = "/">
+        <a className = "logo">
             LIGHTFILMS
-        </div>
-    </>
+        </a>
+    </Link>
 }
 
 export default Logo;
