@@ -1,6 +1,4 @@
-<img src="./md/giphy (3).gif" width="100%" />
-
-# #Lightfilms
+# ##Lightfilms
 
 **Live preview [LIGHTFILMS]** 
 **Deployed thanks to [Vercel]** <br>
