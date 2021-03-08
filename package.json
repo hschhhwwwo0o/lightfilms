@@ -1,6 +1,6 @@
 {
   "name": "lightfilms",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "description": "Lightfilms 🎥. About world cinema 🌎",
   "main": "index.js",
   "browserslist": [
