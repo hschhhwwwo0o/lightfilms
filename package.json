@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \" node ./assets/run.js \" \" node ./graphql/serverql.js \" \" next dev \"",
+    "dev": "concurrently \"node ./graphql/serverql.js\" \"next dev\"",
     "build": "next build",
     "start": "next start",
     "export": "next export",
