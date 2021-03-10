@@ -56,4 +56,3 @@ app.use("/", graphqlHTTP({
 }))
 
 app.listen(PORT);
-console.log('DEV_GRAPHQL_SERVER=http://localhost:' + PORT);
