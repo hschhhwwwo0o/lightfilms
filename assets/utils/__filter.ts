@@ -1,4 +1,4 @@
-import { IFilmCard, IPersonCard } from "../../interfaces/interfaces";
+import { IFilmCard, IPersonCard } from "../../interfaces";
 
 export function __filterByGenre(crt: string, arr: IFilmCard[]) {
     if( crt === "all" ) return arr

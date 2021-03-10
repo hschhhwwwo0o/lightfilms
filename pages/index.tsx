@@ -3,7 +3,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
 
 import { GET_ALL_FILMS } from "../graphql/queries";
-import { IFilmCard } from "../interfaces/interfaces";
+import { IFilmCard } from "../interfaces";
 
 import { __QLFilms } from "../assets/utils/__ql";
 import { __filterFilms } from "../assets/utils/__filter";

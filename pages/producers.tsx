@@ -3,7 +3,7 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
 
 import { GET_PRODUCERS } from "../graphql/queries";
-import { IPersonCard } from "../interfaces/interfaces";
+import { IPersonCard } from "../interfaces";
 
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";

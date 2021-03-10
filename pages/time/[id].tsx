@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
 import { ALL_TIME_FIELDS } from "../../graphql/fragments";
-import { ITime } from "../../interfaces/interfaces";
+import { ITime } from "../../interfaces";
 
 import Head from "next/head";
 import DefaultLayout from "../../layouts/default";

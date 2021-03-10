@@ -1,4 +1,4 @@
-import { IFilm, IFilmCard, IPerson, IPersonCard } from "../../interfaces/interfaces";
+import { IFilm, IFilmCard, IPerson, IPersonCard } from "../../interfaces";
 
 export function __QLFilms(films: IFilm[] ): IFilmCard[] {
 
