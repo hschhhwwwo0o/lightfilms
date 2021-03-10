@@ -6,7 +6,7 @@ import { IPerson } from "../../interfaces/interfaces";
 
 import DefaultLayout from "../../layouts/default";
 import Head from "next/head";
-import Card from "../../components/Card/card";
+import Card from "../../components/Card";
 
 interface PersonPageProps {
     person: IPerson

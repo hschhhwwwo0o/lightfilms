@@ -10,7 +10,7 @@ import { __filterFilms } from "../assets/utils/__filter";
 
 import DefaultLayout from "../layouts/default";
 import Head from "next/head";
-import Card from "../components/Card/card";
+import Card from "../components/Card";
 
 interface IndexPageProps {
     films: IFilmCard[]

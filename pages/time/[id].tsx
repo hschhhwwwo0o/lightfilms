@@ -6,7 +6,7 @@ import { ITime } from "../../interfaces/interfaces";
 
 import Head from "next/head";
 import DefaultLayout from "../../layouts/default";
-import Card from "../../components/Card/card";
+import Card from "../../components/Card";
 
 interface  TimeProps {
     time: ITime
