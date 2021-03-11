@@ -1,13 +1,9 @@
-# ##Lightfilms
+## #Lightfilms
 
 **Live preview [LIGHTFILMS]** 
+
 **Deployed thanks to [Vercel]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
-
-# Dependencies
-
-- [NodeJS]
-- [Python3]
 
 # Documentation
 
@@ -17,13 +13,6 @@
 - [GraphQL] - A query language for API
 - [TypeScript] - TypeScript extends JavaScript by adding types to the language.
 - [SASS] - CSS Preprocessor
-
-# Check dependencies
-
-```sh
-$python3 -version
-$node -v
-```
 
 # Setup
 
@@ -37,7 +26,7 @@ $npm install # or yarn
 
 # Scripts
 
-**Check scripts [here]**
+**Check avaible scripts [here]**
 
 [NodeJS]: <https://nodejs.org/en/>
 [ReactJS]: <https://reactjs.org/>
