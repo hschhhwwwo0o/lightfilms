@@ -8,9 +8,9 @@ import { IFilmCard } from "../interfaces";
 import { __QLFilms } from "../assets/utils/__ql";
 import { __filterFilms } from "../assets/utils/__filter";
 
+import Head from "next/head";
 import DefaultLayout from "../layouts/default";
 import Chooser from "../components/Chooser";
-import Head from "next/head";
 import Card from "../components/Card";
 
 interface IndexPageProps {
