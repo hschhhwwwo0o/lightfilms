@@ -1,4 +1,4 @@
-## <img src="./md/GitHubColors.jpg" width="60px" height="100%" /> #Lightfilms
+## #Lightfilms
 
 **Live preview [LIGHTFILMS]** 
 
