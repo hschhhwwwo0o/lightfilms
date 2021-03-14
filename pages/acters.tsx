@@ -8,8 +8,9 @@ import { IPersonCard } from "../interfaces";
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";
 
-import DefaultLayout from "../layouts/default";
 import Head from "next/head";
+import DefaultLayout from "../layouts/default";
+import Chooser from "../components/Chooser";
 import Card from "../components/Card";
 
 interface ActersPageProps {
@@ -26,44 +27,41 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
             <title>LIGHTFILMS : Acters</title>
             <meta name="description" content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} />
         </Head>
-        <section id="header-choose">
-            <h1>ACTERS</h1>
-            <div id="chooser">
-                <ul id = "countrys">
-                    <li 
-                        onClick = {() => { setCountry("all") }} 
-                        className = { country === "all" ? "sq sq_bright" : "sq"  }>
-                    </li>
-                    <li onClick = { () => { setCountry("Japan") } } className = { country === "Japan" ? "bright" : ""  } >Japan</li>
-                    <li onClick = { () => { setCountry("France") } } className = { country === "France" ? "bright" : ""  }>France</li>
-                    <li onClick = { () => { setCountry("Russia") } } className = { country === "Russia" ? "bright" : ""  }>Russia</li>
-                    <li onClick = { () => { setCountry("USA") } } className = { country === "USA" ? "bright" : ""  }>USA</li>
-                    <li onClick = { () => { setCountry("British") } } className = { country === "British" ? "bright" : ""  }>British</li>
-                    <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
-                </ul>
-                <ul id = "years">
-                    <li onClick = {() => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
-                    <li onClick = {() => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
-                    <li onClick = {() => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
-                    <li onClick = {() => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
-                    <li onClick = {() => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
-                </ul>
-            </div>
-        </section>
+        <Chooser h1="ACTERS">
+            <ul id = "countrys">
+                <li 
+                    onClick = {() => { setCountry("all") }} 
+                    className = { country === "all" ? "sq sq_bright" : "sq"  }>
+                </li>
+                <li onClick = { () => { setCountry("Japan") } } className = { country === "Japan" ? "bright" : ""  } >Japan</li>
+                <li onClick = { () => { setCountry("France") } } className = { country === "France" ? "bright" : ""  }>France</li>
+                <li onClick = { () => { setCountry("Russia") } } className = { country === "Russia" ? "bright" : ""  }>Russia</li>
+                <li onClick = { () => { setCountry("USA") } } className = { country === "USA" ? "bright" : ""  }>USA</li>
+                <li onClick = { () => { setCountry("British") } } className = { country === "British" ? "bright" : ""  }>British</li>
+                <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
+            </ul>
+            <ul id = "years">
+                <li onClick = {() => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
+                <li onClick = {() => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
+                <li onClick = {() => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
+                <li onClick = {() => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
+                <li onClick = {() => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
+            </ul>
+        </Chooser>
         <section id="grid-posts">
             {
                 __filterPersons( [country, year], acters ).map( (acter) => {
                     return (
                         <Card 
-                            key = {acter.id} 
-                            HREF = {`/person/[id]`}
-                            AS = {`/person/${acter.id}`}
-                            h3 = { acter.name }
-                            h6bot = { acter.countries[0] }
-                            h6top = { acter.title }
-                            img = { acter.imgs[0] }
-                            img2 = { acter.imgs[1] }
-                            type = "double"
+                            key     = { acter.id } 
+                            HREF    = { `/person/[id]` }
+                            AS      = { `/person/${acter.id}` }
+                            h3      = { acter.name }
+                            h6bot   = { acter.countries[0] }
+                            h6top   = { acter.title }
+                            img     = { acter.imgs[0] }
+                            img2    = { acter.imgs[1] }
+                            type    = "double"
                         />
                     )
                 } )
