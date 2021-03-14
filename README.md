@@ -5,7 +5,7 @@
 **Deployed thanks to [Vercel]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
 
-# Documentation
+## Documentation
 
 - [NodeJS] - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [ReactJS] - A JavaScript library for building user interfaces
@@ -14,7 +14,7 @@
 - [TypeScript] - TypeScript extends JavaScript by adding types to the language.
 - [SASS] - CSS Preprocessor
 
-# Setup
+## Setup
 
 **Install && setup project**
 
@@ -24,7 +24,7 @@ $cd lightfilms
 $npm install # or yarn
 ```
 
-# Scripts
+## Scripts
 
 **Check avaible scripts [here]**
 
