@@ -11,6 +11,7 @@ import { __filterPersons } from "../assets/utils/__filter";
 import Head from "next/head";
 import DefaultLayout from "../layouts/default";
 import Chooser from "../components/Chooser";
+import Grid from "../components/Grid";
 import Card from "../components/Card";
 
 interface ActersPageProps {
@@ -48,7 +49,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                 <li onClick = {() => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
             </ul>
         </Chooser>
-        <section id="grid-posts">
+        <Grid>
             {
                 __filterPersons( [country, year], acters ).map( (acter) => {
                     return (
@@ -66,7 +67,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                     )
                 } )
             }
-        </section>
+        </Grid>
     </DefaultLayout>
 }
 
