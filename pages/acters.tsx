@@ -26,7 +26,23 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : Acters</title>
-            <meta name="description" content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} />
+            <meta 
+                name="description" 
+                content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
+            />
+            <meta 
+                name="keywords" 
+                content={`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
+            />
+            <meta property="og:title" content="LIGHTFILMS : Acters" />
+            <meta 
+                property="og:url" 
+                content={ `https://lightfilms-ssandry.vercel.app/acters` } 
+            />
+            <meta 
+                property="og:description" 
+                content="LIGHTFILMS - More about cinema, acters. Read about the great films, acters of the last century."
+            />
         </Head>
         <Chooser h1="ACTERS">
             <ul id = "countrys">
