@@ -35,8 +35,6 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
                 content={`LIGHTFILMS - More about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors. 1950 cinema,  1960 cinema, 1970 cinema, 1980 cinema`} 
             />
             <meta property="og:title" content={`LIGHTFILMS`} />
-            <meta property="og:site_name" content="LIGHTFILMS" />
-            <meta property="og:locale" content="en_US" />
             <meta 
                 property="og:url" 
                 content="https://lightfilms-ssandry.vercel.app/" 
