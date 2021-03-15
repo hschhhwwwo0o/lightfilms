@@ -16,7 +16,26 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : { film.title }</title>
-            <meta name="description" content={`${ film.title }. Читать о ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} />
+            <meta 
+                name="description" 
+                content={`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
+            />
+            <meta 
+                name="keywords" 
+                content={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`} 
+            />
+            <meta 
+                property="og:title" 
+                content={`LIGHTFILMS : ${ film.title }`}
+            />
+            <meta 
+                property="og:url" 
+                content={ `https://lightfilms-ssandry.vercel.app/film${ film.id }` } 
+            />
+            <meta 
+                property="og:description" 
+                content={`LIGHTFILMS. ${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }.`}
+            />
         </Head>
         <div id="grid-wrap">
             <section id="left">
