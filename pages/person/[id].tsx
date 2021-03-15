@@ -36,7 +36,26 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : { person.name }</title>
-            <meta name="description" content={`${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. LIGHTFILMS. `} />
+            <meta 
+                name="description" 
+                content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `} 
+            />
+            <meta 
+                name="keywords" 
+                content={`LIGHTFILMS. ${ person.name }, Biography ${ person.name }, ${ person.type }`} 
+            />
+            <meta 
+                property="og:title" 
+                content={`LIGHTFILMS : ${ person.name }`}
+            />
+            <meta 
+                property="og:url" 
+                content={ `https://lightfilms-ssandry.vercel.app/person/${person.id}` } 
+            />
+            <meta 
+                property="og:description" 
+                content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
+            />
         </Head>
         <section id="person__header" >
             <h1>{ h1perfect(person.name)[0] }</h1>
