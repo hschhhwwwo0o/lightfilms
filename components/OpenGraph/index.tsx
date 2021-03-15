@@ -6,14 +6,14 @@ interface IOpenGraph {
 
 const OpenGraph: React.FC<IOpenGraph> = ({ title, url, description }) => {
     return <>
-        <meta property="og:title" content={`LIGHTFILMS`} />
+        <meta property="og:title" content={ title } />
         <meta 
             property="og:url" 
-            content="https://lightfilms-ssandry.vercel.app/" 
+            content={ `https://lightfilms-ssandry.vercel.app${url}` } 
         />
         <meta 
             property="og:description" 
-            content={`LIGHTFILMS - More about cinema. Read about the great films of the last century.`} 
+            content={ description } 
         />
     </>
 }
