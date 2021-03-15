@@ -36,6 +36,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
             />
             <meta property="og:title" content={`LIGHTFILMS`} />
             <meta property="og:site_name" content="LIGHTFILMS" />
+            <meta property="og:locale" content="en_US" />
             <meta 
                 property="og:url" 
                 content="https://lightfilms-ssandry.vercel.app/" 
