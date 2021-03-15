@@ -27,6 +27,19 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
         <Head>
             <title>LIGHTFILMS : Producers</title>
             <meta name="description" content={`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} />
+            <meta 
+                name="keywords" 
+                content={`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
+            />
+            <meta property="og:title" content="LIGHTFILMS : Producers" />
+            <meta 
+                property="og:url" 
+                content={ `https://lightfilms-ssandry.vercel.app/producers` } 
+            />
+            <meta 
+                property="og:description" 
+                content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century."
+            />
         </Head>
         <Chooser h1="PRODUCERS">
             <ul id = "countrys">
