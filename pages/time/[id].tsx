@@ -15,8 +15,27 @@ interface  TimeProps {
 const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
         <Head>
-            <title> LIGHTFILMS : { time.id } </title>
-            <meta name="description" content={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`} />
+            <title>LIGHTFILMS : { time.id }</title>
+            <meta 
+                name="description" 
+                content={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`} 
+            />
+            <meta 
+                name="keywords" 
+                content={`Best time of cinema ${ time.id }s, ${ time.id }s History on cinema, LIGHTFILMS, ${ time.id }s cinema, ${time.title}`} 
+            />
+            <meta 
+                property="og:title" 
+                content={`LIGHTFILMS : ${ time.id }`}
+            />
+            <meta 
+                property="og:url" 
+                content={ `https://lightfilms-ssandry.vercel.app/time/${time.id}` } 
+            />
+            <meta 
+                property="og:description" 
+                content={ `LIGHTFILMS - About ${time.id}s cinema history. ${time.title}` }
+            />
         </Head>
         <div id="timeBlock">
             <section id="timeContent">
