@@ -23,6 +23,8 @@ export default class Doc extends Document {
                     <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-120x120.png" />
                     <link sizes="180x180" rel="apple-touch-icon" href="/static/apple-touch-icon-180x180.png" />
 
+                    <meta name="theme-color" content="#181818" />
+
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
                     <meta httpEquiv="Content-language" content="en-US" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
