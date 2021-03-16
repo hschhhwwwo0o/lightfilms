@@ -28,7 +28,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
             <title>LIGHTFILMS</title>
             <meta 
                 name="keywords" 
-                content="LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinema, black and white movies" 
+                content="LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films," 
             />
             <meta 
                 name="description" 
