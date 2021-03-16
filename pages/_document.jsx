@@ -11,6 +11,7 @@ export default class Doc extends Document {
         return (
             <Html prefix="og: http://ogp.me/ns#">
                 <Head>
+                    {/* Favicons */}
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
                     <link type="image/png" sizes="16x16" rel="icon" href="/static/favicon-16x16.png" />
                     <link type="image/png" sizes="32x32" rel="icon" href="/static/favicon-32x32.png" />
@@ -24,6 +25,7 @@ export default class Doc extends Document {
                     <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-120x120.png" />
                     <link sizes="180x180" rel="apple-touch-icon" href="/static/apple-touch-icon-180x180.png" />
 
+                    {/* Standart */}
                     <meta name="theme-color" content="#181818" />
 
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -31,10 +33,14 @@ export default class Doc extends Document {
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="robots" content="all" />
 
+                    {/* Open Graph */}
                     <meta property="og:image" content="/static/lightfilms-promo.png" />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
                     <meta property="og:locale" content="en_US" />
 
+                    {/* Fonts */}
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link 
                         href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" 

@@ -26,6 +26,8 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : Acters</title>
+
+            {/* Standart */}
             <meta 
                 name="description" 
                 content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
@@ -34,7 +36,9 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                 name="keywords" 
                 content={`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
             />
-            <meta property="og:title" content="LIGHTFILMS : Acters" />
+
+            {/* Open Graph */}
+            <meta property="og:title" content="Read biographies of the greatest movie actors" />
             <meta 
                 property="og:url" 
                 content={ `https://lightfilms-ssandry.vercel.app/acters` } 
@@ -47,7 +51,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
         <Chooser h1="ACTERS">
             <ul id = "countrys">
                 <li 
-                    onClick = {() => { setCountry("all") }} 
+                    onClick = { () => { setCountry("all") }} 
                     className = { country === "all" ? "sq sq_bright" : "sq"  }>
                 </li>
                 <li onClick = { () => { setCountry("Japan") } } className = { country === "Japan" ? "bright" : ""  } >Japan</li>
@@ -58,11 +62,11 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                 <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
             </ul>
             <ul id = "years">
-                <li onClick = {() => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
-                <li onClick = {() => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
-                <li onClick = {() => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
-                <li onClick = {() => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
-                <li onClick = {() => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
+                <li onClick = { () => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
+                <li onClick = { () => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
+                <li onClick = { () => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
+                <li onClick = { () => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
+                <li onClick = { () => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
             </ul>
         </Chooser>
         <Grid>
