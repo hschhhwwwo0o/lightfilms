@@ -9,7 +9,7 @@ export default class Doc extends Document {
 
     render() {
         return (
-            <Html prefix="og: http://ogp.me/ns#">
+            <Html prefix="og: http://ogp.me/ns#" lang="en-us" >
                 <Head>
                     {/* Favicons */}
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
