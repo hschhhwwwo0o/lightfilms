@@ -46,7 +46,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
             <meta property="og:title" content="LIGHTFILMS - More about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors." />
             <meta 
                 property="og:description" 
-                content="LIGHTFILMS - More about cinema. Read about the great films of the last century."
+                content="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
             />
         </Head>
         <Chooser h1="CINEMA">
