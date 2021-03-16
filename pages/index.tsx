@@ -43,7 +43,7 @@ const IndexPage: React.FC<IndexPageProps> = ( { films } ) => {
                 content={ `https://lightfilms-ssandry.vercel.app/` } 
             />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="LIGHTFILMS" />
+            <meta property="og:title" content="LIGHTFILMS - More about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors." />
             <meta 
                 property="og:description" 
                 content="LIGHTFILMS - More about cinema. Read about the great films of the last century."
