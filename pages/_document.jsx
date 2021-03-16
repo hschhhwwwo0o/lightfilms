@@ -11,8 +11,6 @@ export default class Doc extends Document {
         return (
             <Html>
                 <Head>
-                    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
                     <link type="image/png" sizes="16x16" rel="icon" href="/static/favicon-16x16.png" />
                     <link type="image/png" sizes="32x32" rel="icon" href="/static/favicon-32x32.png" />
@@ -24,6 +22,10 @@ export default class Doc extends Document {
 
                     <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-120x120.png" />
                     <link sizes="180x180" rel="apple-touch-icon" href="/static/apple-touch-icon-180x180.png" />
+
+                    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+                    <meta httpEquiv="Content-language" content="en-US" />
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
                     <meta property="og:site_name" content="LIGHTFILMS" />
                     <meta property="og:locale" content="en_US" />
