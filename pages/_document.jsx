@@ -29,6 +29,7 @@ export default class Doc extends Document {
                     <meta httpEquiv="Content-language" content="en-US" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
+                    <meta property="og:image" content="/static/lightfilms-promo.png" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
                     <meta property="og:locale" content="en_US" />
 
