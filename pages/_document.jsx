@@ -14,6 +14,7 @@ export default class Doc extends Document {
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
                     <link type="image/png" sizes="16x16" rel="icon" href="/static/favicon-16x16.png" />
                     <link type="image/png" sizes="32x32" rel="icon" href="/static/favicon-32x32.png" />
+                    <link type="image/png" sizes="48x48" rel="icon" href="/static/favicon-48x48.png" />
                     <link type="image/png" sizes="72x72" rel="icon" href="/static/favicon-72x72.png" />
                     <link type="image/png" sizes="96x96" rel="icon" href="/static/favicon-96x96.png" />
                     <link type="image/png" sizes="120x120" rel="icon" href="/static/favicon-120x120.png" />
