@@ -1,6 +1,6 @@
 @import "./env.scss";
 
-h1 {
+h1, .h1-fk {
     font-family: $mainFont;
     font-style: normal;
     font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
     }
 }
 
-h2 {
+h2, .h2-fk {
     font-family: $mainFont;
     font-style: normal;
     font-weight: bold;
@@ -35,7 +35,7 @@ h2 {
     }
 }
 
-h3 {
+h3, .h3-fk {
     font-family: $mainFont;
     font-style: normal;
     font-weight: bold;
@@ -53,7 +53,7 @@ h3 {
     }
 }
 
-h4 {
+h4, .h4-fk {
     font-family: $secondFont;
     font-style: normal;
     font-weight: bold;
@@ -71,7 +71,7 @@ h4 {
     }
 }
 
-h5 {
+h5, .h5-fk {
     font-family: $secondFont;
     font-style: normal;
     font-weight: 800;
@@ -82,7 +82,7 @@ h5 {
     color: #C4C4C4;
 }
 
-h6 {
+h6, .h6-fk {
     font-family: $secondFont;
     font-style: normal;
     font-weight: bold;
