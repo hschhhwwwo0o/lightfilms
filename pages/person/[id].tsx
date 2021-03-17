@@ -55,7 +55,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
             />
             <meta 
                 property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/person/${person.id}` } 
+                content={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
             />
             <meta 
                 property="og:description" 

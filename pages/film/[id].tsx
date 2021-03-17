@@ -35,7 +35,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
             />
             <meta 
                 property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/film${ film.id }` } 
+                content={`https://lightfilms-ssandry.vercel.app/film${ film.id }`} 
             />
             <meta 
                 property="og:description" 

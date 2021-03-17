@@ -26,7 +26,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 name="keywords" 
                 content={`Best time of cinema ${ time.id }s, ${ time.id }s History on cinema, LIGHTFILMS, ${ time.id }s cinema, ${time.title}`} 
             />
-            <link rel="canonical" href={` https://lightfilms-ssandry.vercel.app/time/${time.id} `} />
+            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/time/${time.id}`} />
 
             {/* Open Graph meta */}
             <meta 
