@@ -1,31 +1,30 @@
 import Head from "next/head";
 
-const Meta = () => {
+interface IMetaInterface {
+    titleShort: string
+    titleLong: string
+    description: string
+    url: string
+    keywords: string
+}
+
+const Meta: React.FC<IMetaInterface> = ({ titleShort, titleLong, description, url, keywords }) => {
     return <Head>
-        <title>LIGHTFILMS</title>
+        <title>{ titleShort }</title>
 
         {/* Standart meta */}
-        <meta 
-            name="keywords" 
-            content="LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films," 
-        />
-        <meta 
-            name="description" 
-            content={`LIGHTFILMS - More about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors. 1950 cinema,  1960 cinema, 1970 cinema, 1980 cinema`} 
-        />
-        <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/"/>
+        <meta name="description" content={ description } />
+        <meta name="keywords" content={ keywords } />
+        <link rel="canonical" href={ url } />
 
         {/* Open Graph meta */}
-        <meta 
-            property="og:url" 
-            content={ `https://lightfilms-ssandry.vercel.app/` } 
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="LIGHTFILMS - Learn more about great movies & persons" />
-        <meta 
-            property="og:description" 
-            content="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
-        />
+        <meta property="og:title" content={ titleLong } />
+        <meta property="og:url" content={ url } />
+        <meta property="og:description" content={ description } />
+
+        {/* Open Graph Twitter */}
+        <meta name="twitter:title" content={ titleLong } />
+        <meta name="twitter:description" content={ description } />
     </Head>
 }
 
