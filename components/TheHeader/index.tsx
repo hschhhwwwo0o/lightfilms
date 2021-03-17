@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     const _router = useRouter()
 
     return <>
-        <header>
+        <header id="header">
             <div className="container">
                 <Logo />
                 <input type="checkbox" id="checkbox" />

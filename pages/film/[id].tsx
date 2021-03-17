@@ -44,7 +44,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
         </Head>
         <div id="grid-wrap">
             <section id="left">
-                <article id="text__header">
+                <header id="text__header">
                     <h1 className="h2-fk">{ film.title }</h1>
                     <h4>
                         Genres: <i> { film.genres[0] }
@@ -54,7 +54,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                         Director: <i>{ film.producedBy }</i>.
                     </h4>
                     <p>{ film.briefAbout }</p>
-                </article>
+                </header>
                 <img id="collage" src = { film.collage } alt = {`film ${ film.title } collage`} />
                 <div id="about">
                     <h5>What about?</h5>
@@ -72,7 +72,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                 </div>
             </section>
             <section id="right">
-                <div className="prod">
+                <header className="prod">
                     <h5 className="producerName">Producer</h5>
                     <Card 
                         HREF    = "/person/[id]"
@@ -86,7 +86,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                         h6top   = { film.producer.h6top }
                         type    = "double"
                     />
-                </div>
+                </header>
                 <section id="acters-grid">
                     <h5>MAIN ACTERS</h5>
                     <div id="acters">
