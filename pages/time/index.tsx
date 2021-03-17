@@ -6,6 +6,8 @@ const TimePage = () => {
     return <DefaultLayout>
         <Head>
             <title>Keep up to time with temporary events.</title>
+            
+            {/* Standart meta */}
             <meta 
                 name="description" 
                 content={`Best time of cinema. Read more about the time. LIGHTFILMS. 1940s 1950s 1960s 1970s. `} 
@@ -14,6 +16,9 @@ const TimePage = () => {
                 name="keywords" 
                 content={`Best time of cinema, History, Cinema, LIGHTFILMS, 1940s cinema, 1950s cinema, 1960s cinema, 1970s cinema`} 
             />
+            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/time" />
+
+            {/* Open Graph meta */}
             <meta 
                 property="og:title" 
                 content="LIGHTFILMS : Keep up to time with temporary events." 

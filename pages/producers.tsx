@@ -33,6 +33,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                 name="keywords" 
                 content={`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
             />
+            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/producers" />
 
             {/* Open Graph */}
             <meta property="og:title" content="Read biographies of the greatest movie directors" />

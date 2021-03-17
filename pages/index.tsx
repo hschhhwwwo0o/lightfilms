@@ -36,6 +36,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                 name="description" 
                 content={`LIGHTFILMS - More about cinema. Read about the great films of the last century. All the best black and white movies. Learning the shooting style of great directors. 1950 cinema,  1960 cinema, 1970 cinema, 1980 cinema`} 
             />
+            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/" />
 
             {/* Open Graph meta */}
             <meta 

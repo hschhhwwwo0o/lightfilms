@@ -36,6 +36,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                 name="keywords" 
                 content={`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
             />
+            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/acters"/>
 
             {/* Open Graph */}
             <meta property="og:title" content="Read biographies of the greatest movie actors" />

@@ -16,6 +16,8 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : { film.title }</title>
+
+            {/* Standart meta */}
             <meta 
                 name="description" 
                 content={`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
@@ -24,6 +26,9 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                 name="keywords" 
                 content={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`} 
             />
+            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/person/${film.id}`} />
+
+            {/* Open Graph meta */}
             <meta 
                 property="og:title" 
                 content={`LIGHTFILMS : ${ film.title }`}

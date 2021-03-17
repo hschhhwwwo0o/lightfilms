@@ -27,11 +27,14 @@ export default class Doc extends Document {
 
                     {/* Standart */}
                     <meta name="theme-color" content="#181818" />
+                    <meta name="author" content="GitHub: ssandry" />
+                    <meta name="publisher" content="LIGHTFILMS" />
+                    <meta name="copyright" content="2021 LIGHTFILMS" />
 
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
                     <meta httpEquiv="Content-language" content="en-US" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                    <meta name="robots" content="all" />
+                    <meta name="robots" content="index, follow" />
 
                     {/* Open Graph */}
                     <meta property="og:image" content="/static/lightfilms-promo.png" />

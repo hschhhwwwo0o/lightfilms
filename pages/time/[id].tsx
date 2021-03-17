@@ -16,6 +16,8 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : { time.id }</title>
+
+            {/* Standart meta */}
             <meta 
                 name="description" 
                 content={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`} 
@@ -24,6 +26,9 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 name="keywords" 
                 content={`Best time of cinema ${ time.id }s, ${ time.id }s History on cinema, LIGHTFILMS, ${ time.id }s cinema, ${time.title}`} 
             />
+            <link rel="canonical" href={` https://lightfilms-ssandry.vercel.app/time/${time.id} `} />
+
+            {/* Open Graph meta */}
             <meta 
                 property="og:title" 
                 content={`LIGHTFILMS : ${ time.id }`}

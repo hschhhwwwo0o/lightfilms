@@ -36,6 +36,8 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
     return <DefaultLayout>
         <Head>
             <title>LIGHTFILMS : { person.name }</title>
+
+            {/* Standart meta */}
             <meta 
                 name="description" 
                 content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `} 
@@ -44,6 +46,9 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 name="keywords" 
                 content={`LIGHTFILMS. ${ person.name }, Biography ${ person.name }, ${ person.type }`} 
             />
+            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} />
+
+            {/* Open Graph meta */}
             <meta 
                 property="og:title" 
                 content={`LIGHTFILMS : ${ person.name }`}
