@@ -44,7 +44,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
         </Head>
         <div id="timeBlock">
             <section id="timeContent">
-                <h2> { time.id }'s <br/> { time.title } </h2>
+                <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>
                 {
                     time.sections.map( (section: any, i) => {
                         return <article key = { i }>

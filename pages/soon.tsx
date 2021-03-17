@@ -27,7 +27,7 @@ const ComingSoon = () => {
                 />
             </Head>
             <div id="coming">
-                <h2>Coming Soon</h2>
+                <h1 className="h2-fk">Coming Soon</h1>
             </div>
         </DefaultLayout>
         <style jsx >
