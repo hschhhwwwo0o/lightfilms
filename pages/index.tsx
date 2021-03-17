@@ -43,12 +43,15 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                 property="og:url" 
                 content={ `https://lightfilms-ssandry.vercel.app/` } 
             />
-            <meta property="og:type" content="website" />
             <meta property="og:title" content="LIGHTFILMS - Learn more about great movies & persons" />
             <meta 
                 property="og:description" 
                 content="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content="LIGHTFILMS - Learn more about great movies & persons" />
+            <meta name="twitter:description" content="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde." />
         </Head>
         <Chooser h1="CINEMA">
             <ul id="countrys">

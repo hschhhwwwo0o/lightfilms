@@ -45,6 +45,10 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                 property="og:description" 
                 content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century."
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content="Read biographies of the greatest movie directors" />
+            <meta name="twitter:description" content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century." />
         </Head>
         <Chooser h1="PRODUCERS">
             <ul id = "countrys">

@@ -61,6 +61,10 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 property="og:description" 
                 content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content={`LIGHTFILMS : ${ person.name }`} />
+            <meta name="twitter:description" content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `} />
         </Head>
         <section id="person__header" >
             <h1>{ h1perfect(person.name)[0] }</h1>

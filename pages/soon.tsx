@@ -19,12 +19,15 @@ const ComingSoon = () => {
                     property="og:url" 
                     content={ `https://lightfilms-ssandry.vercel.app/soon` } 
                 />
-                <meta property="og:type" content="website" />
                 <meta property="og:title" content="LIGHTFILMS. Coming Soon" />
                 <meta 
                     property="og:description" 
                     content="LIGHTFILMS. The page is not available yet, but we will soon create something new here :)"
                 />
+
+                {/* Open Graph Twitter */}
+                <meta name="twitter:title" content="LIGHTFILMS. Coming Soon" />
+                <meta name="twitter:description" content="LIGHTFILMS. The page is not available yet, but we will soon create something new here :)" />
             </Head>
             <div id="coming">
                 <h1 className="h2-fk">Coming Soon</h1>

@@ -7,10 +7,7 @@ const C404: React.FunctionComponent = () => {
             <title>Page unavailable</title>
 
             {/* Standart meta */}
-            <meta 
-                name="description" 
-                content={`LIGHTFILMS. Page unavailable`} 
-            />
+            <meta name="description" content={`LIGHTFILMS. Page unavailable`} />
             <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/404" />
 
             {/* Open Graph meta */}
@@ -18,12 +15,12 @@ const C404: React.FunctionComponent = () => {
                 property="og:url" 
                 content={ `https://lightfilms-ssandry.vercel.app/404` } 
             />
-            <meta property="og:type" content="website" />
             <meta property="og:title" content="LIGHTFILMS. Page unavailable" />
-            <meta 
-                property="og:description" 
-                content="LIGHTFILMS. Page unavailable"
-            />
+            <meta property="og:description" content="LIGHTFILMS. Page unavailable" />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content="LIGHTFILMS. Page unavailable" />
+            <meta name="twitter:description" content="LIGHTFILMS. Page unavailable" />
         </Head>
         <TheHeader />
         <div className="custom404">

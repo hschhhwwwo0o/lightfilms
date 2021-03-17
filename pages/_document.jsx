@@ -41,7 +41,14 @@ export default class Doc extends Document {
                     <meta property="og:image:width" content="1200" />
                     <meta property="og:image:height" content="630" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
+                    <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
+
+                    {/* Open Graph Twitter */}
+                    <meta name="twitter:card" content="summary" />
+                    <meta name="twitter:site" content="@lightfilms" />
+                    <meta name="twitter:image" content="/static/lightfilms-twitter-promo.png" />
+                    {/* <meta name="twitter:image:alt" content="https://site.com/past.png" /> */}
 
                     {/* Fonts */}
                     <link rel="preconnect" href="https://fonts.gstatic.com" />

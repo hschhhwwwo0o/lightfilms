@@ -31,6 +31,10 @@ const TimePage = () => {
                 property="og:description" 
                 content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century."
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content="LIGHTFILMS : Keep up to time with temporary events." />
+            <meta name="twitter:description" content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century." />
         </Head>
         <div id="time">
             <div id="time_traveler">

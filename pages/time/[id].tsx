@@ -41,6 +41,10 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 property="og:description" 
                 content={ `LIGHTFILMS - About ${time.id}s cinema history. ${time.title}` }
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content={`LIGHTFILMS : ${ time.id }`} />
+            <meta name="twitter:description" content={ `LIGHTFILMS - About ${time.id}s cinema history. ${time.title}` } />
         </Head>
         <div id="timeBlock">
             <section id="timeContent">

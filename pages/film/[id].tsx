@@ -41,6 +41,10 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                 property="og:description" 
                 content={`LIGHTFILMS. ${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }.`}
             />
+
+            {/* Open Graph Twitter */}
+            <meta name="twitter:title" content={`LIGHTFILMS : ${ film.title }`} />
+            <meta name="twitter:description" content={`LIGHTFILMS. ${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }.`} />
         </Head>
         <div id="grid-wrap">
             <section id="left">
