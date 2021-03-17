@@ -45,7 +45,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
         <div id="grid-wrap">
             <section id="left">
                 <article id="text__header">
-                    <h2>{ film.title }</h2>
+                    <h1 className="h2-fk">{ film.title }</h1>
                     <h4>
                         Genres: <i> { film.genres[0] }
                             {`${ film.genres[1] !== undefined ? `, ${ film.genres[1] }. `: ". "}`}
