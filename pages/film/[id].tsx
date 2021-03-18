@@ -14,6 +14,7 @@ interface FilmPageProps {
 
 const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
+
         <Meta 
             titleShort={`LIGHTFILMS | ${ film.title }`}
             titleLong={`LIGHTFILMS | ${ film.title }`}
@@ -21,8 +22,10 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
             url={`https://lightfilms-ssandry.vercel.app/person/${film.id}`}
             keywords={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`}
         />
+
         <div id="grid-wrap">
             <section id="left">
+
                 <header id="text__header">
                     <h1 className="h2-fk">{ film.title }</h1>
                     <h4>
@@ -34,11 +37,20 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     </h4>
                     <p>{ film.briefAbout }</p>
                 </header>
-                <img id="collage" src = { film.collage } alt = {`film ${ film.title } collage`} />
+                
+                <img 
+                    id  = "collage" 
+                    src = { film.collage } 
+                    alt = {`film ${ film.title } collage`} 
+                />
+
                 <div id="about">
                     <h5>What about?</h5>
                     <p>{ film.about.paragraphs[0] }</p>
-                    <img src={ film.coverIMG } alt={`Film ${ film.title } image`}/>
+                    <img 
+                        src={ film.coverIMG } 
+                        alt={`Film ${ film.title } image`}
+                    />
                     {
                         film.about.paragraphs
                         .filter((p, i) => { return i > 0 })
@@ -50,6 +62,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     }
                 </div>
             </section>
+            
             <section id="right">
                 <header className="prod">
                     <h5 className="producerName">Producer</h5>
