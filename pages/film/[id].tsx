@@ -5,7 +5,7 @@ import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces";
 
 import DefaultLayout from "../../layouts/default";
-import Head from "next/head";
+import Meta from "../../components/Meta";
 import Card from "../../components/Card";
 
 interface FilmPageProps {
@@ -14,38 +14,13 @@ interface FilmPageProps {
 
 const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
-        <Head>
-            <title>LIGHTFILMS : { film.title }</title>
-
-            {/* Standart meta */}
-            <meta 
-                name="description" 
-                content={`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
-            />
-            <meta 
-                name="keywords" 
-                content={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`} 
-            />
-            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/person/${film.id}`} />
-
-            {/* Open Graph meta */}
-            <meta 
-                property="og:title" 
-                content={`LIGHTFILMS : ${ film.title }`}
-            />
-            <meta 
-                property="og:url" 
-                content={`https://lightfilms-ssandry.vercel.app/film${ film.id }`} 
-            />
-            <meta 
-                property="og:description" 
-                content={`LIGHTFILMS. ${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }.`}
-            />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content={`LIGHTFILMS : ${ film.title }`} />
-            <meta name="twitter:description" content={`LIGHTFILMS. ${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }.`} />
-        </Head>
+        <Meta 
+            titleShort={`LIGHTFILMS | ${ film.title }`}
+            titleLong={`LIGHTFILMS | ${ film.title }`}
+            description={`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
+            url={`https://lightfilms-ssandry.vercel.app/person/${film.id}`}
+            keywords={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`}
+        />
         <div id="grid-wrap">
             <section id="left">
                 <header id="text__header">

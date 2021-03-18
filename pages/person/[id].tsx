@@ -5,7 +5,7 @@ import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces";
 
 import DefaultLayout from "../../layouts/default";
-import Head from "next/head";
+import Meta from "../../components/Meta";
 import Card from "../../components/Card";
 
 interface PersonPageProps {
@@ -34,38 +34,13 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
     }
 
     return <DefaultLayout>
-        <Head>
-            <title>LIGHTFILMS : { person.name }</title>
-
-            {/* Standart meta */}
-            <meta 
-                name="description" 
-                content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `} 
-            />
-            <meta 
-                name="keywords" 
-                content={`LIGHTFILMS. ${ person.name }, Biography ${ person.name }, ${ person.type }`} 
-            />
-            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} />
-
-            {/* Open Graph meta */}
-            <meta 
-                property="og:title" 
-                content={`LIGHTFILMS : ${ person.name }`}
-            />
-            <meta 
-                property="og:url" 
-                content={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
-            />
-            <meta 
-                property="og:description" 
-                content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
-            />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content={`LIGHTFILMS : ${ person.name }`} />
-            <meta name="twitter:description" content={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `} />
-        </Head>
+        <Meta 
+            titleShort={`LIGHTFILMS | ${ person.name }`}
+            titleLong={`LIGHTFILMS | ${ person.name }`}
+            description={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
+            url={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
+            keywords={`LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }`}
+        />
         <section id="person__header" >
             <h1>{ h1perfect(person.name)[0] }</h1>
             <h1>{ h1perfect(person.name)[1] }</h1>

@@ -8,7 +8,7 @@ import { IPersonCard } from "../interfaces";
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";
 
-import Head from "next/head";
+import Meta from "../components/Meta";
 import DefaultLayout from "../layouts/default";
 import Chooser from "../components/Chooser";
 import Grid from "../components/Grid";
@@ -24,35 +24,13 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     const [year, setYear]       = useState("all")
 
     return <DefaultLayout>
-        <Head>
-            <title>LIGHTFILMS : Acters</title>
-
-            {/* Standart */}
-            <meta 
-                name="description" 
-                content={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
-            />
-            <meta 
-                name="keywords" 
-                content={`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `} 
-            />
-            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/acters"/>
-
-            {/* Open Graph */}
-            <meta property="og:title" content="Read biographies of the greatest movie actors" />
-            <meta 
-                property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/acters` } 
-            />
-            <meta 
-                property="og:description" 
-                content="LIGHTFILMS - More about cinema, acters. Read about the great films, acters of the last century."
-            />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content="Read biographies of the greatest movie actors" />
-            <meta name="twitter:description" content="LIGHTFILMS - More about cinema, acters. Read about the great films, acters of the last century." />
-        </Head>
+        <Meta 
+            titleShort="LIGHTFILMS : Acters"
+            titleLong="Read biographies of the greatest movie actors"
+            description={`The best acters, actress of the last century. Read the biography of the best acters. LIGHTFILMS. Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `}
+            url="https://lightfilms-ssandry.vercel.app/acters"
+            keywords={`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `}
+        />
         <Chooser h1="ACTERS">
             <ul id = "countrys">
                 <li 

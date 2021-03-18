@@ -8,7 +8,7 @@ import { IPersonCard } from "../interfaces";
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";
 
-import Head from "next/head";
+import Meta from "../components/Meta";
 import DefaultLayout from "../layouts/default";
 import Chooser from "../components/Chooser";
 import Grid from "../components/Grid";
@@ -24,34 +24,15 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
     const [year, setYear]       = useState("all")
 
     return <DefaultLayout>
-        <Head>
-            <title>LIGHTFILMS : Producers</title>
-
-            {/* Standart */}
-            <meta name="description" content={`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} />
-            <meta 
-                name="keywords" 
-                content={`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
-            />
-            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/producers" />
-
-            {/* Open Graph */}
-            <meta property="og:title" content="Read biographies of the greatest movie directors" />
-            <meta 
-                property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/producers` } 
-            />
-            <meta 
-                property="og:description" 
-                content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century."
-            />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content="Read biographies of the greatest movie directors" />
-            <meta name="twitter:description" content="LIGHTFILMS - More about cinema, producers. Read about the great films, producers of the last century." />
-        </Head>
+        <Meta 
+            titleShort="LIGHTFILMS : Producers"
+            titleLong="Read biographies of the greatest movie directors"
+            description={`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `}
+            url="https://lightfilms-ssandry.vercel.app/producers"
+            keywords={`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
+        />
         <Chooser h1="PRODUCERS">
-            <ul id = "countrys">
+            <ul id="countrys">
                 <li 
                     onClick = { () => { setCountry("all") }} 
                     className = { country === "all" ? "sq sq_bright" : "sq"  }
@@ -64,7 +45,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                 <li onClick = { () => { setCountry("British") } } className = { country === "British" ? "bright" : ""  }>British</li>
                 <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
             </ul>
-            <ul id = "years">
+            <ul id="years">
                 <li onClick = { () => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
                 <li onClick = { () => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
                 <li onClick = { () => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>

@@ -1,27 +1,15 @@
-import Head from "next/head";
+import Meta from "../components/Meta"
 import TheHeader from "../components/TheHeader/index";
 
 const C404: React.FunctionComponent = () => {
     return <>
-        <Head>
-            <title>Page unavailable</title>
-
-            {/* Standart meta */}
-            <meta name="description" content={`LIGHTFILMS. Page unavailable`} />
-            <link rel="canonical" href="https://lightfilms-ssandry.vercel.app/404" />
-
-            {/* Open Graph meta */}
-            <meta 
-                property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/404` } 
-            />
-            <meta property="og:title" content="LIGHTFILMS. Page unavailable" />
-            <meta property="og:description" content="LIGHTFILMS. Page unavailable" />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content="LIGHTFILMS. Page unavailable" />
-            <meta name="twitter:description" content="LIGHTFILMS. Page unavailable" />
-        </Head>
+        <Meta 
+            titleShort="Page unavailable"
+            titleLong="LIGHTFILMS. Page unavailable"
+            description="LIGHTFILMS. Page unavailable"
+            url="https://lightfilms-ssandry.vercel.app/404"
+            keywords="LIGHTFILMS, Page unavailable"
+        />
         <TheHeader />
         <div className="custom404">
             <div>

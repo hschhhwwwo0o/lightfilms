@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_TIME_FIELDS } from "../../graphql/fragments";
 import { ITime } from "../../interfaces";
 
-import Head from "next/head";
+import Meta from "../../components/Meta";
 import DefaultLayout from "../../layouts/default";
 import Card from "../../components/Card";
 
@@ -14,38 +14,13 @@ interface  TimeProps {
 
 const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
-        <Head>
-            <title>LIGHTFILMS : { time.id }</title>
-
-            {/* Standart meta */}
-            <meta 
-                name="description" 
-                content={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`} 
-            />
-            <meta 
-                name="keywords" 
-                content={`Best time of cinema ${ time.id }s, ${ time.id }s History on cinema, LIGHTFILMS, ${ time.id }s cinema, ${time.title}`} 
-            />
-            <link rel="canonical" href={`https://lightfilms-ssandry.vercel.app/time/${time.id}`} />
-
-            {/* Open Graph meta */}
-            <meta 
-                property="og:title" 
-                content={`LIGHTFILMS : ${ time.id }`}
-            />
-            <meta 
-                property="og:url" 
-                content={ `https://lightfilms-ssandry.vercel.app/time/${time.id}` } 
-            />
-            <meta 
-                property="og:description" 
-                content={ `LIGHTFILMS - About ${time.id}s cinema history. ${time.title}` }
-            />
-
-            {/* Open Graph Twitter */}
-            <meta name="twitter:title" content={`LIGHTFILMS : ${ time.id }`} />
-            <meta name="twitter:description" content={ `LIGHTFILMS - About ${time.id}s cinema history. ${time.title}` } />
-        </Head>
+        <Meta 
+            titleShort={`LIGHTFILMS | ${time.id}`}
+            titleLong={`LIGHTFILMS | ${ time.id }`}
+            description={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`}
+            url={`https://lightfilms-ssandry.vercel.app/time/${time.id}`}
+            keywords="LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
+        />
         <div id="timeBlock">
             <section id="timeContent">
                 <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>
