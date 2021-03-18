@@ -1,0 +1,53 @@
+{
+    "name": "LIGHTFILMS",
+    "short_name": "LIGHTFILMS",
+    "background_color": "#000",
+    "description": "LIGHTFILMS for fans of old and high-quality movies.",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "lang": "eu",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-12x12.png",
+            "sizes": "12x12",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-48x48.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-120x120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lightfilms-ssandry.vercel.app/static/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

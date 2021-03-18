@@ -9,7 +9,7 @@ export default class Doc extends Document {
 
     render() {
         return (
-            <Html prefix="og: http://ogp.me/ns#" lang="en-us" >
+            <Html prefix="og: http://ogp.me/ns#" lang="en-us" dir="ltr" >
                 <Head>
                     {/* Favicons */}
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
@@ -26,28 +26,36 @@ export default class Doc extends Document {
                     <link sizes="180x180" rel="apple-touch-icon" href="/static/apple-touch-icon-180x180.png" />
 
                     {/* Standart */}
-                    <meta name="theme-color" content="#181818" />
-                    <meta name="author" content="GitHub: ssandry" />
-                    <meta name="publisher" content="LIGHTFILMS" />
-                    <meta name="copyright" content="2021 LIGHTFILMS" />
-
+                    <meta name="hostname" content="lightfilms-ssandry.vercel.app" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
                     <meta httpEquiv="Content-language" content="en-US" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="robots" content="index, follow" />
+                    <link rel="manifest" href="/static/manifest.json" />
+
+                    <meta name="theme-color" content="#181818" />
+                    <meta name="author" content="GitHub: ssandry" />
+                    <meta name="publisher" content="LIGHTFILMS" />
+                    <meta name="copyright" content={`${new Date().getFullYear()} LIGHTFILMS`} />
 
                     {/* Open Graph */}
-                    <meta property="og:image" content="/static/lightfilms-promo.png" />
+                    <meta property="og:image" content="https://lightfilms-ssandry.vercel.app/static/lightfilms-promo.png" />
+                    <meta property="og:image:secure_url" content="https://lightfilms-ssandry.vercel.app/static/lightfilms-promo.png" />
                     <meta property="og:image:width" content="1200" />
                     <meta property="og:image:height" content="630" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
+                    <meta property="og:locale:alternate" content="en_UK" />
 
                     {/* Open Graph Twitter */}
                     <meta name="twitter:card" content="summary" />
                     <meta name="twitter:site" content="@lightfilms" />
-                    <meta name="twitter:image" content="/static/lightfilms-twitter-promo.png" />
+                    <meta name="twitter:creator" content="@ssandry" />
+                    <meta name="twitter:image" content="https://lightfilms-ssandry.vercel.app/static/lightfilms-twitter-promo.png" />
+                    <meta name="twitter:image:width" content="900" />
+                    <meta name="twitter:image:height" content="900" />
+                    
                     {/* <meta name="twitter:image:alt" content="https://site.com/past.png" /> */}
 
                     {/* Fonts */}
