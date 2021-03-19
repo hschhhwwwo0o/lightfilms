@@ -89,6 +89,10 @@ h6, .h6-fk {
     font-size: 12px;
     line-height: 14px;
 
+    @media screen and ( min-width: 1660px ) {
+        font-size: 16px;
+    }
+
     color: #C4C4C4;
 }
 
@@ -112,4 +116,11 @@ p, li, a {
     line-height: 17px;
 
     color: #696969;
+}
+
+p {
+    @media screen and ( min-width: 1660px ) {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
