@@ -22,6 +22,8 @@ export default class Doc extends Document {
 
                     <link type="image/png" sizes="192x192" rel="icon" href="/static/android-icon-192x192.png" />
 
+                    <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-57x57.png" />
+                    <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-76x76.png" />
                     <link sizes="120x120" rel="apple-touch-icon" href="/static/apple-touch-icon-120x120.png" />
                     <link sizes="180x180" rel="apple-touch-icon" href="/static/apple-touch-icon-180x180.png" />
 
