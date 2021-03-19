@@ -45,7 +45,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
             <h1>{ h1perfect(person.name)[0] }</h1>
             <h1>{ h1perfect(person.name)[1] }</h1>
         </section>
-        <div id="person__imgs">
+        <section id="person__imgs">
             <div>
                 <img src={ person.imgs[0] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`}/>
             </div>
@@ -55,7 +55,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
             <div>
                 <img src={ person.imgs[2] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }/>
             </div>
-        </div>
+        </section>
         <section id="bio" >
             <article>
                 <div className="left"><h5>BIOGRAPHY</h5></div>

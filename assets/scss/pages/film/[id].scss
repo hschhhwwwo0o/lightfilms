@@ -21,13 +21,21 @@
             flex-direction: column;
             justify-content: space-between;
 
+            h1 {
+                line-height: 80px;
+
+                @media screen and (max-width: 1000px) {
+                    line-height: 60px;
+                }
+            }
+
             h4 {
-                margin-top: 5px;
+                margin-top: 22px;
                 text-align: justify;
             }
             
             p {
-                margin-top: 16px;
+                margin-top: 18px;
                 text-align: justify;
             }
         }
