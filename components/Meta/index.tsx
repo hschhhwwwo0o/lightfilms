@@ -5,7 +5,7 @@ interface IMetaInterface {
     titleLong: string
     description: string
     url: string
-    keywords: string
+    keywords?: string
 }
 
 const Meta: React.FC<IMetaInterface> = ({ titleShort, titleLong, description, url, keywords }) => {
