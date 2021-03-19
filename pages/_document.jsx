@@ -34,6 +34,7 @@ export default class Doc extends Document {
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="robots" content="index, follow" />
                     <link rel="manifest" href="/static/manifest.json" />
+                    <meta name="msapplication-config" content="https://lightfilms-ssandry.vercel.app/static/browserconfig.xml" />
 
                     <meta name="theme-color" content="#181818" />
                     <meta name="author" content="GitHub: ssandry" />
