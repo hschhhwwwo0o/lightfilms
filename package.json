@@ -1,13 +1,28 @@
 {
   "name": "lightfilms",
   "version": "3.0.0",
+  "license": "ISC",
+  "author": "@ssandry <https://github.com/ssandry> <seva007@hotmail.com>",
+  "production": "https://lightfilms-ssandry.vercel.app/",
   "description": "Lightfilms 🎥. About world cinema 🌎",
-  "main": "index.js",
+  "keywords": [
+    "Node.js", "Next.js", "React",
+    "SSR", "GraphQL", "TypeScript",
+    "JavaScript"
+  ],
+  "homepage": "https://github.com/ssandry/lightfilms#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssandry/lightfilms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssandry/lightfilms/issues"
+  },
   "browserslist": [
-    "defaults",
-    "not IE 11",
+    "defaults", "not IE 11",
     "maintained node versions"
   ],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"node ./run.js\" \"node ./graphql/serverql.js\" \"next dev\"",
@@ -19,25 +34,6 @@
     "remove:imgs": "python3 public/__remove.images.py",
     "manage:imgs": "python3 public/manager.images.py"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ssandry/lightfilms.git"
-  },
-  "keywords": [
-    "Node.js",
-    "Next.js",
-    "React",
-    "SSR",
-    "GraphQL",
-    "TypeScript",
-    "JavaScript"
-  ],
-  "author": "@ssandry <https://github.com/ssandry> <seva007@hotmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ssandry/lightfilms/issues"
-  },
-  "homepage": "https://github.com/ssandry/lightfilms#readme",
   "dependencies": {
     "@apollo/client": "^3.3.11",
     "graphql": "^15.5.0",
