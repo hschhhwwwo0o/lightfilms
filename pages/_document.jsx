@@ -11,6 +11,9 @@ export default class Doc extends Document {
         return (
             <Html prefix="og: http://ogp.me/ns#" lang="en-us" dir="ltr" >
                 <Head>
+                    {/* Google verification */}
+                    <meta name="google-site-verification" content="oa86IUz2uq8Y3XYsiHGgJjbtBDNZ2TIp21FvivYJ7aU" />
+
                     {/* Favicons */}
                     <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
                     <link type="image/png" sizes="16x16" rel="icon" href="/static/favicon-16x16.png" />
