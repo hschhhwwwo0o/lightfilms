@@ -1,8 +1,7 @@
 from __defs import __convert, __remove
 
 
-print("Hi. This is manager for images")
-print("Enter what actions to perform.")
+print("Program for automating image conversion")
 print(" ")
 print("c - convert images to .webp")
 print("r - remove .jpg .png")
