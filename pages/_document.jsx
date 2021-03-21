@@ -40,6 +40,8 @@ export default class Doc extends Document {
                     <meta name="msapplication-config" content="https://lightfilms-ssandry.vercel.app/static/browserconfig.xml" />
 
                     <meta name="theme-color" content="#181818" />
+
+                    {/* Copyright */}
                     <meta name="author" content="GitHub: ssandry" />
                     <meta name="publisher" content="LIGHTFILMS" />
                     <meta name="copyright" content={`${new Date().getFullYear()} LIGHTFILMS`} />
@@ -61,8 +63,6 @@ export default class Doc extends Document {
                     <meta name="twitter:image" content="https://lightfilms-ssandry.vercel.app/static/lightfilms-twitter-promo.png" />
                     <meta name="twitter:image:width" content="900" />
                     <meta name="twitter:image:height" content="900" />
-                    
-                    {/* <meta name="twitter:image:alt" content="https://site.com/past.png" /> */}
 
                     {/* Fonts */}
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
