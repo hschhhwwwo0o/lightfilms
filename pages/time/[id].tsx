@@ -15,11 +15,11 @@ interface  TimeProps {
 const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
         <Meta 
-            titleShort={`LIGHTFILMS | ${time.id}`}
-            titleLong={`LIGHTFILMS | ${ time.id }`}
-            description={`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`}
-            url={`https://lightfilms-ssandry.vercel.app/time/${time.id}`}
-            keywords="LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
+            titleShort  = {`LIGHTFILMS | ${time.id}`}
+            titleLong   = {`LIGHTFILMS | ${ time.id }`}
+            description = {`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`}
+            url         = {`https://lightfilms-ssandry.vercel.app/time/${time.id}`}
+            keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
         <div id="timeBlock">
             <section id="timeContent">

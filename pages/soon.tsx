@@ -5,11 +5,11 @@ const ComingSoon = () => {
     return <>
         <DefaultLayout>
             <Meta 
-                titleShort="LIGHTFILMS | Coming Soon"
-                titleLong="LIGHTFILMS. Coming Soon"
-                description={`LIGHTFILMS. The page is not available yet, but we will soon create something new here :)`}
-                url="https://lightfilms-ssandry.vercel.app/soon"
-                keywords="LIGHTFILMS. Coming Soon"
+                titleShort  = "LIGHTFILMS | Coming Soon"
+                titleLong   = "LIGHTFILMS. Coming Soon"
+                description = {`LIGHTFILMS. The page is not available yet, but we will soon create something new here :)`}
+                url         = "https://lightfilms-ssandry.vercel.app/soon"
+                keywords    = "LIGHTFILMS. Coming Soon"
             />
             <div id="coming">
                 <h1 className="h2-fk">Coming Soon</h1>

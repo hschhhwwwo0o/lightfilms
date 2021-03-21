@@ -11,6 +11,7 @@ export default class Doc extends Document {
         return (
             <Html prefix="og: http://ogp.me/ns#" lang="en-us" dir="ltr" >
                 <Head>
+                    
                     {/* Google verification */}
                     <meta name="google-site-verification" content="oa86IUz2uq8Y3XYsiHGgJjbtBDNZ2TIp21FvivYJ7aU" />
 

@@ -35,11 +35,11 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
 
     return <DefaultLayout>
         <Meta 
-            titleShort={`LIGHTFILMS | ${ person.name }`}
-            titleLong={`LIGHTFILMS | ${ person.name }`}
-            description={`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
-            url={`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
-            keywords={`LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }`}
+            titleShort  = {`LIGHTFILMS | ${ person.name }`}
+            titleLong   = {`LIGHTFILMS | ${ person.name }`}
+            description = {`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
+            url         = {`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
+            keywords    = {`LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }`}
         />
         <section id="person__header" >
             <h1>{ h1perfect(person.name)[0] }</h1>

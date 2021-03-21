@@ -5,11 +5,11 @@ import Link from "next/link";
 const TimePage = () => {
     return <DefaultLayout>
         <Meta 
-            titleShort="Keep up to time with temporary events."
-            titleLong="LIGHTFILMS. Keep up to time with temporary events."
-            description="Best time of cinema. Read more about the time. LIGHTFILMS. 1940s 1950s 1960s 1970s."
-            url="https://lightfilms-ssandry.vercel.app/time"
-            keywords="LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
+            titleShort  = "Keep up to time with temporary events."
+            titleLong   = "LIGHTFILMS. Keep up to time with temporary events."
+            description = "Best time of cinema. Read more about the time. LIGHTFILMS. 1940s 1950s 1960s 1970s."
+            url         = "https://lightfilms-ssandry.vercel.app/time"
+            keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
         <div id="time">
             <div id="time_traveler">

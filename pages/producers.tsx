@@ -25,11 +25,11 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
 
     return <DefaultLayout>
         <Meta 
-            titleShort="LIGHTFILMS : Producers"
-            titleLong="Read biographies of the greatest movie directors"
-            description={`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `}
-            url="https://lightfilms-ssandry.vercel.app/producers"
-            keywords={`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
+            titleShort  = "LIGHTFILMS : Producers"
+            titleLong   = "Read biographies of the greatest movie directors"
+            description = {`The best producers, directors of the last century. Read the biography of the best directors, about their works. LIGHTFILMS. Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `}
+            url         = "https://lightfilms-ssandry.vercel.app/producers"
+            keywords    = {`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
         />
         <Chooser h1="PRODUCERS">
             <ul id="countrys">

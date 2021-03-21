@@ -25,11 +25,11 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
 
     return <DefaultLayout>
         <Meta 
-            titleShort="LIGHTFILMS"
-            titleLong="LIGHTFILMS - Learn more about great movies & persons"
-            description="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
-            url="https://lightfilms-ssandry.vercel.app/"
-            keywords="LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
+            titleShort  = "LIGHTFILMS"
+            titleLong   = "LIGHTFILMS - Learn more about great movies & persons"
+            description = "LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
+            url         = "https://lightfilms-ssandry.vercel.app/"
+            keywords    = "LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
         />
         <Chooser h1="CINEMA">
             <ul id="countrys">

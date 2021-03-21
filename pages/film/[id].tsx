@@ -16,11 +16,11 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
 
         <Meta 
-            titleShort={`LIGHTFILMS | ${ film.title }`}
-            titleLong={`LIGHTFILMS | ${ film.title }`}
-            description={`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
-            url={`https://lightfilms-ssandry.vercel.app/person/${film.id}`}
-            keywords={`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`}
+            titleShort  = {`LIGHTFILMS | ${ film.title }`}
+            titleLong   = {`LIGHTFILMS | ${ film.title }`}
+            description = {`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
+            url         = {`https://lightfilms-ssandry.vercel.app/person/${film.id}`}
+            keywords    = {`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`}
         />
 
         <div id="grid-wrap">
