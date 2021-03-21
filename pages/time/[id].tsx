@@ -46,6 +46,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                                 return <Card 
                                     HREF    = "/film/[id]"
                                     AS      = { `/film/${ film.id }` }
+                                    ALT     = { `${film.h3}, ${film.h6top}, ${film.h6bot}` }
                                     key     = { film.id }
 
                                     h3      = { film.h3 }

@@ -61,6 +61,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
                             key     = { producer.id } 
                             HREF    = { `/person/[id]` }
                             AS      = { `/person/${producer.id}` }
+                            ALT     = { `Producer ${producer.name}, ${producer.countries[0]}, ${producer.yearsPopular[0]}` }
                             h3      = { producer.name }
                             h6bot   = { producer.countries[0] }
                             h6top   = { producer.title }

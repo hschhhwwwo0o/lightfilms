@@ -60,6 +60,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                         <Card
                             HREF = {`/film/[id]`}
                             AS = {`/film/${film.id}`}
+                            ALT={`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
                             key = { key }
 
                             h3 = { film.title }

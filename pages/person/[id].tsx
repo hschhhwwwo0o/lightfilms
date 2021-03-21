@@ -72,7 +72,6 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                         HREF    = "/film/[id]"
                         AS      = { `/film/${ person.about.mostPopularFilm.id }`}
                         ALT     = { `Film ${ person.about.mostPopularFilm.h3 } ${ person.about.mostPopularFilm.h6bot }` }
-
                         img     = { person.about.mostPopularFilm.img }
                         h3      = { person.about.mostPopularFilm.h3 }
                         h6bot   = { person.about.mostPopularFilm.h6bot }

@@ -60,6 +60,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                             key     = { acter.id } 
                             HREF    = { `/person/[id]` }
                             AS      = { `/person/${acter.id}` }
+                            ALT     = { `${acter.name}, ${acter.countries[0]}, ${acter.yearsPopular[0]}` }
                             h3      = { acter.name }
                             h6bot   = { acter.countries[0] }
                             h6top   = { acter.title }
