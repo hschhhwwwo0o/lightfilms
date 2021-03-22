@@ -2,10 +2,10 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="https://lightfilms-ssandry.vercel.app/static/mstile-70x70.png"/>
-            <square150x150logo src="https://lightfilms-ssandry.vercel.app/static/mstile-150x150.png"/>
-            <square310x310logo src="https://lightfilms-ssandry.vercel.app/static/mstile-310x310.png"/>
-            <wide310x150logo src="https://lightfilms-ssandry.vercel.app/static/mstile-310x150.png"/>
+            <square70x70logo src="https://lightfilms-ssandry.vercel.app/static/mstile/mstile-70x70.png"/>
+            <square150x150logo src="https://lightfilms-ssandry.vercel.app/static/mstile/mstile-150x150.png"/>
+            <square310x310logo src="https://lightfilms-ssandry.vercel.app/static/mstile/mstile-310x310.png"/>
+            <wide310x150logo src="https://lightfilms-ssandry.vercel.app/static/mstile/mstile-310x150.png"/>
             <TileColor>#181818</TileColor>
         </tile>
     </msapplication>
