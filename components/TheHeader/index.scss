@@ -2,13 +2,13 @@
 @import "../../assets/scss/cc.scss";
 
 header#header {
-    width: 100vw; //width: 100%;
+    width: 100vw;
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 16px -4px rgba(16, 16, 16, 0.6);
-    margin-left: -$padd; // -
+    margin-left: -$padd;
 
     @media screen and ( min-width: 1440px ) {
         width: 100%;
@@ -21,10 +21,10 @@ header#header {
         width: 100%;
         min-height: 72px;
         height: 72px;
-        box-sizing: border-box; // -
+        box-sizing: border-box;
         max-width: 1440px;
-        padding-left: $padd; // -
-        padding-right: $padd; // -
+        padding-left: $padd;
+        padding-right: $padd;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -34,8 +34,8 @@ header#header {
         }
 
         @media screen and ( min-width: 1440px ) {
-            padding-left: 0; // -
-            padding-right: 0; // -
+            padding-left: 0;
+            padding-right: 0;
         }
 
         .menu {
