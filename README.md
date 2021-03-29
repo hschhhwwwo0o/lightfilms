@@ -4,6 +4,7 @@
 
 **Deployed thanks to [Vercel]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
+**Database: [Firebase]** <br>
 
 ## Documentation
 
@@ -40,3 +41,4 @@ $npm install # or yarn
 [SSR]: <https://habr.com/en/post/526828/>
 [SASS]: <https://sass-scss.ru/>
 [Heroku]: <https://www.heroku.com/>
+[Firebase]: <https://firebase.google.com/>
