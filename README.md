@@ -14,6 +14,7 @@
 - [GraphQL] - A query language for API
 - [TypeScript] - TypeScript extends JavaScript by adding types to the language.
 - [SASS] - CSS Preprocessor
+- [Firebase] - Database
 
 ## Setup
 
@@ -24,10 +25,6 @@ $git clone https://github.com/ssandry/lightfilms.git
 $cd lightfilms
 $npm install # or yarn
 ```
-
-## Scripts
-
-**Check avaible scripts [here]**
 
 [NodeJS]: <https://nodejs.org/en/>
 [ReactJS]: <https://reactjs.org/>
