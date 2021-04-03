@@ -6,9 +6,14 @@
   "production": "https://lightfilms-ssandry.vercel.app/",
   "description": "Lightfilms 🎥. About world cinema 🌎",
   "keywords": [
-    "Node.js", "Next.js", "React",
-    "SSR", "GraphQL", "TypeScript",
-    "JavaScript", "Firebase",
+    "Node.js",
+    "Next.js",
+    "React",
+    "SSR",
+    "GraphQL",
+    "TypeScript",
+    "JavaScript",
+    "Firebase",
     "Apollo"
   ],
   "homepage": "https://github.com/ssandry/lightfilms#readme",
@@ -20,7 +25,8 @@
     "url": "https://github.com/ssandry/lightfilms/issues"
   },
   "browserslist": [
-    "defaults", "not IE 11",
+    "defaults",
+    "not IE 11",
     "maintained node versions"
   ],
   "main": "index.js",
@@ -36,11 +42,11 @@
     "manage:imgs": "python3 public/manager.images.py"
   },
   "dependencies": {
-    "@apollo/client": "^3.3.11",
+    "@apollo/client": "^3.3.13",
     "graphql": "^15.5.0",
-    "next": "^10.0.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-lazyload": "^3.2.0"
   },
   "devDependencies": {
