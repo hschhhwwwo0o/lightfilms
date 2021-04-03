@@ -6,14 +6,9 @@
   "production": "https://lightfilms-ssandry.vercel.app/",
   "description": "Lightfilms 🎥. About world cinema 🌎",
   "keywords": [
-    "Node.js",
-    "Next.js",
-    "React",
-    "SSR",
-    "GraphQL",
-    "TypeScript",
-    "JavaScript",
-    "Firebase",
+    "Node.js", "Next.js", "React",
+    "SSR", "GraphQL", "TypeScript",
+    "JavaScript", "Firebase",
     "Apollo"
   ],
   "homepage": "https://github.com/ssandry/lightfilms#readme",
