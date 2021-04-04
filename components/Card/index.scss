@@ -6,6 +6,7 @@
     min-width: 100%;
     max-height: 386px;
     overflow: hidden;
+    border-radius: 2px;
 
     @media screen and ( min-width: 1660px ) {
         height: 46vh;
@@ -95,6 +96,7 @@
     height: 50vh;
     max-height: 446px;
     overflow: hidden;
+    border-radius: 2px;
 
     @media screen and ( min-width: 1660px ) {
         height: 54vh;
