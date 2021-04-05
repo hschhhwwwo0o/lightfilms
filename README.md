@@ -18,6 +18,8 @@
 
 ## Setup
 
+**To start, you need a [Node.js]**
+
 **Install && setup project**
 
 ```sh
