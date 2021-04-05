@@ -18,7 +18,7 @@
 
 ## Setup
 
-**To start, you need a [Node.js]**
+**To start, you need a <a href="https://nodejs.org/en/">Node.js</a>**
 
 **Install && setup project**
 
