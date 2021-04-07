@@ -5,8 +5,8 @@ import Logo from "../Logo";
 
 const Header: React.FC = () => {
 
-    const brightColorLink = "#e0e0e0"
-    const _router = useRouter()
+    const _router = useRouter();
+    const brightColorLink = "#e0e0e0";
 
     return <>
         <header id="header">
@@ -36,8 +36,7 @@ const Header: React.FC = () => {
                             <Link href="/">
                                 <a 
                                     style={{ 
-                                        color: _router.pathname === "/" || 
-                                        _router.pathname.split("/")[1] === "film" 
+                                        color: _router.pathname === "/"
                                         ? 
                                         brightColorLink : "" 
                                     }}
