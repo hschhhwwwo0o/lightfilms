@@ -48,8 +48,14 @@ export default class Doc extends Document {
                     <meta name="copyright" content={`${new Date().getFullYear()} LIGHTFILMS`} />
 
                     {/* Open Graph */}
-                    <meta property="og:image" content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" />
-                    <meta property="og:image:secure_url" content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" />
+                    <meta 
+                        property="og:image" 
+                        content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" 
+                    />
+                    <meta 
+                        property="og:image:secure_url" 
+                        content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" 
+                    />
                     <meta property="og:image:width" content="1200" />
                     <meta property="og:image:height" content="630" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
@@ -58,10 +64,13 @@ export default class Doc extends Document {
                     <meta property="og:locale:alternate" content="en_UK" />
 
                     {/* Open Graph Twitter */}
+                    <meta 
+                        name="twitter:image" 
+                        content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-twitter-promo.png" 
+                    />
                     <meta name="twitter:card" content="summary" />
                     <meta name="twitter:site" content="@lightfilms" />
                     <meta name="twitter:creator" content="@ssandry" />
-                    <meta name="twitter:image" content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-twitter-promo.png" />
                     <meta name="twitter:image:width" content="900" />
                     <meta name="twitter:image:height" content="900" />
 
