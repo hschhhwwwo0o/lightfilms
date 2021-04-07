@@ -14,6 +14,7 @@ interface  TimeProps {
 
 const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
+
         <Meta 
             titleShort  = {`LIGHTFILMS | ${time.id}`}
             titleLong   = {`LIGHTFILMS | ${ time.id }`}
@@ -21,6 +22,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
             url         = {`https://lightfilms-ssandry.vercel.app/time/${time.id}`}
             keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
+        
         <div id="timeBlock">
             <section id="timeContent">
                 <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>

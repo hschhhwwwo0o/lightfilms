@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const TimePage = () => {
     return <DefaultLayout>
+
         <Meta 
             titleShort  = "Keep up to time with temporary events."
             titleLong   = "LIGHTFILMS. Keep up to time with temporary events."
@@ -11,6 +12,7 @@ const TimePage = () => {
             url         = "https://lightfilms-ssandry.vercel.app/time"
             keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
+        
         <div id="time">
             <div id="time_traveler">
                 <h1 className="h2-fk">Keep up to time with temporary events.</h1>
