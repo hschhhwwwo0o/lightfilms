@@ -24,6 +24,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
     const [year, setYear]       = useState("all")
 
     return <DefaultLayout>
+
         <Meta 
             titleShort  = "LIGHTFILMS : Producers"
             titleLong   = "Read biographies of the greatest movie directors"
@@ -31,6 +32,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
             url         = "https://lightfilms-ssandry.vercel.app/producers"
             keywords    = {`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
         />
+        
         <Chooser h1="PRODUCERS">
             <ul id="countrys">
                 <li 

@@ -42,7 +42,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 }
                 <article>
                     <h4>SOME OF THE BEST MOVIES OF THE DECADE</h4>
-                    <div id="bestMovies">
+                    <section id="bestMovies">
                         {
                             time.bestMovies.map( (film) => {
                                 return <Card 
@@ -59,7 +59,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                                 />
                             } )
                         }
-                    </div>
+                    </section>
                 </article>
             </section>
         </div>

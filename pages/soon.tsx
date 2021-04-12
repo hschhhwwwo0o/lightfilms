@@ -4,6 +4,7 @@ import DefaultLayout from "../layouts/default";
 const ComingSoon = () => {
     return <>
         <DefaultLayout>
+
             <Meta 
                 titleShort  = "LIGHTFILMS | Coming Soon"
                 titleLong   = "LIGHTFILMS. Coming Soon"
@@ -11,9 +12,10 @@ const ComingSoon = () => {
                 url         = "https://lightfilms-ssandry.vercel.app/soon"
                 keywords    = "LIGHTFILMS. Coming Soon"
             />
-            <div id="coming">
+
+            <section id="coming">
                 <h1 className="h2-fk">Coming Soon</h1>
-            </div>
+            </section>
         </DefaultLayout>
         <style jsx >
         {`

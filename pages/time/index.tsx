@@ -14,7 +14,7 @@ const TimePage = () => {
         />
         
         <div id="time">
-            <div id="time_traveler">
+            <section id="time_traveler">
                 <h1 className="h2-fk">Keep up to time with temporary events.</h1>
                 <ul>
                     <li>
@@ -58,7 +58,7 @@ const TimePage = () => {
                         </Link>
                     </li>
                 </ul>
-            </div>
+            </section>
         </div>
     </DefaultLayout>
 }

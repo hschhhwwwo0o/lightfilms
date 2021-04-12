@@ -24,6 +24,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
     const [year, setYear]   = useState("all")
 
     return <DefaultLayout>
+
         <Meta 
             titleShort  = "LIGHTFILMS"
             titleLong   = "LIGHTFILMS - Learn more about great movies & persons"
@@ -31,6 +32,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
             url         = "https://lightfilms-ssandry.vercel.app/"
             keywords    = "LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
         />
+        
         <Chooser h1="CINEMA">
             <ul id="countrys">
                 <li 

@@ -24,6 +24,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
     const [year, setYear]       = useState("all")
 
     return <DefaultLayout>
+
         <Meta 
             titleShort  = "LIGHTFILMS : Acters"
             titleLong   = "Read biographies of the greatest movie actors"
@@ -31,6 +32,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
             url         = "https://lightfilms-ssandry.vercel.app/acters"
             keywords    = {`The best acters, actress of the last century, biography of the best acters, LIGHTFILMS, Biographies of acters. ${acters[0].name}, ${acters[1].name}, ${acters[2].name} `}
         />
+        
         <Chooser h1="ACTERS">
             <ul id = "countrys">
                 <li 
