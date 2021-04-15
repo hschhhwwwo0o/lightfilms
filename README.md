@@ -31,6 +31,14 @@ $cd lightfilms
 $npm install # or yarn
 ```
 
+## Run
+
+**To run, you need a [NodeJS]**
+
+```sh
+$npm run dev # or yarn dev
+```
+
 [NodeJS]: <https://nodejs.org/en/>
 [ReactJS]: <https://reactjs.org/>
 [NextJS]: <https://nextjs.org/>
