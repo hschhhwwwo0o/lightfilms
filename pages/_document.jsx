@@ -11,7 +11,9 @@ export default class Doc extends Document {
         return (
             <Html prefix="og: http://ogp.me/ns#" lang="en-us" dir="ltr" >
                 <Head>
-                    
+                    <meta charset="UTF-8">
+                    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+
                     {/* Google verification */}
                     <meta name="google-site-verification" content="oa86IUz2uq8Y3XYsiHGgJjbtBDNZ2TIp21FvivYJ7aU" />
 
@@ -33,7 +35,6 @@ export default class Doc extends Document {
 
                     {/* Standart */}
                     <meta name="hostname" content="lightfilms-ssandry.vercel.app" />
-                    <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
                     <meta httpEquiv="Content-language" content="en-US" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="robots" content="index, follow" />
@@ -43,7 +44,7 @@ export default class Doc extends Document {
                     <meta name="theme-color" content="#181818" />
 
                     {/* Copyright */}
-                    <meta name="author" content="GitHub: ssandry" />
+                    <meta name="author" content="GitHub: @ssandry" />
                     <meta name="publisher" content="LIGHTFILMS" />
                     <meta name="copyright" content={`${new Date().getFullYear()} LIGHTFILMS`} />
 
