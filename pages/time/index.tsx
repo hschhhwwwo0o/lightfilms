@@ -1,5 +1,5 @@
-import Meta from "../../components/Meta";
 import DefaultLayout from "../../layouts/default";
+import Meta from "../../components/Meta";
 import Link from "next/link";
 
 const TimePage = () => {

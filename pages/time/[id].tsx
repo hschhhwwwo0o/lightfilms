@@ -4,8 +4,8 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_TIME_FIELDS } from "../../graphql/fragments";
 import { ITime } from "../../interfaces";
 
-import Meta from "../../components/Meta";
 import DefaultLayout from "../../layouts/default";
+import Meta from "../../components/Meta";
 import Card from "../../components/Card";
 
 interface  TimeProps {
