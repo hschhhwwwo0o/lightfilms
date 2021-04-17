@@ -80,8 +80,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getTime {
                         getTime(id: ${ctx.params.id}) {
                             ...TimeFragment
+                        }
                     }
-                }
                 ${ALL_TIME_FIELDS.fragment}
                 `
             })
@@ -107,8 +107,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getTime {
                         getTime(id: ${ctx.params.id}) {
                             ...TimeFragment
+                        }
                     }
-                }
                 ${ALL_TIME_FIELDS.fragment}
                 `
             })
@@ -139,8 +139,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
                     query getAllTimes {
                         getAllTimes {
                             id
+                        }
                     }
-                }
                 `
             })
 
@@ -169,8 +169,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
                     query getAllTimes {
                         getAllTimes {
                             id
+                        }
                     }
-                }
                 `
             })
 

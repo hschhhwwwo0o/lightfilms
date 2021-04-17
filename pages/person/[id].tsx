@@ -130,8 +130,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getPerson {
                         getPerson(id: ${ctx.params.id}) {
                             ...PersonFragment
+                        }
                     }
-                }
                 ${ALL_PERSON_FIELDS.fragment}
                 `
             })
@@ -157,8 +157,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getPerson {
                         getPerson(id: ${ctx.params.id}) {
                             ...PersonFragment
+                        }
                     }
-                }
                 ${ALL_PERSON_FIELDS.fragment}
                 `
             })
@@ -191,8 +191,8 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                     query getAllPersons {
                         getAllPersons {
                             id
+                        }
                     }
-                }
                 `
             })
 
@@ -224,8 +224,8 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                     query getAllPersons {
                         getAllPersons {
                             id
+                        }
                     }
-                }
                 `
             })
 

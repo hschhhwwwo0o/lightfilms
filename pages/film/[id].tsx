@@ -120,8 +120,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getFilm {
                         getFilm(id: ${ctx.params.id}) {
                             ...FilmFragment
+                        }
                     }
-                }
                 ${ALL_FILM_FIELDS.fragment}
                 `
             })
@@ -147,8 +147,8 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     query getFilm {
                         getFilm(id: ${ctx.params.id}) {
                             ...FilmFragment
+                        }
                     }
-                }
                 ${ALL_FILM_FIELDS.fragment}
                 `
             })
@@ -179,8 +179,8 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                     query getAllFilms {
                         getAllFilms {
                             id
+                        }
                     }
-                }
                 `
             })
 
