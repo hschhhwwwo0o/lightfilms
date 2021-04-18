@@ -3,6 +3,11 @@ import Head from "next/head";
 
 import "../assets/scss/global.scss";
 
+// Custom App.
+// Next.js uses the App component to initialize pages.
+
+// https://nextjs.org/docs/advanced-features/custom-app
+
 function App({ Component, pageProps }: AppProps) {
     return <>
         <Head>

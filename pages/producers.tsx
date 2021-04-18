@@ -85,9 +85,9 @@ export const getStaticProps: GetStaticProps = async ctx => {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
-            const { data } = await client.query({ query: GET_PRODUCERS })
+            const { data } = await client.query({ query: GET_PRODUCERS });
 
             return {
                 props: {
@@ -103,9 +103,9 @@ export const getStaticProps: GetStaticProps = async ctx => {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
-            const { data } = await client.query({ query: GET_PRODUCERS })
+            const { data } = await client.query({ query: GET_PRODUCERS });
 
             return {
                 props: {

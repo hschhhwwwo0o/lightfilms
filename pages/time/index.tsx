@@ -19,40 +19,40 @@ const TimePage = () => {
                 <ul>
                     <li>
                         <Link 
-                            href="/time/[id]"
-                            as = {`/time/${1940}`}
+                            href    = "/time/[id]"
+                            as      = {`/time/${1940}`}
                         >
                             <a>40's</a>
                         </Link>
                     </li>
                     <li>
                         <Link 
-                            href="/time/[id]"
-                            as = {`/time/${1950}`}
+                            href    = "/time/[id]"
+                            as      = {`/time/${1950}`}
                         >
                             <a>50's</a>
                         </Link>
                     </li>
                     <li>
                         <Link 
-                            href="/time/[id]"
-                            as = {`/time/${1960}`}
+                            href    = "/time/[id]"
+                            as      = {`/time/${1960}`}
                         >
                             <a>60's</a>
                         </Link>
                     </li>
                     <li>
                         <Link 
-                            href="/time/[id]"
-                            as = {`/time/${1970}`}
+                            href    = "/time/[id]"
+                            as      = {`/time/${1970}`}
                         >
                             <a>70's</a>
                         </Link>
                     </li>
                     <li>
                         <Link 
-                            href="/time/[id]"
-                            as = {`/time/${1980}`}
+                            href    = "/time/[id]"
+                            as      = {`/time/${1980}`}
                         >
                             <a>80's</a>
                         </Link>

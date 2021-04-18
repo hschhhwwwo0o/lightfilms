@@ -123,7 +123,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
             const data = await client.query({
                 query: gql`
@@ -134,7 +134,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     }
                 ${ALL_PERSON_FIELDS.fragment}
                 `
-            })
+            });
 
             return {
                 props: {
@@ -150,7 +150,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
             const data = await client.query({
                 query: gql`
@@ -161,7 +161,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                     }
                 ${ALL_PERSON_FIELDS.fragment}
                 `
-            })
+            });
 
             return {
                 props: {
@@ -184,7 +184,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
             const data = await client.query({
                 query: gql`
@@ -194,15 +194,11 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                         }
                     }
                 `
-            })
+            });
 
             const paths = await data.data.getAllPersons.map( ( {id} ) => {
-                return (
-                    {
-                        params: { id: id }
-                    }
-                )
-            } )
+                return ({ params: { id: id } })
+            } );
 
             return { 
                 paths, 
@@ -217,7 +213,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
                 cache: new InMemoryCache()
-            })
+            });
 
             const data = await client.query({
                 query: gql`
@@ -227,15 +223,11 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                         }
                     }
                 `
-            })
+            });
 
             const paths = await data.data.getAllPersons.map( ( {id} ) => {
-                return (
-                    {
-                        params: { id: id }
-                    }
-                )
-            } )
+                return ({ params: { id: id } })
+            } );
 
             return { 
                 paths, 
