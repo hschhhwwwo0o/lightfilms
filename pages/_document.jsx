@@ -15,7 +15,7 @@ export default class __Document extends Document {
     }
 
     render() {
-        return (
+        return <>
             <Html prefix="og: http://ogp.me/ns#" lang="en-us" dir="ltr" >
                 <Head>
                     <meta charSet="UTF-8" />
@@ -99,6 +99,6 @@ export default class __Document extends Document {
                     <NextScript />
                 </body>
             </Html>
-        )
+        </>
     }
 }
