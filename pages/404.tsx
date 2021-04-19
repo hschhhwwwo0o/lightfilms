@@ -10,7 +10,7 @@ import TheHeader from "../components/TheHeader/index";
 // To avoid the above pitfalls, Next.js provides 
 // a static 404 page by default without having to add any additional files.
 
-const C404: React.FunctionComponent = () => {
+const __404: React.FunctionComponent = () => {
     return <>
         <Meta 
             titleShort  = "Page unavailable"
@@ -28,4 +28,4 @@ const C404: React.FunctionComponent = () => {
     </>
 }
 
-export default C404;
+export default __404;
