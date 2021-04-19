@@ -21,6 +21,9 @@ export default class __Document extends Document {
                     <meta charSet="UTF-8" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+
                     {/* Google verification */}
                     <meta name="google-site-verification" content="oa86IUz2uq8Y3XYsiHGgJjbtBDNZ2TIp21FvivYJ7aU" />
 
@@ -43,7 +46,6 @@ export default class __Document extends Document {
                     {/* Standart */}
                     <meta name="hostname" content="lightfilms-ssandry.vercel.app" />
                     <meta httpEquiv="Content-language" content="en-US" />
-                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="robots" content="index, follow" />
                     <link rel="manifest" href="/static/manifest.json" />
                     <meta name="msapplication-config" content="https://lightfilms-ssandry.vercel.app/static/browserconfig.xml" />
@@ -64,6 +66,7 @@ export default class __Document extends Document {
                         property="og:image:secure_url" 
                         content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" 
                     />
+                    <meta property="og:image:type" content="image/png" /> 
                     <meta property="og:image:width" content="1200" />
                     <meta property="og:image:height" content="630" />
                     <meta property="og:site_name" content="LIGHTFILMS" />
