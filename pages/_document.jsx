@@ -53,9 +53,9 @@ export default class __Document extends Document {
                     <meta name="theme-color" content="#181818" />
 
                     {/* Copyright */}
-                    <meta name="author" content="GitHub: @ssandry" />
-                    <meta name="publisher" content="LIGHTFILMS" />
-                    <meta name="copyright" content={`${new Date().getFullYear()} LIGHTFILMS`} />
+                    <meta name="author" content="Saveliy Meetrofanov. GitHub: @ssandry" />
+                    <meta name="publisher" content="@ssandry" />
+                    <meta name="copyright" content={`${new Date().getFullYear()} @ssandry`} />
 
                     {/* Open Graph */}
                     <meta 
