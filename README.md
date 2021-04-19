@@ -1,6 +1,6 @@
-<img src="./md/__header.png" width="100%" />
-<img src="./md/__tch.png" width="100%" />
-<img src="./md/__frame.png" width="100%" />
+![Lightfilms & Vercel](md/__header.png "Lightfilms & Vercel")
+![Lightfilms Tech Stack](md/__tch.png "Lightfilms Tech Stack")
+![Lightfilms Design](md/__frame.png "Lightfilms Design")
 
 ## 🎥 Lightfilms
 
