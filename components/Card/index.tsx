@@ -27,11 +27,11 @@ const Card: React.FC<ICardProps> = ( props ) => {
                             "post__preview_double"
                         }
                     >
-                        <div className="img" >
-                            <div className="res" style={{ position: "relative" }} >
+                        <div className="post__thumb" >
+                            <div className="post__thumb-cover" style={{ position: "relative" }}>
                                 <img src={ props.img } alt={ props.ALT } />
                             </div>
-                            <div className="res" style={{ position: "relative" }}>
+                            <div className="post__thumb-cover" style={{ position: "relative" }}>
                                 <img 
                                     src={ 
                                         props.type === "double" ? 
@@ -41,8 +41,8 @@ const Card: React.FC<ICardProps> = ( props ) => {
                                 />
                             </div>
                         </div>
-                        <div className="tags">
-                            <h6 className="top">{ props.h6top }</h6>
+                        <div className="post__tags">
+                            <h6>{ props.h6top }</h6>
                             <h3>{ props.h3 }</h3>
                             <h6>{ props.h6bot }</h6>
                         </div>
