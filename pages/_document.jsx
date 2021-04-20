@@ -22,7 +22,7 @@ export default class __Document extends Document {
                     <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
 
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+                    <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
 
                     {/* Google verification */}
                     <meta name="google-site-verification" content="oa86IUz2uq8Y3XYsiHGgJjbtBDNZ2TIp21FvivYJ7aU" />

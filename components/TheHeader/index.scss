@@ -17,7 +17,7 @@ header#header {
         border-bottom: 4px solid rgba(16, 16, 16, 0.3);
     }
 
-    .container {
+    .header__container {
         width: 100%;
         min-height: 72px;
         height: 72px;
@@ -38,7 +38,7 @@ header#header {
             padding-right: 0;
         }
 
-        .menu {
+        .burger-menu {
             @media screen and (max-width: 990px) {
                 width: 26px;
                 height: 18px;
@@ -61,13 +61,13 @@ header#header {
             }
         }
 
-        #checkbox:checked ~ #nav {
+        #checkbox:checked ~ #header__nav {
             @media screen and (max-width: 990px) {
                 height: 152px;
             }
         }
 
-        #checkbox:checked ~ label{
+        #checkbox:checked ~ label {
 
             div:nth-child(1) {
                 transform: rotate(45deg) translateY(12px);
@@ -85,7 +85,7 @@ header#header {
 
         }
 
-        nav {
+        #header__nav {
             background-color: $black;
             position: absolute;
             top: 72px;

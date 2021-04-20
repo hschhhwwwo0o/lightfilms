@@ -10,15 +10,15 @@ const Header: React.FC = () => {
 
     return <>
         <header id="header">
-            <div className="container">
+            <div className="header__container">
                 <Logo />
                 <input type="checkbox" id="checkbox" />
-                <label htmlFor="checkbox" className="menu">
+                <label htmlFor="checkbox" className="burger-menu">
                     <div></div>
                     <div></div>
                     <div></div>
                 </label>
-                <nav id="nav">
+                <nav id="header__nav">
                     <ul>
                         <li>
                             <Link href="/time">
