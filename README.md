@@ -2,7 +2,7 @@
 ![Lightfilms Tech Stack](md/__tch.png "Lightfilms Tech Stack")
 ![Lightfilms Design](md/__frame.png "Lightfilms Design")
 
-## 🎥 Lightfilms
+## Lightfilms
 
 **Live preview [LIGHTFILMS]** 
 
