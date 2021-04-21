@@ -28,14 +28,16 @@ const Card: React.FC<ICardProps> = ( props ) => {
                         }
                     >
                         <div className="post__thumb" >
-                            <div className="post__thumb-cover" style={{ position: "relative" }}>
+                            <div className="post__thumb-cover">
                                 <img src={ props.img } alt={ props.ALT } />
                             </div>
-                            <div className="post__thumb-cover" style={{ position: "relative" }}>
+                            <div className="post__thumb-cover">
                                 <img 
                                     src={ 
                                         props.type === "double" ? 
-                                        props.img2 : props.img
+                                        props.img2 
+                                        : 
+                                        props.img
                                     } 
                                     alt={ props.ALT } 
                                 />
