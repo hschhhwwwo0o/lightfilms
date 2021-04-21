@@ -78,7 +78,9 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 </div>
             </article>
             <article>
-                <div className="left"><h5>MOST POPULAT FILM</h5></div>
+                <div className="left">
+                    <h5>MOST POPULAT FILM</h5>
+                </div>
                 <div className="mostPopularFilm"> 
                     <Card 
                         HREF    = "/film/[id]"
@@ -90,7 +92,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                         h6top   = { person.about.mostPopularFilm.h6top }
                         type    = "single"
                     />
-                    <p>{person.about.paragraphs[1]}</p>
+                    <p>{ person.about.paragraphs[1] }</p>
                 </div>
             </article>
             <article>
