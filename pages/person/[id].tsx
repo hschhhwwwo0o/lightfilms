@@ -36,11 +36,11 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
     return <DefaultLayout>
 
         <Meta 
-            titleShort  = {`LIGHTFILMS | ${ person.name }`}
-            titleLong   = {`LIGHTFILMS | ${ person.name }`}
-            description = {`LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. `}
-            url         = {`https://lightfilms-ssandry.vercel.app/person/${person.id}`} 
-            keywords    = {`LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }`}
+            titleShort  = { `LIGHTFILMS | ${ person.name }` }
+            titleLong   = { `LIGHTFILMS | ${ person.name }` }
+            description = { `LIGHTFILMS. ${ person.name }. Read more biography about ${ person.name }, ${ person.type }. ${ person.countries[0] } ${ person.type }. ` }
+            url         = { `https://lightfilms-ssandry.vercel.app/person/${ person.id }` } 
+            keywords    = { `LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }` }
         />
         
         <section id="person__header" >
@@ -49,22 +49,32 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
         </section>
         <section id="person__imgs">
             <div>
-                <img src={ person.imgs[0] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`}/>
+                <img 
+                    src={ person.imgs[0] } 
+                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`}
+                />
             </div>
             <div>
-                <img src={ person.imgs[1] } alt={ `person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }/>
+                <img 
+                    src={ person.imgs[1] } 
+                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
+                />
             </div>
             <div>
-                <img src={ person.imgs[2] } alt={`person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }/>
+                <img 
+                    src={ person.imgs[2] } 
+                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
+                />
             </div>
         </section>
         <section id="bio" >
             <article>
-                <div className="left"><h5>BIOGRAPHY</h5></div>
+                <div className="left">
+                    <h5>BIOGRAPHY</h5>
+                </div>
                 <div className="right"> 
                     <h4>{ person.briefAbout }</h4>
                     <p>{ person.about.paragraphs[0] }</p>
-                
                 </div>
             </article>
             <article>
@@ -72,7 +82,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 <div className="mostPopularFilm"> 
                     <Card 
                         HREF    = "/film/[id]"
-                        AS      = { `/film/${ person.about.mostPopularFilm.id }`}
+                        AS      = { `/film/${ person.about.mostPopularFilm.id }` }
                         ALT     = { `Film ${ person.about.mostPopularFilm.h3 } ${ person.about.mostPopularFilm.h6bot }` }
                         img     = { person.about.mostPopularFilm.img }
                         h3      = { person.about.mostPopularFilm.h3 }
@@ -80,12 +90,13 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                         h6top   = { person.about.mostPopularFilm.h6top }
                         type    = "single"
                     />
-
                     <p>{person.about.paragraphs[1]}</p>
                 </div>
             </article>
             <article>
-                <div className="left"><h5>LAST ROLES</h5></div>
+                <div className="left">
+                    <h5>LAST ROLES</h5>
+                </div>
                 <div className="right"> 
                     <p>{ person.about.paragraphs[2] }</p>
                     <p>{ person.about.paragraphs[3] }</p>
