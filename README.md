@@ -4,9 +4,9 @@
 
 ## LIGHTFILMS
 
-**Live preview [LIGHTFILMS]** 
+**Live preview [LIGHTFILMS]** <br>
+**Deployed thanks to [Vercel]**
 
-**Deployed thanks to [Vercel]** <br>
 **GraphQL LIGHTFILMS [API]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
 **Database: [Firebase]** <br>
