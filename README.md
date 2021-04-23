@@ -7,6 +7,7 @@
 **Live preview [LIGHTFILMS]** 
 
 **Deployed thanks to [Vercel]** <br>
+**GraphQL LIGHTFILMS [API]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
 **Database: [Firebase]** <br>
 
@@ -40,6 +41,7 @@ $npm run dev # or yarn dev
 ```
 
 [NodeJS]: <https://nodejs.org/en/>
+[API]: <https://lightfilms-api.herokuapp.com/graphql>
 [ReactJS]: <https://reactjs.org/>
 [NextJS]: <https://nextjs.org/>
 [GraphQL]: <https://graphql.org/>
