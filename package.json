@@ -24,7 +24,7 @@
     "not IE 11",
     "maintained node versions"
   ],
-  "main": "index.js",
+  "main": "pages/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"node ./run.js\" \"node ./graphql/serverql.js\" \"next dev\"",
