@@ -1,4 +1,4 @@
-const Notification = () => {
+const Notification: React.FC = () => {
     return <></>
 }
 
