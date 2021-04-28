@@ -13,6 +13,7 @@ import Meta from "../components/Meta";
 import Chooser from "../components/Chooser";
 import Grid from "../components/Grid";
 import Card from "../components/Card";
+import Notification from "../components/Notification";
 
 interface IndexPageProps {
     films: IFilmCard[]
@@ -55,6 +56,11 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                 <li onClick = { () => { setYear("1980") } } className = { year === "1980" ? "bright" : ""  } >80’s</li>
             </ul>
         </Chooser>
+        <Notification 
+            message="Don't know what to read?" 
+            link="See today's recommendations from our editorial staff" 
+            href="/film/0"
+        />
         <Grid>
             {
                 __filterFilms( [genre, year], films).map( (film, key) => {
