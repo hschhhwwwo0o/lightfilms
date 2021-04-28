@@ -2,8 +2,11 @@
     width: 100%;
     height: 100px;
 
-    > div {
+    transition-duration: .65s;
+    overflow: hidden;
 
+    > div {
+        transition-duration: .45s;
         display: flex;
         justify-content: space-between;
 
