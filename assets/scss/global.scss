@@ -20,6 +20,11 @@
 @import "./pages/time/index.scss";
 @import "./pages/time/[id].scss";
 
+*::selection {
+    background-color: rgb(58, 58, 58);
+    color: rgb(196, 196, 196);
+}
+
 body {
     background-color: $black;
     overflow-x: hidden;
