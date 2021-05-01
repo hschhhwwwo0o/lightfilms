@@ -21,25 +21,6 @@
 - [TypeScript] - TypeScript extends JavaScript by adding types to the language.
 - [SASS] - CSS Preprocessor
 
-## Setup
-
-**To start, you need a [NodeJS]** <br>
-**Install && setup project**
-
-```sh
-$git clone https://github.com/ssandry/lightfilms.git
-$cd lightfilms
-$npm install # or yarn
-```
-
-## Run
-
-**To run, you need a [NodeJS]**
-
-```sh
-$npm run dev # or yarn dev
-```
-
 [NodeJS]: <https://nodejs.org/en/>
 [API]: <https://lightfilms-api.herokuapp.com/graphql>
 [ReactJS]: <https://reactjs.org/>
