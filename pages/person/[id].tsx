@@ -48,24 +48,19 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
             <h1>{ h1perfect(person.name)[1] }</h1>
         </section>
         <section id="person__imgs">
-            <div>
-                <img 
-                    src={ person.imgs[0] } 
-                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`}
-                />
-            </div>
-            <div>
-                <img 
-                    src={ person.imgs[1] } 
-                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
-                />
-            </div>
-            <div>
-                <img 
-                    src={ person.imgs[2] } 
-                    alt={ `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
-                />
-            </div>
+            {
+                person.imgs
+                .map( (img, index) => {
+                    return (
+                        <div key={index}>
+                            <img 
+                                src = { img } 
+                                alt = { `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
+                            />
+                        </div>
+                    )
+                })
+            }
         </section>
         <section id="bio" >
             <article>
