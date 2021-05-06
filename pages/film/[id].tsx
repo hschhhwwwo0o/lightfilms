@@ -16,11 +16,11 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
 
         <Meta 
-            titleShort  = {`LIGHTFILMS | ${ film.title }`}
-            titleLong   = {`LIGHTFILMS | ${ film.title }`}
-            description = {`${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } `} 
-            url         = {`https://lightfilms-ssandry.vercel.app/person/${film.id}`}
-            keywords    = {`${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }`}
+            titleShort  = { `LIGHTFILMS | ${ film.title }` }
+            titleLong   = { `LIGHTFILMS | ${ film.title }` }
+            description = { `${ film.title }. Read about ${ film.title } ${ film.year } ${ film.countries[0] } ${ film.producedBy }. LIGHTFILMS. Film about ${ film.briefAbout } ` } 
+            url         = { `https://lightfilms-ssandry.vercel.app/person/${film.id}` }
+            keywords    = { `${ film.title }, ${ film.year } History, ${ film.countries[0] } Cinema, LIGHTFILMS, ${ film.producedBy }` }
         />
 
         <div id="grid-wrap">
@@ -68,8 +68,8 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     <h5 className="producerName">Producer</h5>
                     <Card 
                         HREF    = "/person/[id]"
-                        AS      = {`/person/${ film.producer.id }`}
-                        ALT     = {`Producer | Director ${film.producer.h3} ${film.producer.h6bot} ${film.producer.h6top}`}
+                        AS      = { `/person/${ film.producer.id }` }
+                        ALT     = { `Producer | Director ${film.producer.h3} ${film.producer.h6bot} ${film.producer.h6top}` }
 
                         img     = { film.producer.imgs[0] }
                         img2    = { film.producer.imgs[1] }
