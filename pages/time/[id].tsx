@@ -16,10 +16,10 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
 
         <Meta 
-            titleShort  = {`LIGHTFILMS | ${time.id}`}
-            titleLong   = {`LIGHTFILMS | ${ time.id }`}
-            description = {`Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema`}
-            url         = {`https://lightfilms-ssandry.vercel.app/time/${time.id}`}
+            titleShort  = { `LIGHTFILMS | ${ time.id }` }
+            titleLong   = { `LIGHTFILMS | ${ time.id }` }
+            description = { `Read more about the ${ time.id }s. Best Films of ${ time.id }s  LIGHTFILMS. The influence of the ${ time.id }s on today's cinema` }
+            url         = { `https://lightfilms-ssandry.vercel.app/time/${ time.id }` }
             keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
         
@@ -27,18 +27,18 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
             <section id="timeContent">
                 <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>
                 {
-                    time.sections.map( (section: any, i) => {
-                        return <article key = { i }>
-                            <h4> { section.title } </h4>
-                            {
-                                section.p.map( (p, j) => {
-                                    return (
-                                        <p key = { j }> { p } </p>
-                                    )
-                                } )
-                            }
-                        </article>
-                    } )
+                    time.sections
+                    .map( (section: any, index) => {
+                        return (
+                            <article key={index}>
+                                <h4>{ section.title }</h4>
+                                {
+                                    section.p
+                                    .map((p, index) => <p key={index}>{p}</p>)
+                                }
+                            </article>
+                        )
+                    })
                 }
                 <article>
                     <h4>SOME OF THE BEST MOVIES OF THE DECADE</h4>
@@ -48,7 +48,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                                 return <Card 
                                     HREF    = "/film/[id]"
                                     AS      = { `/film/${ film.id }` }
-                                    ALT     = { `${film.h3}, ${film.h6top}, ${film.h6bot}` }
+                                    ALT     = { `${ film.h3 }, ${ film.h6top }, ${ film.h6bot }` }
                                     key     = { film.id }
 
                                     h3      = { film.h3 }
@@ -57,7 +57,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                                     img     = { film.img }
                                     type    = "single"
                                 />
-                            } )
+                            })
                         }
                     </section>
                 </article>
