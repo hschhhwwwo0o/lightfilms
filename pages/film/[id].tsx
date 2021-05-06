@@ -37,26 +37,24 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     </h4>
                     <p>{ film.briefAbout }</p>
                 </header>
-                
                 <img 
                     id  = "collage" 
                     src = { film.collage } 
-                    alt = {`film ${ film.title } collage`} 
+                    alt = { `film ${ film.title } collage` } 
                 />
-
                 <div id="about">
                     <h5>What about?</h5>
                     <p>{ film.about.paragraphs[0] }</p>
                     <img 
-                        src={ film.coverIMG } 
-                        alt={`Film ${ film.title } image`}
+                        src = { film.coverIMG } 
+                        alt = { `Film ${ film.title } image` }
                     />
                     {
                         film.about.paragraphs
-                        .filter((p, i) => { return i > 0 })
-                        .map( (p, i) => {
-                            return <p key = {i} >
-                                {p}
+                        .filter((empty, index) => { return index > 0 })
+                        .map( (paragraph, index) => {
+                            return <p key={index}>
+                                { paragraph }
                             </p>
                         } )
                     }
@@ -69,7 +67,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     <Card 
                         HREF    = "/person/[id]"
                         AS      = { `/person/${ film.producer.id }` }
-                        ALT     = { `Producer | Director ${film.producer.h3} ${film.producer.h6bot} ${film.producer.h6top}` }
+                        ALT     = { `Producer | Director ${ film.producer.h3 } ${ film.producer.h6bot } ${ film.producer.h6top }` }
 
                         img     = { film.producer.imgs[0] }
                         img2    = { film.producer.imgs[1] }
@@ -83,21 +81,24 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                     <h5>MAIN ACTERS</h5>
                     <div id="acters">
                     {
-                        film.acters.map( (acter) => {
-                            return <Card 
-                                key     = { acter.id }
-                                HREF    = "/person/[id]"
-                                AS      = { `/person/${acter.id}` }
-                                ALT     = { `Acter ${acter.h3} ${acter.h6bot} ${acter.h6top}` }
+                        film.acters
+                        .map( (acter) => {
+                            return (
+                                <Card 
+                                    key     = { acter.id }
+                                    HREF    = "/person/[id]"
+                                    AS      = { `/person/${ acter.id }` }
+                                    ALT     = { `Acter ${ acter.h3 } ${ acter.h6bot } ${ acter.h6top }` }
 
-                                img     = { acter.imgs[0] }
-                                img2    = { acter.imgs[1] }
-                                h3      = { acter.h3 }
-                                h6bot   = { acter.h6bot }
-                                h6top   = { acter.h6top }
-                                type    = "double"
-                            />
-                        } )
+                                    img     = { acter.imgs[0] }
+                                    img2    = { acter.imgs[1] }
+                                    h3      = { acter.h3 }
+                                    h6bot   = { acter.h6bot }
+                                    h6top   = { acter.h6top }
+                                    type    = "double"
+                                />
+                            )
+                        })
                     }
                     </div>
                 </section>

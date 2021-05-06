@@ -108,7 +108,8 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 <h5>FILMOGRAPHY</h5>
                 <div id="filmography">
                     {
-                        person.filmography.map( (film) => {
+                        person.filmography
+                        .map( (film) => {
                             return <Card
                                 key     = { film.id }
                                 HREF    = "/film/[id]"
@@ -121,7 +122,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                                 h6bot   = { film.h6bot }
                                 type    = "single"
                             />
-                        } )
+                        })
                     }
                 </div>
             </section>
