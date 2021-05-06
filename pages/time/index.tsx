@@ -2,7 +2,7 @@ import DefaultLayout from "../../layouts/default";
 import Meta from "../../components/Meta";
 import Link from "next/link";
 
-const TimePage = () => {
+const TimePage: React.FunctionComponent = () => {
     return <DefaultLayout>
 
         <Meta 
@@ -18,42 +18,27 @@ const TimePage = () => {
                 <h1 className="h2-fk">Keep up to time with temporary events.</h1>
                 <ul>
                     <li>
-                        <Link 
-                            href    = "/time/[id]"
-                            as      = {`/time/${1940}`}
-                        >
+                        <Link href="/time/[id]" as="/time/1940">
                             <a>40's</a>
                         </Link>
                     </li>
                     <li>
-                        <Link 
-                            href    = "/time/[id]"
-                            as      = {`/time/${1950}`}
-                        >
+                        <Link href="/time/[id]" as="/time/1950">
                             <a>50's</a>
                         </Link>
                     </li>
                     <li>
-                        <Link 
-                            href    = "/time/[id]"
-                            as      = {`/time/${1960}`}
-                        >
+                        <Link href="/time/[id]" as="/time/1960">
                             <a>60's</a>
                         </Link>
                     </li>
                     <li>
-                        <Link 
-                            href    = "/time/[id]"
-                            as      = {`/time/${1970}`}
-                        >
+                        <Link href="/time/[id]" as="/time/1970">
                             <a>70's</a>
                         </Link>
                     </li>
                     <li>
-                        <Link 
-                            href    = "/time/[id]"
-                            as      = {`/time/${1980}`}
-                        >
+                        <Link href="/time/[id]" as="/time/1980">
                             <a>80's</a>
                         </Link>
                     </li>
