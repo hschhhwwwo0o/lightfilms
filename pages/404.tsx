@@ -12,6 +12,7 @@ import TheHeader from "../components/TheHeader/index";
 
 const __404: React.FunctionComponent = () => {
     return <>
+
         <Meta 
             titleShort  = "Page unavailable"
             titleLong   = "LIGHTFILMS. Page unavailable"
@@ -19,6 +20,7 @@ const __404: React.FunctionComponent = () => {
             url         = "https://lightfilms-ssandry.vercel.app/404"
             keywords    = "LIGHTFILMS, Page unavailable"
         />
+        
         <TheHeader />
         <div className="custom404">
             <section>
