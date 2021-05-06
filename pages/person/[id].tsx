@@ -110,18 +110,19 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                     {
                         person.filmography
                         .map( (film) => {
-                            return <Card
-                                key     = { film.id }
-                                HREF    = "/film/[id]"
-                                AS      = { `/film/${ film.id }` }
-                                ALT     = { `Film ${ film.h3 } ${ film.h6bot }` }
-
-                                img     = { film.img}
-                                h3      = { film.h3 }
-                                h6top   = { film.h6top }
-                                h6bot   = { film.h6bot }
-                                type    = "single"
-                            />
+                            return (
+                                <Card
+                                    key     = { film.id }
+                                    type    = "single"
+                                    HREF    = "/film/[id]"
+                                    AS      = { `/film/${ film.id }` }
+                                    ALT     = { `Film ${ film.h3 } ${ film.h6bot }` }
+                                    img     = { film.img}
+                                    h3      = { film.h3 }
+                                    h6top   = { film.h6top }
+                                    h6bot   = { film.h6bot }
+                                />
+                            )
                         })
                     }
                 </div>

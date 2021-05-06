@@ -65,16 +65,15 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                 <header className="prod">
                     <h5 className="producerName">Producer</h5>
                     <Card 
+                        type    = "double"
                         HREF    = "/person/[id]"
                         AS      = { `/person/${ film.producer.id }` }
                         ALT     = { `Producer | Director ${ film.producer.h3 } ${ film.producer.h6bot } ${ film.producer.h6top }` }
-
                         img     = { film.producer.imgs[0] }
                         img2    = { film.producer.imgs[1] }
                         h3      = { film.producer.h3 }
                         h6bot   = { film.producer.h6bot }
                         h6top   = { film.producer.h6top }
-                        type    = "double"
                     />
                 </header>
                 <section id="acters-grid">
@@ -86,16 +85,15 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                             return (
                                 <Card 
                                     key     = { acter.id }
+                                    type    = "double"
                                     HREF    = "/person/[id]"
                                     AS      = { `/person/${ acter.id }` }
                                     ALT     = { `Acter ${ acter.h3 } ${ acter.h6bot } ${ acter.h6top }` }
-
                                     img     = { acter.imgs[0] }
                                     img2    = { acter.imgs[1] }
                                     h3      = { acter.h3 }
                                     h6bot   = { acter.h6bot }
                                     h6top   = { acter.h6top }
-                                    type    = "double"
                                 />
                             )
                         })

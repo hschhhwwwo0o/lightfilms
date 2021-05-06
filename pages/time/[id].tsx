@@ -45,18 +45,19 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                     <section id="bestMovies">
                         {
                             time.bestMovies.map( (film) => {
-                                return <Card 
-                                    HREF    = "/film/[id]"
-                                    AS      = { `/film/${ film.id }` }
-                                    ALT     = { `${ film.h3 }, ${ film.h6top }, ${ film.h6bot }` }
-                                    key     = { film.id }
-
-                                    h3      = { film.h3 }
-                                    h6top   = { film.h6top }
-                                    h6bot   = { film.h6bot }
-                                    img     = { film.img }
-                                    type    = "single"
-                                />
+                                return (
+                                    <Card 
+                                        key     = { film.id }
+                                        type    = "single"
+                                        HREF    = "/film/[id]"
+                                        AS      = { `/film/${ film.id }` }
+                                        ALT     = { `${ film.h3 }, ${ film.h6top }, ${ film.h6bot }` }
+                                        h3      = { film.h3 }
+                                        h6top   = { film.h6top }
+                                        h6bot   = { film.h6bot }
+                                        img     = { film.img }
+                                    />
+                                )
                             })
                         }
                     </section>
