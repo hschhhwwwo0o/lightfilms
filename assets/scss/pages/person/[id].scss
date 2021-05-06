@@ -188,16 +188,17 @@
                     width: 100%;
                     height: 650px;
                     max-height: 800px;
+                    // background-color: red;
 
-                    .img {
+                    .post__thumb {
                         width: 100%;
-                        height: 88%;
+                        height: 86%;
 
                         background-color: rgb(94, 94, 94);
                     }
 
-                    .tags {
-                        height: 10%;
+                    .post__tags {
+                        height: 11%;
                     }
                 }
             }
