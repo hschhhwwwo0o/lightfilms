@@ -13,7 +13,10 @@ const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
     const [ notification, removeNotification ] = useState(false);
 
     return <>
-        <div id={styles.notification} style={{ height: notification ? "0" : "100px" }}>
+        <div 
+            id={ styles.notification } 
+            style={{ height: notification ? "0" : "100px" }}
+        >
             <div style={{ opacity: notification ? "0" : "1" }}>
                 <div>
                     <span>{ message } </span> <br/>
@@ -27,7 +30,7 @@ const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
                     onClick={ () => {
                         removeNotification(true)
                     } }
-                    className={styles.close} 
+                    className={styles.notification__close} 
                 />
             </div>
         </div>
