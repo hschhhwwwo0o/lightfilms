@@ -62,7 +62,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 })
             }
         </section>
-        <section id="bio" >
+        <section id="person__biography">
             <article>
                 <div className="left">
                     <h5>BIOGRAPHY</h5>
@@ -76,7 +76,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 <div className="left">
                     <h5>MOST POPULAT FILM</h5>
                 </div>
-                <div className="mostPopularFilm"> 
+                <div className="person__magnum"> 
                     <Card 
                         HREF    = "/film/[id]"
                         AS      = { `/film/${ person.about.mostPopularFilm.id }` }

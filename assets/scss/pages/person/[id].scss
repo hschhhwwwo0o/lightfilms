@@ -129,7 +129,7 @@
     }
 }
 
-#bio {
+#person__biography {
     width: 100%;
     margin-top: 120px;
 
@@ -150,11 +150,7 @@
         }
 
         .right {
-            h4 {
-                text-align: justify;
-            }
-
-            p {
+            h4, p {
                 text-align: justify;
             }
 
@@ -167,7 +163,7 @@
             }
         }
 
-        .mostPopularFilm {
+        .person__magnum {
             p {
                 margin-top: 35px;
                 text-align: justify;
@@ -176,11 +172,13 @@
                     margin-top: 20px;
                 }
             }
+
             @media screen and (max-width: 800px) {
                 .post__preview_single {
                     margin-top: 10px;
                 }
             }
+
             @media screen and(min-width: 1000px) {
                 width: 100%;
 
@@ -188,12 +186,10 @@
                     width: 100%;
                     height: 650px;
                     max-height: 800px;
-                    // background-color: red;
 
                     .post__thumb {
                         width: 100%;
                         height: 86%;
-
                         background-color: rgb(94, 94, 94);
                     }
 
