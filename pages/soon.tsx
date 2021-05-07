@@ -1,7 +1,7 @@
 import DefaultLayout from "../layouts/default";
 import Meta from "../components/Meta";
 
-const ComingSoon = () => {
+const ComingSoon: React.FunctionComponent = () => {
     return <>
         <DefaultLayout>
             <Meta 
