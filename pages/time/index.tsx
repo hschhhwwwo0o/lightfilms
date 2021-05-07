@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const TimePage: React.FunctionComponent = () => {
     return <DefaultLayout>
-
         <Meta 
             titleShort  = "Keep up to time with temporary events."
             titleLong   = "LIGHTFILMS. Keep up to time with temporary events."
@@ -12,9 +11,8 @@ const TimePage: React.FunctionComponent = () => {
             url         = "https://lightfilms-ssandry.vercel.app/time"
             keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
-        
         <div id="time">
-            <section id="time_traveler">
+            <section id="time__traveler">
                 <h1 className="h2-fk">Keep up to time with temporary events.</h1>
                 <ul>
                     <li>
