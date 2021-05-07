@@ -14,8 +14,7 @@ interface PersonPageProps {
 
 const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
 
-    const h1perfect = (name: string) => {
-
+    function h1(name: string): string[] {
         const firstName = name.split(" ")[0]
         const secondName = name.split(" ")[1]
 
@@ -44,8 +43,8 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
         />
         
         <section id="person__header" >
-            <h1>{ h1perfect(person.name)[0] }</h1>
-            <h1>{ h1perfect(person.name)[1] }</h1>
+            <h1>{ h1(person.name)[0] }</h1>
+            <h1>{ h1(person.name)[1] }</h1>
         </section>
         <section id="person__imgs">
             {
@@ -64,7 +63,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
         </section>
         <section id="person__biography">
             <article>
-                <div className="left">
+                <div>
                     <h5>BIOGRAPHY</h5>
                 </div>
                 <div className="right"> 
@@ -73,7 +72,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 </div>
             </article>
             <article>
-                <div className="left">
+                <div>
                     <h5>MOST POPULAT FILM</h5>
                 </div>
                 <div className="person__magnum"> 
@@ -91,7 +90,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 </div>
             </article>
             <article>
-                <div className="left">
+                <div>
                     <h5>LAST ROLES</h5>
                 </div>
                 <div className="right"> 
