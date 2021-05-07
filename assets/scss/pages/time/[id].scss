@@ -1,10 +1,10 @@
-#timeBlock {
+#time-page {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    #timeContent {
+    #time-page__content {
         width: 100%;
         max-width: 657px;
 
@@ -39,7 +39,7 @@
 
         }
 
-        .h2-fk {
+        h1 {
             text-align: center;
             margin-top: 60px;
 
@@ -50,7 +50,7 @@
         }
     }
 
-    #bestMovies {
+    #time-page__filmography {
         margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;

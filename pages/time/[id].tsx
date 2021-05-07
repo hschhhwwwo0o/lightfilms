@@ -14,7 +14,6 @@ interface  TimeProps {
 
 const TimeYear: React.FC<TimeProps> = ({ time }) => {
     return <DefaultLayout>
-
         <Meta 
             titleShort  = { `LIGHTFILMS | ${ time.id }` }
             titleLong   = { `LIGHTFILMS | ${ time.id }` }
@@ -22,9 +21,8 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
             url         = { `https://lightfilms-ssandry.vercel.app/time/${ time.id }` }
             keywords    = "LIGHTFILMS, 1940s, 1950s, 1960s, 1970s"
         />
-        
-        <div id="timeBlock">
-            <section id="timeContent">
+        <div id="time-page">
+            <section id="time-page__content">
                 <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>
                 {
                     time.sections
@@ -34,7 +32,9 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                                 <h4>{ section.title }</h4>
                                 {
                                     section.p
-                                    .map((p, index) => <p key={index}>{p}</p>)
+                                    .map(
+                                        (p, index) => <p key={index}>{p}</p>
+                                    )
                                 }
                             </article>
                         )
@@ -42,7 +42,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 }
                 <article>
                     <h4>SOME OF THE BEST MOVIES OF THE DECADE</h4>
-                    <section id="bestMovies">
+                    <section id="time-page__filmography">
                         {
                             time.bestMovies.map( (film) => {
                                 return (
