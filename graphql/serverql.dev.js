@@ -20,29 +20,33 @@ let root = {
     getAllFilms: () => {
         return films;
     },
+
     getAllPersons: () => {
         return persons;
     },
 
     getProducers: () => {
-        return persons.filter( (p) => { return p.type === "producer" } )
+        return persons.filter(({ type }) => { return type === "producer" } )
     },
+
     getActers: () => {
-        return persons.filter( (p) => { return p.type === "acter" } )
+        return persons.filter(({ type }) => { return type === "acter" } )
     },
 
     getPerson: (params) => {
-        return persons.find( ( {id} ) => { return id === params.id } )
+        return persons.find(({ id }) => { return id === params.id } )
     }
     ,
     getFilm: (params) => {
-        return films.find( ( {id} ) => { return id === params.id } )
+        return films.find(({ id }) => { return id === params.id } )
     },
+
     getAllTimes: (params) => {
         return times;
     },
+
     getTime: (params) => {
-        return times.find( ( {id} ) => { return id === params.id } )
+        return times.find(({ id }) => { return id === params.id })
     }
     
 };
