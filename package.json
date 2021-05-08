@@ -7,9 +7,11 @@
   "description": "LIGHTFILMS 🎥. About world cinema 🌎",
   "keywords": [
     "Node.js", "Next.js", "React",
-    "SSR", "GraphQL", "TypeScript",
-    "JavaScript", "Firebase",
-    "Apollo", "Apollo Client"
+    "SSR", "Server Side Rendering",
+    "SSG", "Static Site Generator",
+    "TypeScript", "JavaScript",
+    "GraphQL", "Apollo", "Apollo Client",
+    "Firebase"
   ],
   "homepage": "https://github.com/ssandry/lightfilms#readme",
   "repository": {
