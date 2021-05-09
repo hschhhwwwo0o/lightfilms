@@ -30,7 +30,7 @@ const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
                     onClick={ () => {
                         removeNotification(true)
                     } }
-                    className={styles.notification__close} 
+                    id={styles.notification__close} 
                 />
             </div>
         </div>
