@@ -145,9 +145,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
                 `
             });
 
-            const paths = await data.data.getAllTimes.map( ( {id} ) => {
+            const paths = await data.data.getAllTimes.map( ({ id }) => {
                 return ({ params: { id: id } })
-            } );
+            });
 
             return { 
                 paths, 
@@ -175,7 +175,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
                 `
             });
 
-            const paths = await data.data.getAllTimes.map( ( {id} ) => {
+            const paths = await data.data.getAllTimes.map( ({ id }) => {
                 return ({ params: { id: id } })
             } );
 
