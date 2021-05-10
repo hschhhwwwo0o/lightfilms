@@ -205,7 +205,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllPersons.map( ( {id} ) => {
+            const paths = await data.data.getAllPersons.map( ({ id }) => {
                 return ({ params: { id: id } })
             } );
 
@@ -234,7 +234,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllPersons.map( ( {id} ) => {
+            const paths = await data.data.getAllPersons.map( ({ id }) => {
                 return ({ params: { id: id } })
             } );
 

@@ -56,7 +56,7 @@ const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
                             return <p key={index}>
                                 { paragraph }
                             </p>
-                        } )
+                        })
                     }
                 </div>
             </section>
@@ -183,7 +183,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllFilms.map( ( {id} ) => {
+            const paths = await data.data.getAllFilms.map( ({ id }) => {
                 return ({ params: { id: id } })
             } );
 
@@ -212,7 +212,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllFilms.map( ( {id} ) => {
+            const paths = await data.data.getAllFilms.map( ({ id }) => {
                 return ({ params: { id: id } })
             } );
 
