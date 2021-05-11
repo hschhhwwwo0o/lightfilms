@@ -37,23 +37,23 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
         <Chooser h1="CINEMA">
             <ul id="countrys">
                 <li 
-                    onClick = { () => { setGenre("all") }} 
-                    className = { genre === "all" ? "sq sq_bright" : "sq"  }
+                    onClick     = { () => { setGenre("all") } } 
+                    className   = { genre === "all" ? "sq sq_bright" : "sq" }
                 >
                 </li>
-                <li onClick = { () => { setGenre("Drama") }} className = { genre === "Drama" ? "bright" : ""  } >Drama</li>
-                <li onClick = { () => { setGenre("Romance") }} className = { genre === "Romance" ? "bright" : ""  }>Romance</li>
-                <li onClick = { () => { setGenre("Action") }} className = { genre === "Action" ? "bright" : ""  }>Action</li>
-                <li onClick = { () => { setGenre("Comedy") }} className = { genre === "Comedy" ? "bright" : ""  }>Comedy</li>
-                <li onClick = { () => { setGenre("Mystery") }} className = { genre === "Mystery" ? "bright" : ""  }>Mystery</li>
-                <li onClick = { () => { setGenre("History") }} className = { genre === "History" ? "bright" : ""  }>History</li>
+                <li onClick={ () => { setGenre("Drama") }} className={ genre === "Drama" ? "bright" : ""  }>Drama</li>
+                <li onClick={ () => { setGenre("Romance") }} className={ genre === "Romance" ? "bright" : ""  }>Romance</li>
+                <li onClick={ () => { setGenre("Action") }} className={ genre === "Action" ? "bright" : ""  }>Action</li>
+                <li onClick={ () => { setGenre("Comedy") }} className={ genre === "Comedy" ? "bright" : ""  }>Comedy</li>
+                <li onClick={ () => { setGenre("Mystery") }} className={ genre === "Mystery" ? "bright" : ""  }>Mystery</li>
+                <li onClick={ () => { setGenre("History") }} className={ genre === "History" ? "bright" : ""  }>History</li>
             </ul>
             <ul id="years">
-                <li onClick = { () => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
-                <li onClick = { () => { setYear("1950") } } className = { year === "1950" ? "bright" : ""  } >50’s</li>
-                <li onClick = { () => { setYear("1960") } } className = { year === "1960" ? "bright" : ""  } >60’s</li>
-                <li onClick = { () => { setYear("1970") } } className = { year === "1970" ? "bright" : ""  } >70’s</li>
-                <li onClick = { () => { setYear("1980") } } className = { year === "1980" ? "bright" : ""  } >80’s</li>
+                <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
+                <li onClick={ () => { setYear("1950") } } className={ year === "1950" ? "bright" : ""  }>50’s</li>
+                <li onClick={ () => { setYear("1960") } } className={ year === "1960" ? "bright" : ""  }>60’s</li>
+                <li onClick={ () => { setYear("1970") } } className={ year === "1970" ? "bright" : ""  }>70’s</li>
+                <li onClick={ () => { setYear("1980") } } className={ year === "1980" ? "bright" : ""  }>80’s</li>
             </ul>
         </Chooser>
 
@@ -80,7 +80,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                             type = "single"
                         />
                     )
-                } )
+                })
             }
         </Grid>
     </DefaultLayout>

@@ -34,24 +34,24 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
         />
         
         <Chooser h1="ACTERS">
-            <ul id = "countrys">
+            <ul id="countrys">
                 <li 
-                    onClick = { () => { setCountry("all") }} 
-                    className = { country === "all" ? "sq sq_bright" : "sq"  }>
+                    onClick     = { () => { setCountry("all") } } 
+                    className   = { country === "all" ? "sq sq_bright" : "sq" }>
                 </li>
-                <li onClick = { () => { setCountry("Japan") } } className = { country === "Japan" ? "bright" : ""  } >Japan</li>
-                <li onClick = { () => { setCountry("France") } } className = { country === "France" ? "bright" : ""  }>France</li>
-                <li onClick = { () => { setCountry("Russia") } } className = { country === "Russia" ? "bright" : ""  }>Russia</li>
-                <li onClick = { () => { setCountry("USA") } } className = { country === "USA" ? "bright" : ""  }>USA</li>
-                <li onClick = { () => { setCountry("British") } } className = { country === "British" ? "bright" : ""  }>British</li>
-                <li onClick = { () => { setCountry("Germany") } } className = { country === "Germany" ? "bright" : ""  }>Germany</li>
+                <li onClick={ () => { setCountry("Japan") } } className={ country === "Japan" ? "bright" : ""  }>Japan</li>
+                <li onClick={ () => { setCountry("France") } } className={ country === "France" ? "bright" : ""  }>France</li>
+                <li onClick={ () => { setCountry("Russia") } } className={ country === "Russia" ? "bright" : ""  }>Russia</li>
+                <li onClick={ () => { setCountry("USA") } } className={ country === "USA" ? "bright" : ""  }>USA</li>
+                <li onClick={ () => { setCountry("British") } } className={ country === "British" ? "bright" : ""  }>British</li>
+                <li onClick={ () => { setCountry("Germany") } } className={ country === "Germany" ? "bright" : ""  }>Germany</li>
             </ul>
-            <ul id = "years">
-                <li onClick = { () => { setYear("all") }} className = { year === "all" ? "sq sq_bright" : "sq"  }></li>
-                <li onClick = { () => { setYear("1950") }} className = { year === "1950" ? "bright" : ""  }>50’s</li>
-                <li onClick = { () => { setYear("1960") }} className = { year === "1960" ? "bright" : ""  }>60’s</li>
-                <li onClick = { () => { setYear("1970") }} className = { year === "1970" ? "bright" : ""  }>70’s</li>
-                <li onClick = { () => { setYear("1980") }} className = { year === "1980" ? "bright" : ""  }>80’s</li>
+            <ul id="years">
+                <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
+                <li onClick={ () => { setYear("1950") }} className={ year === "1950" ? "bright" : ""  }>50’s</li>
+                <li onClick={ () => { setYear("1960") }} className={ year === "1960" ? "bright" : ""  }>60’s</li>
+                <li onClick={ () => { setYear("1970") }} className={ year === "1970" ? "bright" : ""  }>70’s</li>
+                <li onClick={ () => { setYear("1980") }} className={ year === "1980" ? "bright" : ""  }>80’s</li>
             </ul>
         </Chooser>
         <Grid>
@@ -71,7 +71,7 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
                             type    = "double"
                         />
                     )
-                } )
+                })
             }
         </Grid>
     </DefaultLayout>
