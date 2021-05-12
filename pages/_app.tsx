@@ -8,7 +8,7 @@ import "../assets/scss/global.scss";
 
 // https://nextjs.org/docs/advanced-features/custom-app
 
-function App({ Component, pageProps }: AppProps) {
+function _App({ Component, pageProps }: AppProps) {
     return <>
         <Head>
             <meta 
@@ -20,4 +20,4 @@ function App({ Component, pageProps }: AppProps) {
     </>
 }
 
-export default App;
+export default _App;
