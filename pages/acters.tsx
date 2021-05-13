@@ -56,7 +56,8 @@ const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
         </Chooser>
         <Grid>
             {
-                __filterPersons( [country, year], acters ).map( (acter) => {
+                __filterPersons([country, year], acters)
+                .map((acter) => {
                     return (
                         <Card 
                             key     = { acter.id } 
