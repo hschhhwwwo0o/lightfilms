@@ -13,7 +13,6 @@ import Meta from "../components/Meta";
 import Chooser from "../components/Chooser";
 import Grid from "../components/Grid";
 import Card from "../components/Card";
-// import Notification from "../components/Notification";
 
 interface IndexPageProps {
     films: IFilmCard[]
@@ -57,27 +56,21 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
             </ul>
         </Chooser>
 
-        {/* <Notification 
-            message="Don't know what to read?" 
-            link="See today's recommendations from our editorial staff" 
-            href="/film/0"
-        /> */}
-
         <Grid>
             {
                 __filterFilms( [genre, year], films).map( (film, key) => {
                     return (
                         <Card
-                            HREF = {`/film/[id]`}
-                            AS = {`/film/${film.id}`}
-                            ALT={`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
-                            key = { key }
+                            HREF    = {`/film/[id]`}
+                            AS      = {`/film/${film.id}`}
+                            ALT     = {`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
+                            key     = { key }
 
-                            h3 = { film.title }
-                            h6top = { film.producedBy }
-                            h6bot = { film.countries[0] }
-                            img = {film.coverIMG}
-                            type = "single"
+                            h3      = { film.title }
+                            h6top   = { film.producedBy }
+                            h6bot   = { film.countries[0] }
+                            img     = { film.coverIMG }
+                            type    = "single"
                         />
                     )
                 })
