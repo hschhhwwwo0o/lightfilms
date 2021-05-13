@@ -57,7 +57,8 @@ const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
         </Chooser>
         <Grid>
             {
-                __filterPersons( [country, year], producers ).map( (producer) => {
+                __filterPersons([country, year], producers)
+                .map((producer) => {
                     return (
                         <Card 
                             key     = { producer.id } 

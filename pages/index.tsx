@@ -58,13 +58,14 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
 
         <Grid>
             {
-                __filterFilms( [genre, year], films).map( (film, key) => {
+                __filterFilms([genre, year], films)
+                .map((film) => {
                     return (
                         <Card
                             HREF    = {`/film/[id]`}
                             AS      = {`/film/${film.id}`}
                             ALT     = {`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
-                            key     = { key }
+                            key     = { film.id }
 
                             h3      = { film.title }
                             h6top   = { film.producedBy }
