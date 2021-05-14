@@ -69,7 +69,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
 
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {
 
-    if( process.env.MODE === "development" ) {
+    if(process.env.MODE === "development") {
         try {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
@@ -96,7 +96,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             throw new Error(`Error: ${err}`);
         }
 
-    } else if( process.env.MODE === "production" ) {
+    } else if(process.env.MODE === "production") {
         try {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
@@ -128,7 +128,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
 
 export const getStaticPaths: GetStaticPaths = async () => {
 
-    if( process.env.MODE === "development" ) {
+    if(process.env.MODE === "development") {
         try {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
@@ -145,7 +145,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
                 `
             });
 
-            const paths = await data.data.getAllTimes.map( ({ id }) => {
+            const paths = await data.data.getAllTimes.map(({ id }) => {
                 return ({ params: { id: id } })
             });
 
@@ -158,7 +158,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
             throw new Error(`Error: ${err}`);
         }
         
-    } else if( process.env.MODE === "production" ) {
+    } else if(process.env.MODE === "production") {
         try {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
@@ -175,7 +175,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
                 `
             });
 
-            const paths = await data.data.getAllTimes.map( ({ id }) => {
+            const paths = await data.data.getAllTimes.map(({ id }) => {
                 return ({ params: { id: id } })
             });
 
