@@ -127,7 +127,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
 
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {
 
-    if( process.env.MODE === "development" ) {
+    if(process.env.MODE === "development") {
         try {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
@@ -154,7 +154,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
         } catch(err) {
             throw new Error(`Error: ${err}`);
         }
-    } else if( process.env.MODE === "production" ) {
+    } else if(process.env.MODE === "production") {
         try {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
@@ -182,13 +182,13 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
             throw new Error(`Error: ${err}`);
         }
     } else {
-        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
+        throw new SyntaxError("The MODE is written incorrectly. Check the syntax in .env");
     }
 }
 
 export const getStaticPaths: GetStaticPaths = async ctx => {
 
-    if( process.env.MODE === "development" ) {
+    if(process.env.MODE === "development") {
         try {
             const client = new ApolloClient({
                 uri: process.env.DEV_GRAPHQL_SERVER,
@@ -205,9 +205,9 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllPersons.map( ({ id }) => {
+            const paths = await data.data.getAllPersons.map(({ id }) => {
                 return ({ params: { id: id } })
-            } );
+            });
 
             return { 
                 paths, 
@@ -217,7 +217,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
         } catch(err) {
             throw new Error(`Error: ${err}`);
         }
-    } else if( process.env.MODE === "production" ) {
+    } else if(process.env.MODE === "production") {
         try {
             const client = new ApolloClient({
                 uri: process.env.PROD_GRAPHQL_SERVER,
@@ -234,9 +234,9 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
                 `
             });
 
-            const paths = await data.data.getAllPersons.map( ({ id }) => {
+            const paths = await data.data.getAllPersons.map(({ id }) => {
                 return ({ params: { id: id } })
-            } );
+            });
 
             return { 
                 paths, 
