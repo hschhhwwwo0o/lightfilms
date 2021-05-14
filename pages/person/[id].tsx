@@ -49,9 +49,9 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
         <section id="person__imgs">
             {
                 person.imgs
-                .map( (img, index) => {
+                .map((img) => {
                     return (
-                        <div key={index}>
+                        <div key={img}>
                             <img 
                                 src = { img } 
                                 alt = { `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
@@ -103,7 +103,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 <div id="filmography">
                     {
                         person.filmography
-                        .map( (film) => {
+                        .map((film) => {
                             return (
                                 <Card
                                     key     = { film.id }

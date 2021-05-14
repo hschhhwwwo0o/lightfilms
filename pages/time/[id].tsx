@@ -26,15 +26,13 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                 <h1 className="h2-fk"> { time.id }'s <br/> { time.title } </h1>
                 {
                     time.sections
-                    .map( (section: any, index) => {
+                    .map((section: any, index) => {
                         return (
                             <article key={index}>
                                 <h4>{ section.title }</h4>
                                 {
                                     section.p
-                                    .map(
-                                        (p, index) => <p key={index}>{p}</p>
-                                    )
+                                    .map((p, index) => <p key={index}>{p}</p>)
                                 }
                             </article>
                         )
@@ -44,7 +42,7 @@ const TimeYear: React.FC<TimeProps> = ({ time }) => {
                     <h4>SOME OF THE BEST MOVIES OF THE DECADE</h4>
                     <section id="time-page__filmography">
                         {
-                            time.bestMovies.map( (film) => {
+                            time.bestMovies.map((film) => {
                                 return (
                                     <Card 
                                         key     = { film.id }
