@@ -18,7 +18,7 @@ interface ActersPageProps {
     acters: IPersonCard[]
 }
 
-const ActersPage: React.FC<ActersPageProps> = ( { acters } ) => {
+const ActersPage: React.FC<ActersPageProps> = ({ acters }) => {
 
     const [country, setCountry] = useState("all")
     const [year, setYear]       = useState("all")

@@ -18,7 +18,7 @@ interface ProducersPageProps {
     producers: IPersonCard[]
 }
 
-const ProducersPage: React.FC<ProducersPageProps> = ( { producers } ) => {
+const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
 
     const [country, setCountry] = useState("all")
     const [year, setYear]       = useState("all")
