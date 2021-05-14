@@ -1,7 +1,7 @@
 import TheHeader from "../components/TheHeader";
 import TheFooter from "../components/TheFooter";
 
-const DefaultLayout = ({ children }) => {
+const DefaultLayout:React.FunctionComponent = ({ children }) => {
     return <>
         <TheHeader />
             { children }
