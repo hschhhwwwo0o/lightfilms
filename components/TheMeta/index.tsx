@@ -49,6 +49,7 @@ const TheMeta: React.FunctionComponent = () => {
             content="https://lightfilms-ssandry.vercel.app/static/promo/lightfilms-promo.png" 
         />
         <meta property="og:image:type" content="image/png" /> 
+        <meta property="og:image:alt" content="LIGHTFILMS. More about cinema and persons" /> 
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="LIGHTFILMS" />
