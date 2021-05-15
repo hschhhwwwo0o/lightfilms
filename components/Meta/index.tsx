@@ -1,12 +1,5 @@
 import Head from "next/head";
-
-interface IMetaInterface {
-    titleShort: string
-    titleLong: string
-    description: string
-    url: string
-    keywords?: string
-}
+import { IMetaInterface } from "./interface";
 
 const Meta: React.FC<IMetaInterface> = ({ titleShort, titleLong, description, url, keywords }) => {
     return <Head>

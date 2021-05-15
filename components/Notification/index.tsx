@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { NotificationProps } from "./interface";
 import styles from "./index.module.scss";
-
-interface NotificationProps {
-    message: string,
-    link?: string
-    href?: string
-}
 
 const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
 
