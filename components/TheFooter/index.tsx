@@ -1,9 +1,9 @@
 const Footer: React.FC = () => {
     return <>
-        <footer></footer>
+        <footer id="footer"></footer>
         <style jsx>
             {`
-            footer {
+            #footer {
                 width: 100%;
                 height: 110px;
             
