@@ -6,7 +6,7 @@
     min-width: 100%;
     max-height: 386px;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 1px;
 
     @media screen and ( min-width: 1660px ) {
         height: 46vh;
@@ -26,12 +26,11 @@
     .post__thumb {
         height: 80%;
         width: 100%;
+        overflow: hidden;
 
         @media screen and (max-width: 425px) {
             height: 78%;
         }
-
-        overflow: hidden;
 
         .post__thumb-cover {
             position: relative !important;
