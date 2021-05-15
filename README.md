@@ -9,7 +9,7 @@
 
 **GraphQL LIGHTFILMS [API]** <br>
 **GraphQL API deployed thanks to [Heroku]** <br>
-**Database: [Firebase]** <br>
+**Database: [Firebase]** <br> 
 
 ## Documentation
 
