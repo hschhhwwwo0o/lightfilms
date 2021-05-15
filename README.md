@@ -20,6 +20,7 @@
 - [GraphQL] - A query language for API
 - [TypeScript] - TypeScript extends JavaScript by adding types to the language.
 - [SASS] - CSS Preprocessor
+- [Figma] - Interface development
 
 [NodeJS]: <https://nodejs.org/en/>
 [API]: <https://lightfilms-api.herokuapp.com/graphql>
@@ -35,3 +36,4 @@
 [SASS]: <https://sass-scss.ru/>
 [Heroku]: <https://www.heroku.com/>
 [Firebase]: <https://firebase.google.com/>
+[Figma]: <https://www.figma.com/>
