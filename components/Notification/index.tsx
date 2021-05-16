@@ -9,15 +9,15 @@ const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
 
     return <>
         <div 
-            id={ styles.notification } 
-            style={{ height: notification ? "0" : "100px" }}
+            id={styles.notification} 
+            style={{height: notification ? "0" : "100px"}}
         >
-            <div style={{ opacity: notification ? "0" : "1" }}>
+            <div style={{opacity: notification ? "0" : "1"}}>
                 <div>
-                    <span>{ message } </span> <br/>
+                    <span>{message} </span> <br/>
                     <Link href={ href || "" }>
                         <a>
-                            <span className={styles.bright}>{ link }</span> 
+                            <span className={styles.bright}>{link}</span> 
                         </a> 
                     </Link>
                 </div>
