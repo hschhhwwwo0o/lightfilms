@@ -26,13 +26,12 @@
 }
 
 body {
-    background-color: $black;
-    overflow-x: hidden;
-
     min-height: 100vh;
     min-width: 100vw;
-
+    overflow-x: hidden;
     margin: 0 auto;
+    
+    background-color: $black;
 
     &::-webkit-scrollbar { width: 0 !important }
     &::scrollbar { width: 0;}
