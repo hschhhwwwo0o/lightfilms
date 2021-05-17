@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces";
 
-import DefaultLayout from "../../layouts/default";
+import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
 

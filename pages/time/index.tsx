@@ -1,4 +1,4 @@
-import DefaultLayout from "../../layouts/default";
+import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Link from "next/link";
 

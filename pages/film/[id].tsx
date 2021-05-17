@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces";
 
-import DefaultLayout from "../../layouts/default";
+import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
 

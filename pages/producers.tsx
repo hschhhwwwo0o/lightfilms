@@ -8,7 +8,7 @@ import { IPersonCard } from "../interfaces";
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";
 
-import DefaultLayout from "../layouts/default";
+import DefaultLayout from "../layouts";
 import Meta from "../components/Meta";
 import Chooser from "../components/Chooser";
 import Grid from "../components/Grid";
