@@ -4,12 +4,12 @@
 
 ## LIGHTFILMS
 
-**Live preview [LIGHTFILMS]** <br>
+**Live preview [LIGHTFILMS]** \
 **Deployed thanks to [Vercel]**
 
-**GraphQL LIGHTFILMS [API]** <br>
-**GraphQL API deployed thanks to [Heroku]** <br>
-**Database: [Firebase]** <br> 
+**GraphQL LIGHTFILMS [API]** \
+**GraphQL API deployed thanks to [Heroku]** \
+**Database: [Firebase]**
 
 ## Documentation
 
