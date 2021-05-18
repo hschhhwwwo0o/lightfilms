@@ -20,8 +20,8 @@ interface ActersPageProps {
 
 const ActersPage: React.FC<ActersPageProps> = ({ acters }) => {
 
-    const [country, setCountry] = useState("all")
-    const [year, setYear]       = useState("all")
+    const [country, setCountry] = useState("all");
+    const [year, setYear]       = useState("all");
 
     return <DefaultLayout>
 
