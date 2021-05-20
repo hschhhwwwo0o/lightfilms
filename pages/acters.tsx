@@ -23,6 +23,14 @@ const ActersPage: React.FC<ActersPageProps> = ({ acters }) => {
     const [country, setCountry] = useState("all");
     const [year, setYear]       = useState("all");
 
+    function isTrue(param, is) {
+        if(param === is) {
+            return "bright";
+        } else {
+            return "";
+        }
+    }
+
     return <DefaultLayout>
 
         <Meta 
@@ -39,12 +47,24 @@ const ActersPage: React.FC<ActersPageProps> = ({ acters }) => {
                     onClick     = { () => { setCountry("all") } } 
                     className   = { country === "all" ? "sq sq_bright" : "sq" }>
                 </li>
-                <li onClick={ () => { setCountry("Japan") } } className={ country === "Japan" ? "bright" : ""  }>Japan</li>
-                <li onClick={ () => { setCountry("France") } } className={ country === "France" ? "bright" : ""  }>France</li>
-                <li onClick={ () => { setCountry("Russia") } } className={ country === "Russia" ? "bright" : ""  }>Russia</li>
-                <li onClick={ () => { setCountry("USA") } } className={ country === "USA" ? "bright" : ""  }>USA</li>
-                <li onClick={ () => { setCountry("British") } } className={ country === "British" ? "bright" : ""  }>British</li>
-                <li onClick={ () => { setCountry("Germany") } } className={ country === "Germany" ? "bright" : ""  }>Germany</li>
+                {
+                    [
+                        "Japan", "France",
+                        "Russia", "USA",
+                        "British", "Germany"
+                    ]
+                    .map((element) => {
+                        return (
+                            <li 
+                                onClick     = { () => { setCountry(element) } } 
+                                className   = { isTrue(country, element) } 
+                                key         = { element }
+                            >
+                                { element }
+                            </li>
+                        )
+                    })
+                }
             </ul>
             <ul id="years">
                 <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
