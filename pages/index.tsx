@@ -38,14 +38,25 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                 <li 
                     onClick     = { () => { setGenre("all") } } 
                     className   = { genre === "all" ? "sq sq_bright" : "sq" }
-                >
-                </li>
-                <li onClick={ () => { setGenre("Drama") }} className={ genre === "Drama" ? "bright" : ""  }>Drama</li>
-                <li onClick={ () => { setGenre("Romance") }} className={ genre === "Romance" ? "bright" : ""  }>Romance</li>
-                <li onClick={ () => { setGenre("Action") }} className={ genre === "Action" ? "bright" : ""  }>Action</li>
-                <li onClick={ () => { setGenre("Comedy") }} className={ genre === "Comedy" ? "bright" : ""  }>Comedy</li>
-                <li onClick={ () => { setGenre("Mystery") }} className={ genre === "Mystery" ? "bright" : ""  }>Mystery</li>
-                <li onClick={ () => { setGenre("History") }} className={ genre === "History" ? "bright" : ""  }>History</li>
+                />
+                {
+                    [
+                        "Drama", "Romance",
+                        "Action", "Comedy",
+                        "Mystery", "History",
+                    ]
+                    .map((element) => {
+                        return (
+                            <li 
+                                onClick     = { () => { setGenre(element) }} 
+                                className   = { genre === element ? "bright" : ""  }
+                                key         = { element }
+                            >
+                                { element }
+                            </li>
+                        )
+                    })
+                }
             </ul>
             <ul id="years">
                 <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
