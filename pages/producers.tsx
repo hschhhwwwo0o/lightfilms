@@ -38,14 +38,25 @@ const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
                 <li 
                     onClick     = { () => { setCountry("all") } } 
                     className   = { country === "all" ? "sq sq_bright" : "sq" }
-                >
-                </li>
-                <li onClick={ () => { setCountry("Japan") } } className={ country === "Japan" ? "bright" : ""  }>Japan</li>
-                <li onClick={ () => { setCountry("France") } } className={ country === "France" ? "bright" : ""  }>France</li>
-                <li onClick={ () => { setCountry("Russia") } } className={ country === "Russia" ? "bright" : ""  }>Russia</li>
-                <li onClick={ () => { setCountry("USA") } } className={ country === "USA" ? "bright" : ""  }>USA</li>
-                <li onClick={ () => { setCountry("British") } } className={ country === "British" ? "bright" : ""  }>British</li>
-                <li onClick={ () => { setCountry("Germany") } } className={ country === "Germany" ? "bright" : ""  }>Germany</li>
+                />
+                {
+                    [
+                        "Japan", "France",
+                        "Russia", "USA",
+                        "British", "Germany",
+                    ]
+                    .map(element => {
+                        return (
+                            <li 
+                                onClick     = { () => { setCountry(element) } } 
+                                className   = { country === element ? "bright" : ""  }
+                                key         = { element }
+                            >
+                                { element }
+                            </li>
+                        )
+                    })
+                }
             </ul>
             <ul id="years">
                 <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
