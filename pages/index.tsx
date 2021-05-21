@@ -20,8 +20,8 @@ interface IndexPageProps {
 
 const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
 
-    const [genre, setGenre] = useState("all")
-    const [year, setYear]   = useState("all")
+    const [genre, setGenre] = useState("all");
+    const [year, setYear]   = useState("all");
 
     return <DefaultLayout>
 
