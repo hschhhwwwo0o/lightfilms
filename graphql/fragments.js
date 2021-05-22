@@ -30,7 +30,7 @@ export const ALL_PERSON_FIELDS = {
             yearsPopular
         }
     `
-}
+};
 
 export const ALL_FILM_FIELDS = {
     fragment: gql`
@@ -64,7 +64,7 @@ export const ALL_FILM_FIELDS = {
             }
         }
     `
-}
+};
 
 export const ALL_TIME_FIELDS = {
     fragment: gql`
@@ -84,4 +84,4 @@ export const ALL_TIME_FIELDS = {
             }
         }
     `
-}
+};
