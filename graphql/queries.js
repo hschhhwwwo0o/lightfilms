@@ -12,7 +12,7 @@ export const GET_ALL_FILMS = gql`
             year
         }
     }
-`
+`;
 
 export const GET_PRODUCERS = gql`
     query getProducers {
@@ -26,7 +26,7 @@ export const GET_PRODUCERS = gql`
             yearsPopular
         }
     }
-`
+`;
 
 export const GET_ACTERS = gql`
     query getActers {
@@ -40,4 +40,4 @@ export const GET_ACTERS = gql`
             yearsPopular
         }
     }
-`
+`;
