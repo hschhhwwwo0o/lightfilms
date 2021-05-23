@@ -54,7 +54,10 @@ header#header {
                     background-color: rgb(95, 95, 95);
                     transition-delay: .045s;
 
-                    &:nth-child(1) {transition-duration: .45s; transition-timing-function: ease-in-out;}
+                    &:nth-child(1) {
+                        transition-duration: .45s; 
+                        transition-timing-function: ease-in-out;
+                    }
                     &:nth-child(2) {transition-duration: 1.2s;}
                     &:nth-child(3) {transition-duration: .9s;}
                 }
