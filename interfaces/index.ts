@@ -57,4 +57,3 @@ export interface ITime {
     sections: []
     bestMovies: ICard[]
 }
-
