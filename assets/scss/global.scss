@@ -2,17 +2,11 @@
 @import "./env.scss";
 @import "./typography.scss";
 @import "./cc.scss";
-
-// @import layout
 @import "../../layouts/index.scss";
-
-// @import components tsx
 @import "../../components/TheHeader/index.scss";
 @import "../../components/Card/index.scss";
 @import "../../components/Chooser/index.scss";
 @import "../../components/Grid/index.scss";
-
-// @import pages scss
 @import "./pages/404.scss";
 @import "./pages/index.scss";
 @import "./pages/film/[id].scss";
