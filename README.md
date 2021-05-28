@@ -13,14 +13,19 @@
 
 ## Documentation
 
-- [NodeJS] - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [ReactJS] - A JavaScript library for building user interfaces
-- [NextJS] - The React Framework for Production
-- [Firebase] - Database
-- [GraphQL] - A query language for API
-- [TypeScript] - TypeScript extends JavaScript by adding types to the language.
-- [SASS] - CSS Preprocessor
-- [Figma] - Interface development
+- **[NodeJS]** - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **[ReactJS]** - A JavaScript library for building user interfaces
+- **[NextJS]** - The React Framework for Production
+- **[Firebase]** - Database
+- **[GraphQL]** - A query language for API
+- **[TypeScript]** - TypeScript extends JavaScript by adding types to the language.
+- **[SASS]** - CSS Preprocessor
+- **[Figma]** - Interface development
+
+## Assets/Fonts
+
+- **[Google-Fonts] / [Playfair-Display]**
+- **[Google-Fonts] / [Lato]**
 
 [NodeJS]: <https://nodejs.org/en/>
 [API]: <https://lightfilms-api.herokuapp.com/graphql>
@@ -37,3 +42,6 @@
 [Heroku]: <https://www.heroku.com/>
 [Firebase]: <https://firebase.google.com/>
 [Figma]: <https://www.figma.com/>
+[Google-Fonts]: <https://www.figma.com/>
+[Playfair-Display]: <https://fonts.google.com/specimen/Playfair+Display?authuser=1&hl=ru>
+[Lato]: <https://fonts.google.com/specimen/Lato?selection.family=Lato>
