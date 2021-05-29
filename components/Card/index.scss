@@ -8,7 +8,7 @@
     overflow: hidden;
     border-radius: 1px;
 
-    @media screen and ( min-width: 1660px ) {
+    @media screen and (min-width: 1660px) {
         height: 46vh;
         max-height: 410px;
     }
@@ -99,7 +99,7 @@
     overflow: hidden;
     border-radius: 2px;
 
-    @media screen and ( min-width: 1660px ) {
+    @media screen and (min-width: 1660px) {
         height: 54vh;
         max-height: 470px;
     }
@@ -122,7 +122,7 @@
         grid-template-columns: 1.45fr 1fr;
         gap: 10px;
 
-        @media screen and ( min-width: 1660px ) {
+        @media screen and (min-width: 1660px) {
             height: 82%;
         }
 
@@ -157,7 +157,6 @@
                 }
             }
         }
-
     }
 
     .post__tags {
