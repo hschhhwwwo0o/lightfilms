@@ -26,8 +26,13 @@ body {
     margin: 0 auto;
     background-color: $black;
 
-    &::-webkit-scrollbar { width: 0 !important }
-    &::scrollbar { width: 0;}
+    &::-webkit-scrollbar { 
+        width: 0 !important;
+    }
+
+    &::scrollbar { 
+        width: 0;
+    }
 
     img {
         color: rgb(187, 187, 187);
