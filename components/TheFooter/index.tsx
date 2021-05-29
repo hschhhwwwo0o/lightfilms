@@ -1,6 +1,6 @@
-const Footer: React.FC = () => {
+const TheFooter: React.FunctionComponent = () => {
     return <>
-        <footer id="footer"></footer>
+        <footer id="footer" />
         <style jsx>
             {`
             #footer {
@@ -19,4 +19,4 @@ const Footer: React.FC = () => {
     </>
 }
 
-export default Footer;
+export default TheFooter;
