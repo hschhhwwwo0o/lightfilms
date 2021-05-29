@@ -9,12 +9,12 @@ h1, .h1-fk {
     color: #C4C4C4;
 
     @media screen and (max-width: 1300px) {
-        font-size: calc( 8vw + 4vh );
+        font-size: calc(8vw + 4vh);
         line-height: normal;
     }
 
     @media screen and (max-width: 655px) {
-        font-size: calc( 6vw + 3vh );
+        font-size: calc(6vw + 3vh);
         line-height: normal;
     }
 }
@@ -28,7 +28,7 @@ h2, .h2-fk {
     color: #C4C4C4;
 
     @media screen and (max-width: 655px) {
-        font-size: calc( 5vw + 3vh );
+        font-size: calc(5vw + 3vh);
         line-height: normal;
     }
 }
@@ -83,12 +83,11 @@ h6, .h6-fk {
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
+    color: #C4C4C4;
 
-    @media screen and ( min-width: 1660px ) {
+    @media screen and (min-width: 1660px) {
         font-size: 16px;
     }
-
-    color: #C4C4C4;
 }
 
 .logo {
@@ -111,7 +110,7 @@ p, li, a {
 }
 
 p {
-    @media screen and ( min-width: 1660px ) {
+    @media screen and (min-width: 1660px) {
         font-size: 16px;
         line-height: 19px;
     }
