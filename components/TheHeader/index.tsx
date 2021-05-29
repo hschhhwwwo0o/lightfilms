@@ -2,16 +2,14 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Logo from "../Logo";
 
-
-const Header: React.FunctionComponent = () => {
-
+const TheHeader: React.FunctionComponent = () => {
     const __router = useRouter();
 
-    function __isRoute(route: string) {
-        if( __router.pathname === route ) {
-            return "#e0e0e0"
+    function isRoute(route: string) {
+        if(__router.pathname === route) {
+            return "#e0e0e0";
         } else {
-            return ""
+            return "";
         }
     }
 
@@ -29,35 +27,35 @@ const Header: React.FunctionComponent = () => {
                     <ul>
                         <li>
                             <Link href="/time">
-                                <a style={{ color: __isRoute("/time") }}>
+                                <a style={{ color: isRoute("/time") }}>
                                     time
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/">
-                                <a style={{ color: __isRoute("/") }}>
+                                <a style={{ color: isRoute("/") }}>
                                     cinema
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/producers">
-                                <a style={{ color: __isRoute("/producers") }}>
+                                <a style={{ color: isRoute("/producers") }}>
                                     producers
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/acters">
-                                <a style={{ color: __isRoute("/acters") }}>
+                                <a style={{ color: isRoute("/acters") }}>
                                     acters
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/soon">
-                                <a style={{ color: __isRoute("/soon") }}>
+                                <a style={{ color: isRoute("/soon") }}>
                                     genres
                                 </a>
                             </Link>
@@ -69,4 +67,4 @@ const Header: React.FunctionComponent = () => {
     </>
 }
 
-export default Header;
+export default TheHeader;
