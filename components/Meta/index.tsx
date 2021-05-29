@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { IMetaInterface } from "./interface";
 
-const Meta: React.FC<IMetaInterface> = ({ titleShort, titleLong, description, url, keywords }) => {
+const Meta: React.FunctionComponent<IMetaInterface> = ({ titleShort, titleLong, description, url, keywords }) => {
     return <Head>
         <title>{titleShort}</title>
 
