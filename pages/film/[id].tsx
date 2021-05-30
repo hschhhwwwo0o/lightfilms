@@ -1,9 +1,7 @@
 import { GetStaticProps, GetStaticPaths, GetStaticPropsContext } from "next";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-
 import { ALL_FILM_FIELDS } from "../../graphql/fragments";
 import { IFilm } from "../../interfaces";
-
 import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
@@ -12,7 +10,7 @@ interface FilmPageProps {
     film: IFilm
 }
 
-const FilmPage: React.FC<FilmPageProps> = ({ film }) => {
+const FilmPage: React.FunctionComponent<FilmPageProps> = ({ film }) => {
     return <DefaultLayout>
 
         <Meta 
@@ -190,7 +188,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             return {
                 paths,
                 fallback: false
-            }
+            };
 
         } catch(err) {
             throw new Error(`Error: ${err}`);
@@ -219,7 +217,7 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
             return {
                 paths,
                 fallback: false
-            }
+            };
 
         } catch(err) {
             throw new Error(`Error: ${err}`);
