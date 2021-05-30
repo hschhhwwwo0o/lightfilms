@@ -1,9 +1,7 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-
 import { ALL_TIME_FIELDS } from "../../graphql/fragments";
 import { ITime } from "../../interfaces";
-
 import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
@@ -12,7 +10,7 @@ interface  TimeProps {
     time: ITime
 }
 
-const TimeYear: React.FC<TimeProps> = ({ time }) => {
+const TimeYear: React.FunctionComponent<TimeProps> = ({ time }) => {
     return <DefaultLayout>
         <Meta 
             titleShort  = { `LIGHTFILMS | ${ time.id }` }
@@ -89,7 +87,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                 props: {
                     time: data.data.getTime
                 }
-            }
+            };
         } catch(err) {
             throw new Error(`Error: ${err}`);
         }
@@ -116,7 +114,7 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
                 props: {
                     time: data.data.getTime
                 }
-            }
+            };
 
         } catch(err) {
             throw new Error(`Error: ${err}`);
@@ -150,7 +148,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
             return { 
                 paths, 
                 fallback: false 
-            }
+            };
 
         } catch(err) {
             throw new Error(`Error: ${err}`);
@@ -180,7 +178,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
             return { 
                 paths, 
                 fallback: false 
-            }
+            };
 
         } catch(err) {
             throw new Error(`Error: ${err}`);
