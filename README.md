@@ -11,6 +11,8 @@
 **GraphQL API deployed thanks to [Heroku]** \
 **Database: [Firebase]**
 
+**Used package manager: [NPM]**
+
 ## Documentation
 
 - **[NodeJS]** - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -45,3 +47,4 @@
 [Google-Fonts]: <https://www.figma.com/>
 [Playfair-Display]: <https://fonts.google.com/specimen/Playfair+Display?authuser=1&hl=ru>
 [Lato]: <https://fonts.google.com/specimen/Lato?selection.family=Lato>
+[NPM]: <https://www.npmjs.com/>
