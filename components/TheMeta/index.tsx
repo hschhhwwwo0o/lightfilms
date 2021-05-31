@@ -2,7 +2,6 @@ const TheMeta: React.FunctionComponent = () => {
     return <>
         <meta charSet="UTF-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta httpEquiv="X-UA-Compatible" content="chrome=1" />
 
@@ -35,6 +34,7 @@ const TheMeta: React.FunctionComponent = () => {
         <meta name="theme-color" content="#181818" />
 
         {/* Copyright */}
+        <meta name="distribution" content="global" />
         <meta name="author" content="Saveliy Meetrofanov. GitHub: @ssandry" />
         <meta name="publisher" content="@ssandry" />
         <meta name="copyright" content={`${new Date().getFullYear()} @ssandry`} />
