@@ -6,7 +6,6 @@
 
 **Live preview [LIGHTFILMS]** \
 **Deployed thanks to [Vercel]**
-
 **Database: [Firebase]**
 
 **Used package manager: [NPM]**
