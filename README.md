@@ -4,8 +4,7 @@
 
 ## LIGHTFILMS
 
-**Live preview [LIGHTFILMS]** \
-**Deployed thanks to [Vercel]** \
+**Live [preview]** \
 **The database used: [Firebase]** \
 **Used package manager: [NPM]**
 
@@ -21,6 +20,7 @@
 - **[TypeScript]** - TypeScript extends JavaScript by adding types to the language.
 - **[SASS]** - CSS Preprocessor
 - **[Figma]** - Interface development
+- **[Vercel]** - Deploy Application
 
 ## Assets/Fonts
 
@@ -34,7 +34,7 @@
 [GraphQL]: <https://graphql.org/>
 [Python3]: <https://www.python.org/>
 [here]: <https://github.com/ssandry/lightfilms/blob/main/md/scripts.md>
-[LIGHTFILMS]: <https://lightfilms-ssandry.vercel.app/>
+[preview]: <https://lightfilms-ssandry.vercel.app/>
 [Vercel]: <https://vercel.com/home>
 [TypeScript]: <https://www.typescriptlang.org/>
 [SSR]: <https://habr.com/en/post/526828/>
