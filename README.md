@@ -5,7 +5,7 @@
 ## LIGHTFILMS
 
 **Live preview [LIGHTFILMS]** \
-**Deployed thanks to [Vercel]**
+**Deployed thanks to [Vercel]** \
 **Database: [Firebase]**
 
 **Used package manager: [NPM]**
