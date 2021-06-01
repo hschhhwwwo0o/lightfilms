@@ -6,8 +6,7 @@
 
 **Live preview [LIGHTFILMS]** \
 **Deployed thanks to [Vercel]** \
-**Database: [Firebase]**
-
+**The database used: [Firebase]** \
 **Used package manager: [NPM]**
 
 **LIGHFILMS on [Behance], [Dribbble]**
