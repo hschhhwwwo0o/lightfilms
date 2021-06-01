@@ -7,11 +7,11 @@
 **Live preview [LIGHTFILMS]** \
 **Deployed thanks to [Vercel]**
 
-**GraphQL LIGHTFILMS [API]** \
-**GraphQL API deployed thanks to [Heroku]** \
 **Database: [Firebase]**
 
 **Used package manager: [NPM]**
+
+**LIGHFILMS on [Behance], [Dribbble]**
 
 ## Documentation
 
@@ -48,3 +48,5 @@
 [Playfair-Display]: <https://fonts.google.com/specimen/Playfair+Display?authuser=1&hl=ru>
 [Lato]: <https://fonts.google.com/specimen/Lato?selection.family=Lato>
 [NPM]: <https://www.npmjs.com/>
+[Behance]: <https://www.behance.net/gallery/120634639/LIGHTFILMS>
+[Dribbble]: <https://dribbble.com/shots/15761540-LIGHTFILMS-Concept-Design>
