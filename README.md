@@ -4,13 +4,13 @@
 
 ## LIGHTFILMS
 
-**Live [preview]** \
+**[Preview]** \
 **The database used: [Firebase]** \
 **Used package manager: [NPM]**
 
 **LIGHFILMS on [Behance], [Dribbble]**
 
-## Documentation
+## Tech Stack
 
 - **[NodeJS]** - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 - **[ReactJS]** - A JavaScript library for building user interfaces
@@ -27,7 +27,7 @@
 **LIGHFILMS on <a href="https://www.behance.net/gallery/120634639/LIGHTFILMS">Behance</a>** \
 **LIGHFILMS Short on <a href="https://dribbble.com/shots/15761554-LIGHTFILMS-Concept-Design">Dribbble</a>**
 
-**I'm on <a href="https://www.behance.net/aftertaste">Behance</a>**
+**Design instruments: Figma, Adobe Photoshop**
 
 ## Assets/Fonts
 
@@ -41,7 +41,7 @@
 [GraphQL]: <https://graphql.org/>
 [Python3]: <https://www.python.org/>
 [here]: <https://github.com/ssandry/lightfilms/blob/main/md/scripts.md>
-[preview]: <https://lightfilms-ssandry.vercel.app/>
+[Preview]: <https://lightfilms-ssandry.vercel.app/>
 [Vercel]: <https://vercel.com/home>
 [TypeScript]: <https://www.typescriptlang.org/>
 [SSR]: <https://habr.com/en/post/526828/>
