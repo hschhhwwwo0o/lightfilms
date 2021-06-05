@@ -22,6 +22,13 @@
 - **[Figma]** - Interface development
 - **[Vercel]** - Deploy Application
 
+## Design
+
+**LIGHFILMS on <a href="https://www.behance.net/gallery/120634639/LIGHTFILMS">Behance</a>** \
+**LIGHFILMS Short on <a href="https://dribbble.com/shots/15761554-LIGHTFILMS-Concept-Design">Dribbble</a>**
+
+**I'm on <a href="https://www.behance.net/aftertaste">Behance</a>**
+
 ## Assets/Fonts
 
 - **[Google-Fonts] / [Playfair-Display]**
