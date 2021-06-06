@@ -1,9 +1,7 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-
 import { ALL_PERSON_FIELDS } from "../../graphql/fragments";
 import { IPerson } from "../../interfaces";
-
 import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
@@ -52,10 +50,7 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
                 .map((img) => {
                     return (
                         <div key={img}>
-                            <img 
-                                src = { img } 
-                                alt = { `Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }` }
-                            />
+                            <img src={img} alt={`Person image ${ person.type } ${ person.name } ${ person.yearsPopular[0] }`} />
                         </div>
                     )
                 })

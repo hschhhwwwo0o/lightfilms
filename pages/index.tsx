@@ -1,13 +1,10 @@
 import { GetStaticProps } from "next";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
-
 import { GET_ALL_FILMS } from "../graphql/queries";
 import { IFilmCard } from "../interfaces";
-
 import { __QLFilms } from "../assets/utils/__ql";
 import { __filterFilms } from "../assets/utils/__filter";
-
 import DefaultLayout from "../layouts";
 import Meta from "../components/Meta";
 import Chooser from "../components/Chooser";
@@ -21,10 +18,9 @@ interface IndexPageProps {
 const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
 
     const [genre, setGenre] = useState("all");
-    const [year, setYear]   = useState("all");
+    const [year, setYear] = useState("all");
 
     return <DefaultLayout>
-
         <Meta 
             titleShort  = "LIGHTFILMS"
             titleLong   = "LIGHTFILMS - Learn more about great movies & persons"
@@ -32,13 +28,9 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
             url         = "https://lightfilms-ssandry.vercel.app/"
             keywords    = "LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
         />
-        
         <Chooser h1="CINEMA">
             <ul id="countrys">
-                <li 
-                    onClick     = { () => { setGenre("all") } } 
-                    className   = { genre === "all" ? "sq sq_bright" : "sq" }
-                />
+                <li onClick={ () => { setGenre("all") } } className={ genre === "all" ? "sq sq_bright" : "sq" } />
                 {
                     [
                         "Drama", "Romance",
@@ -47,11 +39,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                     ]
                     .map((element) => {
                         return (
-                            <li 
-                                onClick     = { () => { setGenre(element) }} 
-                                className   = { genre === element ? "bright" : ""  }
-                                key         = { element }
-                            >
+                            <li onClick={ () => { setGenre(element) }} className={ genre === element ? "bright" : ""  } key={ element }>
                                 { element }
                             </li>
                         )
@@ -77,7 +65,6 @@ const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
                             AS      = {`/film/${film.id}`}
                             ALT     = {`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
                             key     = { film.id }
-
                             h3      = { film.title }
                             h6top   = { film.producedBy }
                             h6bot   = { film.countries[0] }

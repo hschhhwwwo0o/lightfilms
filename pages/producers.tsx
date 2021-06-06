@@ -1,13 +1,10 @@
 import { GetStaticProps } from "next";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { useState } from "react";
-
 import { GET_PRODUCERS } from "../graphql/queries";
 import { IPersonCard } from "../interfaces";
-
 import { __QLPersons } from "../assets/utils/__ql";
 import { __filterPersons } from "../assets/utils/__filter";
-
 import DefaultLayout from "../layouts";
 import Meta from "../components/Meta";
 import Chooser from "../components/Chooser";
@@ -21,10 +18,9 @@ interface ProducersPageProps {
 const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
 
     const [country, setCountry] = useState("all");
-    const [year, setYear]       = useState("all");
+    const [year, setYear] = useState("all");
 
     return <DefaultLayout>
-
         <Meta 
             titleShort  = "LIGHTFILMS : Producers"
             titleLong   = "Read biographies of the greatest movie directors"
@@ -32,13 +28,9 @@ const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
             url         = "https://lightfilms-ssandry.vercel.app/producers"
             keywords    = {`The best acters, directors, producers of the last century, biography of the best producers, LIGHTFILMS, Biographies of directors. ${producers[0].name}, ${producers[1].name}, ${producers[2].name} `} 
         />
-        
         <Chooser h1="PRODUCERS">
             <ul id="countrys">
-                <li 
-                    onClick     = { () => { setCountry("all") } } 
-                    className   = { country === "all" ? "sq sq_bright" : "sq" }
-                />
+                <li onClick={() => { setCountry("all") }} className={country === "all" ? "sq sq_bright" : "sq"} />
                 {
                     [
                         "Japan", "France",
@@ -47,11 +39,7 @@ const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
                     ]
                     .map(element => {
                         return (
-                            <li 
-                                onClick     = { () => { setCountry(element) } } 
-                                className   = { country === element ? "bright" : ""  }
-                                key         = { element }
-                            >
+                            <li onClick={() => { setCountry(element) }} className={country === element ? "bright" : ""} key={element}>
                                 { element }
                             </li>
                         )
@@ -59,11 +47,11 @@ const ProducersPage: React.FC<ProducersPageProps> = ({ producers }) => {
                 }
             </ul>
             <ul id="years">
-                <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
-                <li onClick={ () => { setYear("1950") }} className={ year === "1950" ? "bright" : ""  }>50’s</li>
-                <li onClick={ () => { setYear("1960") }} className={ year === "1960" ? "bright" : ""  }>60’s</li>
-                <li onClick={ () => { setYear("1970") }} className={ year === "1970" ? "bright" : ""  }>70’s</li>
-                <li onClick={ () => { setYear("1980") }} className={ year === "1980" ? "bright" : ""  }>80’s</li>
+                <li onClick={() => { setYear("all") }} className={year === "all" ? "sq sq_bright" : "sq"}></li>
+                <li onClick={() => { setYear("1950") }} className={year === "1950" ? "bright" : ""}>50’s</li>
+                <li onClick={() => { setYear("1960") }} className={year === "1960" ? "bright" : ""}>60’s</li>
+                <li onClick={() => { setYear("1970") }} className={year === "1970" ? "bright" : ""}>70’s</li>
+                <li onClick={() => { setYear("1980") }} className={year === "1980" ? "bright" : ""}>80’s</li>
             </ul>
         </Chooser>
         <Grid>
