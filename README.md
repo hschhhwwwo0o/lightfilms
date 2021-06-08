@@ -1,6 +1,6 @@
 ![Lightfilms & Vercel](md/welcome.jpg "Lightfilms & Vercel")
 ![Lightfilms Tech Stack](md/__tech.png "Lightfilms Tech Stack")
-![Lightfilms Design](md/frame.jpg "Lightfilms Design")
+![Lightfilms Design](md/frm.jpg "Lightfilms Design")
 
 ## LIGHTFILMS
 
