@@ -5,26 +5,13 @@ import { IPerson } from "../../interfaces";
 import DefaultLayout from "../../layouts";
 import Meta from "../../components/Meta";
 import Card from "../../components/Card";
+import h1 from "../../assets/utils/name";
 
 interface PersonPageProps {
     person: IPerson
 }
 
 const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
-
-    function h1(name: string): [string, string] {
-        const firstName: string = name.split(" ")[0];
-        const secondName: string = name.split(" ")[1];
-
-        if(firstName.length >= secondName.length) {
-            if(secondName.length < 4) return [secondName, firstName];
-            return [firstName, secondName];
-        } else if(secondName.length >= firstName.length) {
-            if(firstName.length < 4) return [firstName, secondName];
-            return [secondName, firstName];
-        }
-    }
-
     return <DefaultLayout>
         <Meta 
             titleShort  = { `LIGHTFILMS | ${ person.name }` }
