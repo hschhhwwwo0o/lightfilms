@@ -12,26 +12,20 @@ interface PersonPageProps {
 
 const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
 
-    function h1(name: string): string[] {
-        const firstName = name.split(" ")[0]
-        const secondName = name.split(" ")[1]
+    function h1(name: string): [string, string] {
+        const firstName: string = name.split(" ")[0];
+        const secondName: string = name.split(" ")[1];
 
-        if( firstName.length >= secondName.length ) {
-            if( secondName.length < 4 ) {
-                return [ secondName, firstName ]
-            } else {
-                return [ firstName, secondName ]
-            }
-        } else if( secondName.length >= firstName.length ) {
-            if( firstName.length < 4 ) {
-                return [ firstName, secondName ]
-            }
-            return [ secondName, firstName ]
+        if(firstName.length >= secondName.length) {
+            if(secondName.length < 4) return [secondName, firstName];
+            return [firstName, secondName];
+        } else if(secondName.length >= firstName.length) {
+            if(firstName.length < 4) return [firstName, secondName];
+            return [secondName, firstName];
         }
     }
 
     return <DefaultLayout>
-
         <Meta 
             titleShort  = { `LIGHTFILMS | ${ person.name }` }
             titleLong   = { `LIGHTFILMS | ${ person.name }` }
@@ -39,7 +33,6 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
             url         = { `https://lightfilms-ssandry.vercel.app/person/${ person.id }` } 
             keywords    = { `LIGHTFILMS, ${ person.name }, ${ person.type }, ${ person.yearsPopular[0] }, ${ person.about.mostPopularFilm.h3 }` }
         />
-        
         <section id="person__header" >
             <h1>{ h1(person.name)[0] }</h1>
             <h1>{ h1(person.name)[1] }</h1>
