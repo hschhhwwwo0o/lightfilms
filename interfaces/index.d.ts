@@ -6,7 +6,6 @@ export interface ICard {
     h3: string
     h6top: string
     h6bot: string
-
     img?: IMG
     imgs?: IMG[]
 }
