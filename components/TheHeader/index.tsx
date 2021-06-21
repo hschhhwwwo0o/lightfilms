@@ -5,7 +5,7 @@ import Logo from "../Logo";
 const TheHeader: React.FunctionComponent = () => {
     const __router = useRouter();
 
-    function isRoute(route: string) {
+    function isRoute(route: string): string {
         if(__router.pathname === route) {
             return "#e0e0e0";
         } else {
@@ -19,9 +19,9 @@ const TheHeader: React.FunctionComponent = () => {
                 <Logo />
                 <input type="checkbox" id="checkbox" />
                 <label htmlFor="checkbox" className="header__burger-menu">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div />
+                    <div />
+                    <div />
                 </label>
                 <nav id="header__nav">
                     <ul>

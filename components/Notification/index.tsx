@@ -12,7 +12,7 @@ const Notification: React.FC<NotificationProps> = ({ message, link, href }) => {
             <div style={{opacity: notification ? "0" : "1"}}>
                 <div>
                     <span>{message} </span> <br/>
-                    <Link href={ href || "" }>
+                    <Link href={href || ""}>
                         <a>
                             <span className={styles.bright}>
                                 {link}
