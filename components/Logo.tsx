@@ -1,6 +1,7 @@
+import React, { FunctionComponent } from "react";
 import Link from "next/link";
 
-const Logo: React.FunctionComponent = () => {
+const Logo: FunctionComponent = () => {
     return <>
         <Link href="/">
             <a className="logo">
