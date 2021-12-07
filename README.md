@@ -35,6 +35,8 @@
 - **[Google-Fonts] / [Playfair-Display]**
 - **[Google-Fonts] / [Lato]**
 
+<br />
+
 Made with love ❤️
 
 [nodejs]: https://nodejs.org/en/
