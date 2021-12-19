@@ -12,113 +12,145 @@ import Grid from "../components/Grid";
 import Card from "../components/Card";
 
 interface IndexPageProps {
-    films: IFilmCard[]
+  films: IFilmCard[];
 }
 
 const IndexPage: React.FC<IndexPageProps> = ({ films }) => {
+  const [genre, setGenre] = useState("all");
+  const [year, setYear] = useState("all");
 
-    const [genre, setGenre] = useState("all");
-    const [year, setYear] = useState("all");
+  return (
+    <DefaultLayout>
+      <Meta
+        titleShort="LIGHTFILMS"
+        titleLong="LIGHTFILMS - Learn more about great movies & persons"
+        description="LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
+        url="https://lightfilms-ssandry.vercel.app/"
+        keywords="LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
+      />
+      <Chooser h1="CINEMA">
+        <ul id="countrys">
+          <li
+            onClick={() => {
+              setGenre("all");
+            }}
+            className={genre === "all" ? "sq sq_bright" : "sq"}
+          />
+          {["Drama", "Romance", "Action", "Comedy", "Mystery", "History"].map((element) => {
+            return (
+              <li
+                onClick={() => {
+                  setGenre(element);
+                }}
+                className={genre === element ? "bright" : ""}
+                key={element}
+              >
+                {element}
+              </li>
+            );
+          })}
+        </ul>
+        <ul id="years">
+          <li
+            onClick={() => {
+              setYear("all");
+            }}
+            className={year === "all" ? "sq sq_bright" : "sq"}
+          ></li>
+          <li
+            onClick={() => {
+              setYear("1950");
+            }}
+            className={year === "1950" ? "bright" : ""}
+          >
+            50’s
+          </li>
+          <li
+            onClick={() => {
+              setYear("1960");
+            }}
+            className={year === "1960" ? "bright" : ""}
+          >
+            60’s
+          </li>
+          <li
+            onClick={() => {
+              setYear("1970");
+            }}
+            className={year === "1970" ? "bright" : ""}
+          >
+            70’s
+          </li>
+          <li
+            onClick={() => {
+              setYear("1980");
+            }}
+            className={year === "1980" ? "bright" : ""}
+          >
+            80’s
+          </li>
+        </ul>
+      </Chooser>
 
-    return <DefaultLayout>
-        <Meta 
-            titleShort  = "LIGHTFILMS"
-            titleLong   = "LIGHTFILMS - Learn more about great movies & persons"
-            description = "LIGHTFILMS is a website for fans of old and high-quality movies. Here you will find the best movies of the past time. There is a collection of more than 30 films from popular to avant-garde."
-            url         = "https://lightfilms-ssandry.vercel.app/"
-            keywords    = "LIGHTFILMS, Movies in black and white, Retro movies, Classics of cinematograph, cinematography, black and white movies, Full-length cinema, Fiction cinema, History cinema, LIGHT FILMS, Light Films"
-        />
-        <Chooser h1="CINEMA">
-            <ul id="countrys">
-                <li onClick={ () => { setGenre("all") } } className={ genre === "all" ? "sq sq_bright" : "sq" } />
-                {
-                    [
-                        "Drama", "Romance",
-                        "Action", "Comedy",
-                        "Mystery", "History",
-                    ]
-                    .map((element) => {
-                        return (
-                            <li onClick={ () => { setGenre(element) }} className={ genre === element ? "bright" : ""  } key={ element }>
-                                { element }
-                            </li>
-                        )
-                    })
-                }
-            </ul>
-            <ul id="years">
-                <li onClick={ () => { setYear("all") }} className={ year === "all" ? "sq sq_bright" : "sq"  }></li>
-                <li onClick={ () => { setYear("1950") } } className={ year === "1950" ? "bright" : ""  }>50’s</li>
-                <li onClick={ () => { setYear("1960") } } className={ year === "1960" ? "bright" : ""  }>60’s</li>
-                <li onClick={ () => { setYear("1970") } } className={ year === "1970" ? "bright" : ""  }>70’s</li>
-                <li onClick={ () => { setYear("1980") } } className={ year === "1980" ? "bright" : ""  }>80’s</li>
-            </ul>
-        </Chooser>
-
-        <Grid>
-            {
-                __filterFilms([genre, year], films)
-                .map((film) => {
-                    return (
-                        <Card
-                            HREF    = {`/film/[id]`}
-                            AS      = {`/film/${film.id}`}
-                            ALT     = {`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
-                            key     = { film.id }
-                            h3      = { film.title }
-                            h6top   = { film.producedBy }
-                            h6bot   = { film.countries[0] }
-                            img     = { film.coverIMG }
-                            type    = "single"
-                        />
-                    )
-                })
-            }
-        </Grid>
+      <Grid>
+        {__filterFilms([genre, year], films).map((film) => {
+          return (
+            <Card
+              HREF={`/film/[id]`}
+              AS={`/film/${film.id}`}
+              ALT={`Film ${film.title} ${film.producedBy}. ${film.year}. ${film.genres[0]}`}
+              key={film.id}
+              h3={film.title}
+              h6top={film.producedBy}
+              h6bot={film.countries[0]}
+              img={film.coverIMG}
+              type="single"
+            />
+          );
+        })}
+      </Grid>
     </DefaultLayout>
-}
+  );
+};
 
-export const getStaticProps: GetStaticProps = async ctx => {
+export const getStaticProps: GetStaticProps = async (ctx) => {
+  if (process.env.MODE === "development") {
+    try {
+      const client = new ApolloClient({
+        uri: process.env.DEV_GRAPHQL_SERVER,
+        cache: new InMemoryCache(),
+      });
 
-    if( process.env.MODE === "development" ) {
-        try {
-            const client = new ApolloClient({
-                uri: process.env.DEV_GRAPHQL_SERVER,
-                cache: new InMemoryCache()
-            });
+      const { data } = await client.query({ query: GET_ALL_FILMS });
 
-            const { data } = await client.query({ query: GET_ALL_FILMS });
-            
-            return {
-                props: {
-                    films: data.getAllFilms
-                }
-            }
-    
-        } catch(err) {
-            throw new Error(`Error: ${err}`);
-        }
-    } else if( process.env.MODE === "production" ) {
-        try {
-            const client = new ApolloClient({
-                uri: process.env.PROD_GRAPHQL_SERVER,
-                cache: new InMemoryCache()
-            });
-
-            const { data } = await client.query({ query: GET_ALL_FILMS });
-            
-            return {
-                props: {
-                    films: data.getAllFilms
-                }
-            }
-            
-        } catch(err) {
-            throw new Error(`Error: ${err}`);
-        }
-    } else {
-        throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
+      return {
+        props: {
+          films: data.getAllFilms,
+        },
+      };
+    } catch (err) {
+      throw new Error(`Error: ${err}`);
     }
-}
+  } else if (process.env.MODE === "production") {
+    try {
+      const client = new ApolloClient({
+        uri: process.env.PROD_GRAPHQL_SERVER,
+        cache: new InMemoryCache(),
+      });
+
+      const { data } = await client.query({ query: GET_ALL_FILMS });
+
+      return {
+        props: {
+          films: data.getAllFilms,
+        },
+      };
+    } catch (err) {
+      throw new Error(`Error: ${err}`);
+    }
+  } else {
+    throw new SyntaxError(`The MODE is written incorrectly. Check the syntax in .env`);
+  }
+};
 
 export default IndexPage;

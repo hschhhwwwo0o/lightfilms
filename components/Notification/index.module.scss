@@ -1,61 +1,61 @@
 #notification {
-    width: 100%;
-    height: 100px;
-    transition-duration: .65s;
-    overflow: hidden;
+  width: 100%;
+  height: 100px;
+  transition-duration: 0.65s;
+  overflow: hidden;
 
-    > div {
-        transition-duration: .35s;
-        display: flex;
-        justify-content: space-between;
+  > div {
+    transition-duration: 0.35s;
+    display: flex;
+    justify-content: space-between;
 
-        span {
-            font-family: "Playfair Display";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 19px;
-            letter-spacing: 0.35px;
+    span {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.35px;
 
-            color: #8E8E8E;
+      color: #8e8e8e;
 
-            &.bright {
-                color: #CDCDCD;
-            }
+      &.bright {
+        color: #cdcdcd;
+      }
 
-            @media screen and ( max-width: 800px ) {
-                font-size: 14px;
-                line-height: 21px;
+      @media screen and (max-width: 800px) {
+        font-size: 14px;
+        line-height: 21px;
 
-                font-family: "Lato";
-            }
-        }
+        font-family: "Lato";
+      }
     }
+  }
 
+  br {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
     br {
-        display: none;
+      display: block;
     }
-
-    @media screen and ( max-width: 800px ) {
-        br {
-            display: block;
-        }
-    }
+  }
 }
 
 #notification__close {
-    width: 14px;
-    height: 14px;
+  width: 14px;
+  height: 14px;
 
-    background-position: center;
-    background-size: cover;
-    background-image: url("/static/icons/close.svg");
+  background-position: center;
+  background-size: cover;
+  background-image: url("/static/icons/close.svg");
 
-    transition-duration: .45s;
-    opacity: 0.6;
-    cursor: pointer;
+  transition-duration: 0.45s;
+  opacity: 0.6;
+  cursor: pointer;
 
-    &:hover {
-        opacity: 1;
-    }
+  &:hover {
+    opacity: 1;
+  }
 }

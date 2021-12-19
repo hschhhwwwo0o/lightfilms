@@ -1,7 +1,7 @@
 export interface IMetaInterface {
-    titleShort: string
-    titleLong: string
-    description: string
-    url: string
-    keywords?: string
+  titleShort: string;
+  titleLong: string;
+  description: string;
+  url: string;
+  keywords?: string;
 }

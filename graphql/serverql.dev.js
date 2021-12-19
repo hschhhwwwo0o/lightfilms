@@ -16,47 +16,57 @@ let schema = buildSchema(SCHEMAGQL);
 const PORT = 3008;
 
 let root = {
+  getAllFilms: () => {
+    return films;
+  },
 
-    getAllFilms: () => {
-        return films;
-    },
+  getAllPersons: () => {
+    return persons;
+  },
 
-    getAllPersons: () => {
-        return persons;
-    },
+  getProducers: () => {
+    return persons.filter(({ type }) => {
+      return type === "producer";
+    });
+  },
 
-    getProducers: () => {
-        return persons.filter(({ type }) => { return type === "producer" } )
-    },
+  getActers: () => {
+    return persons.filter(({ type }) => {
+      return type === "acter";
+    });
+  },
 
-    getActers: () => {
-        return persons.filter(({ type }) => { return type === "acter" } )
-    },
+  getPerson: (params) => {
+    return persons.find(({ id }) => {
+      return id === params.id;
+    });
+  },
+  getFilm: (params) => {
+    return films.find(({ id }) => {
+      return id === params.id;
+    });
+  },
 
-    getPerson: (params) => {
-        return persons.find(({ id }) => { return id === params.id } )
-    }
-    ,
-    getFilm: (params) => {
-        return films.find(({ id }) => { return id === params.id } )
-    },
+  getAllTimes: (params) => {
+    return times;
+  },
 
-    getAllTimes: (params) => {
-        return times;
-    },
-
-    getTime: (params) => {
-        return times.find(({ id }) => { return id === params.id })
-    }
-    
+  getTime: (params) => {
+    return times.find(({ id }) => {
+      return id === params.id;
+    });
+  },
 };
 
 const app = express();
 
-app.use("/", graphqlHTTP({
+app.use(
+  "/",
+  graphqlHTTP({
     schema: schema,
     rootValue: root,
-    graphiql: true
-}))
+    graphiql: true,
+  }),
+);
 
 app.listen(PORT);

@@ -1,16 +1,16 @@
 #main-wrapper {
-    display: flex;
-    justify-content: center;
-    overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 #main-wrapper #__next {
-    width: 100vw;
-    max-width: 1440px;
-    box-sizing: border-box;
-    padding: {
-        left: $padd;
-        right: $padd;
-    };
-    overflow-x: hidden;
+  width: 100vw;
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: {
+    left: $padd;
+    right: $padd;
+  }
+  overflow-x: hidden;
 }

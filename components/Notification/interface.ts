@@ -1,5 +1,5 @@
 export interface NotificationProps {
-    message: string,
-    link?: string
-    href?: string
+  message: string;
+  link?: string;
+  href?: string;
 }
