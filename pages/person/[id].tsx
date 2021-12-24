@@ -111,33 +111,13 @@ const PersonPage: React.FC<PersonPageProps> = ({ person }) => {
  *
  */
 export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext) => {
-  /**
-   * Development Mode
-   *
-   */
   if (process.env.MODE === "development") {
     try {
-      /**
-       * Setup Apollo Client
-       *
-       * Documentation: https://www.apollographql.com/docs/tutorial/client/
-       *
-       */
       const client = new ApolloClient({
         uri: process.env.DEV_GRAPHQL_SERVER,
         cache: new InMemoryCache(),
       });
 
-      /**
-       * Fetch data uses Apollo Client
-       *
-       * More about query: https://www.apollographql.com/docs/react/data/queries/
-       *
-       * Use fragment "PersonFragment"
-       *
-       * More about fragments: https://www.apollographql.com/docs/react/data/fragments/
-       *
-       */
       const data = await client.query({
         query: gql`
           query getPerson {
@@ -149,10 +129,6 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
       `,
       });
 
-      /**
-       * Return data
-       *
-       */
       return {
         props: {
           person: data.data.getPerson,
@@ -162,32 +138,12 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
       throw new Error(`Error: ${err}`);
     }
   } else if (process.env.MODE === "production") {
-    /**
-     * Production Mode
-     *
-     */
     try {
-      /**
-       * Setup Apollo Client
-       *
-       * Documentation: https://www.apollographql.com/docs/tutorial/client/
-       *
-       */
       const client = new ApolloClient({
         uri: process.env.PROD_GRAPHQL_SERVER,
         cache: new InMemoryCache(),
       });
 
-      /**
-       * Fetch data uses Apollo Client
-       *
-       * More about query: https://www.apollographql.com/docs/react/data/queries/
-       *
-       * Use fragment "PersonFragment"
-       *
-       * More about fragments: https://www.apollographql.com/docs/react/data/fragments/
-       *
-       */
       const data = await client.query({
         query: gql`
           query getPerson {
@@ -199,10 +155,6 @@ export const getStaticProps: GetStaticProps = async (ctx: GetStaticPropsContext)
       `,
       });
 
-      /**
-       * Return data
-       *
-       */
       return {
         props: {
           person: data.data.getPerson,

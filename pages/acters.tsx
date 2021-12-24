@@ -121,6 +121,20 @@ const ActersPage: React.FC<ActersPageProps> = ({ acters }) => {
   );
 };
 
+/**
+ *
+ * SSG
+ *
+ * getStaticProps  function for fetch data
+ *
+ * Documentation: https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
+ *
+ * @async
+ * @function getStaticProps
+ *
+ * @param {GetStaticPropsContext} ctx Context
+ *
+ */
 export const getStaticProps: GetStaticProps = async (ctx) => {
   if (process.env.MODE === "development") {
     try {
