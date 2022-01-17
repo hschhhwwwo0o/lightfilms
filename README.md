@@ -4,12 +4,12 @@
 
 ## LIGHTFILMS
 
-**[Preview]**
+[Preview]
 
-**The database used: [Firebase]** \
-**Used package manager: [NPM]**
+The database used: [Firebase] \
+Used package manager: [NPM]
 
-**LIGHFILMS on [Behance], [Dribbble]**
+LIGHFILMS on [Behance], [Dribbble]
 
 ## Tech Stack
 
@@ -25,15 +25,15 @@
 
 ## Design
 
-**LIGHFILMS on <a href="https://www.behance.net/gallery/120634639/LIGHTFILMS">Behance</a>** \
-**LIGHFILMS Short on <a href="https://dribbble.com/shots/15761554-LIGHTFILMS-Concept-Design">Dribbble</a>**
+LIGHFILMS on <a href="https://www.behance.net/gallery/120634639/LIGHTFILMS">Behance</a> \
+LIGHFILMS Short on <a href="https://dribbble.com/shots/15761554-LIGHTFILMS-Concept-Design">Dribbble</a>
 
-**Design instruments: Figma, Adobe Photoshop**
+Design instruments: Figma, Adobe Photoshop
 
 ## Assets/Fonts
 
-- **[Google-Fonts] / [Playfair-Display]**
-- **[Google-Fonts] / [Lato]**
+- [Google-Fonts] / [Playfair-Display]
+- [Google-Fonts] / [Lato]
 
 <br />
 
