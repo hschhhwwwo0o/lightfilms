@@ -1,6 +1,6 @@
-![Lightfilms & Vercel](md/welcome.jpg "Lightfilms & Vercel")
-![Lightfilms Tech Stack](md/__tech.png "Lightfilms Tech Stack")
-![Lightfilms Design](md/frm.jpg "Lightfilms Design")
+![Lightfilms & Vercel](md/welcome.jpg#gh-light-mode-only)
+![Lightfilms Tech Stack](md/__tech.png#gh-light-mode-only)
+![Lightfilms Design](md/frm.jpg#gh-light-mode-only)
 
 ## LIGHTFILMS
 
