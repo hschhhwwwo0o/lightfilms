@@ -39,7 +39,7 @@ Design instruments: Figma, Adobe Photoshop
 
 Made with love ❤️
 
-I'm on Behance: **https://www.behance.net/aftertaste** \
+I'm on Behance: **https://www.behance.net/hschhhwwwo0o** \
 I'm on Dribbble: **https://dribbble.com/ssandry0**
 
 [nodejs]: https://nodejs.org/en/
