@@ -35,12 +35,7 @@ Design instruments: Figma, Adobe Photoshop
 - [Google-Fonts] / [Playfair-Display]
 - [Google-Fonts] / [Lato]
 
-<br />
-
 Made with love ❤️
-
-I'm on Behance: **https://www.behance.net/hschhhwwwo0o** \
-I'm on Dribbble: **https://dribbble.com/ssandry0**
 
 [nodejs]: https://nodejs.org/en/
 [api]: https://lightfilms-api.herokuapp.com/graphql
